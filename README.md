@@ -6,6 +6,7 @@ KHRYSUS is a cryptocurrency blockchain, with an embedded Proof of Stake (POS) an
 
 Coin Specs
 
+<<<<<<< Updated upstream
 Algorithm			    quark
 
 Coin type		  	  proof-of-stake
@@ -19,3 +20,18 @@ Address letter		K
 RPC port			     21325
 
 P2P port			     21326
+=======
+Algorithm			quark
+
+Coin type			proof-of-stake
+
+Coin name			Khrysus
+
+Coin ticker			KHRS
+
+Address letter		K
+
+RPC port			21325
+
+P2P port			21326
+>>>>>>> Stashed changes

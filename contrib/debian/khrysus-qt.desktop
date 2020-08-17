@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=Khrysus Core
+Comment=Khrysus P2P Cryptocurrency
+Comment[fr]=Khrysus, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Khrysus, eşten eşe kriptografik sanal para birimi
+Exec=khrysus-qt %u
+Terminal=false
+Type=Application
+Icon=khrysus128
+MimeType=x-scheme-handler/khrysus;
+Categories=Office;Finance;
+StartupWMClass=Khrysus-qt

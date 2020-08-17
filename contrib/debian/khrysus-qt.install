@@ -1,0 +1,6 @@
+usr/local/bin/khrysus-qt usr/bin
+share/pixmaps/khrysus32.xpm usr/share/pixmaps
+share/pixmaps/khrysus16.xpm usr/share/pixmaps
+share/pixmaps/khrysus128.png usr/share/pixmaps
+debian/khrysus-qt.desktop usr/share/applications
+debian/khrysus-qt.protocol usr/share/kde4/services/

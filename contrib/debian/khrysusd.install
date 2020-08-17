@@ -1,0 +1,3 @@
+usr/local/bin/khrysusd usr/bin
+usr/local/bin/khrysus-cli usr/bin
+debian/examples/khrysus.conf etc/khrysus
