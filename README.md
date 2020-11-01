@@ -73,4 +73,4 @@ Furthermore, as result of offering multiple ways for users to mint new KHRY coin
 #
 
 ### More information at [https://khrycrypto.com](https://khrycrypto.com)
-### Join our [Discord!](https://discord.gg/9nzt37V)
+### Join our [Discord!](https://discord.gg/VR5uQzUymu)
