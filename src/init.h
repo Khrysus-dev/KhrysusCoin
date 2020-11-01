@@ -1,6 +1,5 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
-// Copyright (c) 2017-2018 The PIVX developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -11,7 +10,6 @@
 
 class CScheduler;
 class CWallet;
-class CzKHRSWallet;
 
 namespace boost
 {
@@ -19,15 +17,12 @@ class thread_group;
 } // namespace boost
 
 extern CWallet* pwalletMain;
-extern CzKHRSWallet* zwalletMain;
 
 void StartShutdown();
 bool ShutdownRequested();
-/** Interrupt threads */
-void Interrupt();
 void Shutdown();
 void PrepareShutdown();
-bool AppInit2();
+bool AppInit2(boost::thread_group& threadGroup, CScheduler& scheduler);
 
 /** The help message mode determines what help message to show */
 enum HelpMessageMode {

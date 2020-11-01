@@ -1,8 +1,7 @@
 // Copyright (c) 2017 The Zcash developers
-// Copyright (c) 2017-2018 The PIVX developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
+//
 #include "torcontrol.cpp"
 
 #include <boost/test/unit_test.hpp>
@@ -22,8 +21,8 @@ BOOST_AUTO_TEST_CASE(util_SplitTorReplyLine)
 {
     // Data we should receive during normal usage
     CheckSplitTorReplyLine(
-        "PROTOCOLINFO KHRSERSION",
-        "PROTOCOLINFO", "KHRSERSION");
+        "PROTOCOLINFO PIVERSION",
+        "PROTOCOLINFO", "PIVERSION");
     CheckSplitTorReplyLine(
         "AUTH METHODS=COOKIE,SAFECOOKIE COOKIEFILE=\"/home/x/.tor/control_auth_cookie\"",
         "AUTH", "METHODS=COOKIE,SAFECOOKIE COOKIEFILE=\"/home/x/.tor/control_auth_cookie\"");

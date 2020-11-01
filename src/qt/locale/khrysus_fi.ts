@@ -62,12 +62,12 @@
         <translation>Vastaanottavat osoitteet</translation>
     </message>
     <message>
-        <source>These are your Khrysus addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Nämä ovat sinun Khrysus osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
+        <source>These are your KHRY addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Nämä ovat sinun KHRY osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
     </message>
     <message>
-        <source>These are your Khrysus addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Nämä ovat sinun Khrysus osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
+        <source>These are your KHRY addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Nämä ovat sinun KHRY osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -93,11 +93,7 @@
         <source>Exporting Failed</source>
         <translation>Vienti epäonnistui</translation>
     </message>
-    <message>
-        <source>There was an error trying to save the address list to %1. Please try again.</source>
-        <translation>Tapahtui virhe osoitelistan tallennuksessa %1. Yritä uudestaan.</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>AddressTableModel</name>
     <message>
@@ -172,16 +168,16 @@
         <translation>Vahvista lompakon salaus</translation>
     </message>
     <message>
-        <source>Khrysus will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your KHRSs from being stolen by malware infecting your computer.</source>
-        <translation>Khrysus sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella KHRSien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
+        <source>Khrysus will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your KHRYs from being stolen by malware infecting your computer.</source>
+        <translation>Khrysus sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella KHRYien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Oletko varma että tahdot salata lompakkosi?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR KHRS&lt;/b&gt;!</source>
-        <translation>Varoitus: Jos salaat lompakkosi ja unohdat salausavaimesi, &lt;b&gt;menetät kaikki KHRSisi&lt;/b&gt;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR KHRY&lt;/b&gt;!</source>
+        <translation>Varoitus: Jos salaat lompakkosi ja unohdat salausavaimesi, &lt;b&gt;menetät kaikki KHRYisi&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -225,9 +221,6 @@
     </message>
 </context>
 <context>
-    <name>BanTableModel</name>
-    </context>
-<context>
     <name>Bip38ToolDialog</name>
     <message>
         <source>BIP 38 Tool</source>
@@ -238,8 +231,17 @@
         <translation>&amp;BIP 38 Salaus</translation>
     </message>
     <message>
+        <source>Enter a KHRY Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Syötä KHRY osoite, jonnka tahtoisit salata käyttäen BIP 38.
+Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityisavaimen.</translation>
+    </message>
+    <message>
         <source>Address:</source>
         <translation>Osoite:</translation>
+    </message>
+    <message>
+        <source>The KHRY address to sign the message with</source>
+        <translation>KHRY osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -270,8 +272,16 @@
         <translation>Kopioi nykyinen allekirjoitus järjestelmän leikepöydälle</translation>
     </message>
     <message>
+        <source>Sign the message to prove you own this KHRY address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän KHRY osoitteen</translation>
+    </message>
+    <message>
         <source>Encrypt &amp;Key</source>
         <translation>Salaus &amp;Avain</translation>
+    </message>
+    <message>
+        <source>Reset all sign message fields</source>
+        <translation>Tyhjennä kaikki allekirjoita viesti kentät</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -286,8 +296,20 @@
         <translation>Syötä BIP 38 salattu yksityisavain. Syötä salausavain laatikkoon. Paina Avaa Salaus tuottaaksesi yksityisavaimen. Kun avain on dekryptattu, painamalla "Import osoite" lisää tämän yksityisavaimen lompakkoon.</translation>
     </message>
     <message>
+        <source>The KHRY address the message was signed with</source>
+        <translation>KHRY osoite, jolla viesti allekirjoitettiin</translation>
+    </message>
+    <message>
+        <source>Verify the message to ensure it was signed with the specified KHRY address</source>
+        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla KHRY osoitteella.</translation>
+    </message>
+    <message>
         <source>Decrypt &amp;Key</source>
         <translation>Salauksen avaus &amp;Avain</translation>
+    </message>
+    <message>
+        <source>Reset all verify message fields</source>
+        <translation>Tyhjennä kaikki vahvista viesti kentät</translation>
     </message>
     <message>
         <source>Decrypted Key:</source>
@@ -569,8 +591,8 @@
         <translation>Khrysus Ydin</translation>
     </message>
     <message>
-        <source>Send coins to a Khrysus address</source>
-        <translation>Lähetä kolikkoja Khrysus osoitteeseen</translation>
+        <source>Send coins to a KHRY address</source>
+        <translation>Lähetä kolikkoja KHRY osoitteeseen</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and khrysus: URIs)</source>
@@ -597,12 +619,12 @@
         <translation>Muokkaa konfiguraatio vaihtoehtoja Khrysus:lle</translation>
     </message>
     <message>
-        <source>Sign messages with your Khrysus addresses to prove you own them</source>
+        <source>Sign messages with your KHRY addresses to prove you own them</source>
         <translation>Allekirjoita viestejä todistaaksesi, että omistat ne.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Khrysus addresses</source>
-        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä Khrysus osoiteella.</translation>
+        <source>Verify messages to ensure they were signed with specified KHRY addresses</source>
+        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä KHRY osoiteella.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -633,8 +655,8 @@
         <translation>Avaa Masternode konfiguraatiotiedosto</translation>
     </message>
     <message>
-        <source>Open a Khrysus: URI or payment request</source>
-        <translation>Avaa Khrysus: URI tai pyydä maksua</translation>
+        <source>Open a khrysus: URI or payment request</source>
+        <translation>Avaa khrysus: URI tai pyydä maksua</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -675,6 +697,10 @@
     <message>
         <source>%1 and %2</source>
         <translation>%1 ja %2</translation>
+    </message>
+    <message>
+        <source>%1 behind</source>
+        <translation>%1 takana</translation>
     </message>
     <message>
         <source>Catching up...</source>
@@ -781,10 +807,6 @@
     <message>
         <source>Amount</source>
         <translation>Määrä</translation>
-    </message>
-    <message>
-        <source>Type</source>
-        <translation>Tyyppi</translation>
     </message>
     <message>
         <source>Date</source>
@@ -903,17 +925,6 @@
     <message>
         <source>name</source>
         <translation>nimi</translation>
-    </message>
-    </context>
-<context>
-    <name>GovernancePage</name>
-    <message>
-        <source>Form</source>
-        <translation>Lomake</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
     </message>
     </context>
 <context>
@@ -1064,29 +1075,39 @@
         <translation>Lähetä Masternode palkkioihin</translation>
     </message>
     <message>
-        <source>(no label)</source>
-        <translation>(ei nimikettä)</translation>
+        <source>The entered address:
+</source>
+        <translation>Syötetty osoite:</translation>
+    </message>
+    <message>
+        <source> is invalid.
+Please check the address and try again.</source>
+        <translation>on invalidi. Ole hyvä ja tarkista osoite.</translation>
+    </message>
+    <message>
+        <source>The total amount of your MultiSend vector is over 100% of your stake reward
+</source>
+        <translation>MultiSend vektorisi kokonaismäärä on yli 100% panoksesi lohkopalkkiosta.</translation>
     </message>
     <message>
         <source>Please Enter 1 - 100 for percent.</source>
         <translation>Syötä 1 - 100 prosenttia</translation>
     </message>
+    <message>
+        <source>MultiSend Vector
+</source>
+        <translation>MultiSend vektori</translation>
+    </message>
+    <message>
+        <source>Removed </source>
+        <translation>Poistettu</translation>
+    </message>
+    <message>
+        <source>Could not locate address
+</source>
+        <translation>Osoitetta ei löytynyt</translation>
+    </message>
 </context>
-<context>
-    <name>MultisigDialog</name>
-    <message>
-        <source>Status:</source>
-        <translation>Tila:</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>Amount:</source>
-        <translation>Määrä:</translation>
-    </message>
-    </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
@@ -1205,8 +1226,8 @@
         <translation>Käyttöliittymän &amp;kieli:</translation>
     </message>
     <message>
-        <source>User Interface Theme:</source>
-        <translation>Käyttöliittymän teema:</translation>
+        <source>&amp;Unit to show amounts in:</source>
+        <translation>&amp;Yksikkö jossa määrä näytetään:</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
@@ -1256,7 +1277,7 @@
         <source>The supplied proxy address is invalid.</source>
         <translation>Tarjottu proxy osoite on virheellinen.</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>OverviewPage</name>
     <message>
@@ -1292,6 +1313,10 @@
         <translation>Määrä:</translation>
     </message>
     <message>
+        <source>Your current total balance</source>
+        <translation>Sinun nykyinen kokonaissaldo</translation>
+    </message>
+    <message>
         <source>Spendable:</source>
         <translation>Käytettävää:</translation>
     </message>
@@ -1311,88 +1336,10 @@
     </message>
 </context>
 <context>
-    <name>PrivacyDialog</name>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>Choose previously used address</source>
-        <translation>Valitse aikaisemmin käytetty osoite</translation>
-    </message>
-    <message>
-        <source>Alt+A</source>
-        <translation>Alt+A</translation>
-    </message>
-    <message>
-        <source>Paste address from clipboard</source>
-        <translation>Liitä osoite leikepöydältä</translation>
-    </message>
-    <message>
-        <source>Alt+P</source>
-        <translation>Alt+P</translation>
-    </message>
-    <message>
-        <source>&amp;Label:</source>
-        <translation>&amp;Nimike:</translation>
-    </message>
-    <message>
-        <source>Enter a label for this address to add it to the list of used addresses</source>
-        <translation>Syötä nimike tälle osoittelle lisätäksesi se käytettävien osoitteiden listaan</translation>
-    </message>
-    <message>
-        <source>A&amp;mount:</source>
-        <translation>M&amp;äärä:</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Tärkeys:</translation>
-    </message>
-    <message>
-        <source>TextLabel</source>
-        <translation>TekstiNimike</translation>
-    </message>
-    <message>
-        <source>Fee:</source>
-        <translation>Taksa:</translation>
-    </message>
-    <message>
-        <source>no</source>
-        <translation>ei</translation>
-    </message>
-    <message>
-        <source>Bytes:</source>
-        <translation>Tavut:</translation>
-    </message>
-    <message>
-        <source>Insufficient funds!</source>
-        <translation>Puutteelliset varat!</translation>
-    </message>
-    <message>
-        <source>medium</source>
-        <translation>kohtalainen</translation>
-    </message>
-    <message>
-        <source>Change:</source>
-        <translation>Muutos:</translation>
-    </message>
-    <message>
-        <source>Confirm send coins</source>
-        <translation>Vahvista kolikoiden lähetys</translation>
-    </message>
-    </context>
-<context>
-    <name>ProposalFrame</name>
-    </context>
-<context>
     <name>QObject</name>
     <message>
         <source>Amount</source>
         <translation>Määrä</translation>
-    </message>
-    <message>
-        <source>Khrysus Core</source>
-        <translation>Khrysus Ydin</translation>
     </message>
     </context>
 <context>
@@ -1580,6 +1527,10 @@
         <source>Unknown</source>
         <translation>Tuntematon</translation>
     </message>
+    <message>
+        <source>Fetching...</source>
+        <translation>Haetaan...</translation>
+    </message>
 </context>
 <context>
     <name>ReceiveCoinsDialog</name>
@@ -1600,16 +1551,12 @@
         <translation>Vaihtoehtoinen nimike uudelle vastaanottavalle osoitteelle</translation>
     </message>
     <message>
-        <source>A&amp;mount:</source>
-        <translation>M&amp;äärä:</translation>
-    </message>
-    <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Khrysus network.</source>
         <translation>Vaihtoehtoinen viesti joka liitetään maksupyyntöön, joka näytetään kun pyyntö avataan. Huomio: Viestiä ei lähetetä maksun mukana Khrysus verkolle.</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Khrysus network.</source>
-        <translation>Vaihtoehtoinen viesti, joka liitetään maksupyyntöö, joka näytetään kun pyyntö avataan. &lt;br&gt; Huomio: Tätä viestiä ei lähetetä maksun mukana Khrysus  verkolle.</translation>
+        <translation>Vaihtoehtoinen viesti, joka liitetään maksupyyntöö, joka näytetään kun pyyntö avataan. &lt;br&gt; Huomio: Tätä viestiä ei lähetetä maksun mukana Khrysus verkolle.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -1622,6 +1569,10 @@
     <message>
         <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
         <translation>Pyydä vaihtoehtoinen määrä. Jätä tämä tyhjäksi tai 0, jos haluat pyytää ennaltamääräämättömän summan</translation>
+    </message>
+    <message>
+        <source>&amp;Amount:</source>
+        <translation>&amp;Määrä:</translation>
     </message>
     <message>
         <source>&amp;Request payment</source>
@@ -1666,10 +1617,6 @@
     <message>
         <source>Copy amount</source>
         <translation>Kopioi määrä</translation>
-    </message>
-    <message>
-        <source>Copy address</source>
-        <translation>Kopioi osoite</translation>
     </message>
 </context>
 <context>
@@ -1742,10 +1689,6 @@
         <translation>Viesti</translation>
     </message>
     <message>
-        <source>Address</source>
-        <translation>Osoite</translation>
-    </message>
-    <message>
         <source>Amount</source>
         <translation>Määrä</translation>
     </message>
@@ -1809,8 +1752,8 @@
         <translation>Muutos:</translation>
     </message>
     <message>
-        <source>0 KHRS</source>
-        <translation>0 KHRS</translation>
+        <source>0 KHRY</source>
+        <translation>0 KHRY</translation>
     </message>
     <message>
         <source>Choose...</source>
@@ -1869,6 +1812,10 @@
         <translation>Lisää &amp;Vastaanottaja</translation>
     </message>
     <message>
+        <source>SwiftTX</source>
+        <translation>SwiftTX</translation>
+    </message>
+    <message>
         <source>Balance:</source>
         <translation>Saldo:</translation>
     </message>
@@ -1885,8 +1832,12 @@
         <translation>Kopioi taksa</translation>
     </message>
     <message>
-        <source>Warning: Invalid Khrysus address</source>
-        <translation>Varoitus: Virheellinen Khrysus osoite</translation>
+        <source>using</source>
+        <translation>käyttää</translation>
+    </message>
+    <message>
+        <source>Warning: Invalid KHRY address</source>
+        <translation>Varoitus: Virheellinen KHRY osoite</translation>
     </message>
     <message>
         <source>Are you sure you want to send?</source>
@@ -1913,18 +1864,6 @@
         <translation>Maksun luonti epäonnistui!</translation>
     </message>
     <message>
-        <source>Error: The wallet was unlocked only to anonymize coins.</source>
-        <translation>Virhe: Lompakko avattiin vain kolikoiden anonymisointiin</translation>
-    </message>
-    <message>
-        <source>Error: The wallet was unlocked only to anonymize coins. Unlock canceled.</source>
-        <translation>Virhe: Lompakko avattiin vain kolikoiden anonymisointiin. Avaus peruutettu.</translation>
-    </message>
-    <message>
-        <source>Pay only the minimum fee of %1</source>
-        <translation>Maksa vain %1 minimi taksa</translation>
-    </message>
-    <message>
         <source>(no label)</source>
         <translation>(ei nimikettä)</translation>
     </message>
@@ -1936,8 +1875,8 @@
         <translation>Tämä on normaali maksu.</translation>
     </message>
     <message>
-        <source>The Khrysus address to send the payment to</source>
-        <translation>Khrysus osoite johon maksu lähetetään</translation>
+        <source>The KHRY address to send the payment to</source>
+        <translation>KHRY osoite johon maksu lähetetään</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1998,8 +1937,8 @@
         <translation>Voit allekirjoittaa viestejä osoitteillasi todistaaksesi, että omistat ne. Ole varovainen ettet allekirjoita mitään kummallista, sillä kalasteluyritykset saattavat yrittää huijata sinut luovuttamaan tietoja. Allekirjoita vain täysin yksityiskohtaisia sanomia, jotka hyväksyt.</translation>
     </message>
     <message>
-        <source>The Khrysus address to sign the message with</source>
-        <translation>Khrysus osoite, jolla viesti allekirjoitetaan</translation>
+        <source>The KHRY address to sign the message with</source>
+        <translation>KHRY osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2030,16 +1969,16 @@
         <translation>Kopioi nykyinen allekirjoitus järjestelmän leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Khrysus address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän Khrysus osoitteen</translation>
+        <source>Sign the message to prove you own this KHRY address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän KHRY osoitteen</translation>
     </message>
     <message>
-        <source>The Khrysus address the message was signed with</source>
-        <translation>Khrysus osoite, jolla viesti allekirjoitettiin</translation>
+        <source>The KHRY address the message was signed with</source>
+        <translation>KHRY osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Khrysus address</source>
-        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla Khrysus osoitteella.</translation>
+        <source>Verify the message to ensure it was signed with the specified KHRY address</source>
+        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla KHRY osoitteella.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2135,6 +2074,10 @@
     <message>
         <source>The Dash Core developers</source>
         <translation>Dash Core kehittäjät</translation>
+    </message>
+    <message>
+        <source>The PIVX Core developers</source>
+        <translation>PIVX core kehittäjät</translation>
     </message>
     <message>
         <source>The Khrysus Core developers</source>
@@ -2243,6 +2186,10 @@
     <message>
         <source>Payment to yourself</source>
         <translation>Maksut itsellesi</translation>
+    </message>
+    <message>
+        <source>Minted</source>
+        <translation>Luotu</translation>
     </message>
     <message>
         <source>Mined</source>
@@ -2383,10 +2330,6 @@
         <source>Exporting Successful</source>
         <translation>Vienti onnistui</translation>
     </message>
-    <message>
-        <source>The transaction history was successfully saved to %1.</source>
-        <translation>Rahansiirto historia onnistuneesti tallennettu %1</translation>
-    </message>
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -2431,12 +2374,13 @@
         <source>Wallet Data (*.dat)</source>
         <translation>Lompakko Data (*.dat)</translation>
     </message>
-</context>
-<context>
-    <name>ZPivControlDialog</name>
     <message>
-        <source>0</source>
-        <translation>0</translation>
+        <source>Backup Failed</source>
+        <translation>Varmuuskopiointi epäonnistui</translation>
+    </message>
+    <message>
+        <source>Backup Successful</source>
+        <translation>Varmuuskopiointi onnistui</translation>
     </message>
     </context>
 <context>
@@ -2468,6 +2412,10 @@
     <message>
         <source>Done loading</source>
         <translation>Lataus valmis</translation>
+    </message>
+    <message>
+        <source>Error connecting to Masternode.</source>
+        <translation>Virhe Masternodeen yhdistyksessä</translation>
     </message>
     <message>
         <source>Error initializing block database</source>
@@ -2506,8 +2454,20 @@
         <translation>Virhe: Lompakko lukittu, ei voida luoda rahansiirtoa!</translation>
     </message>
     <message>
+        <source>Finalizing transaction.</source>
+        <translation>Viimeistellään rahansiirto.</translation>
+    </message>
+    <message>
         <source>Importing...</source>
         <translation>Tuodaan...</translation>
+    </message>
+    <message>
+        <source>Incompatible mode.</source>
+        <translation>Yhteensopimaton tila.</translation>
+    </message>
+    <message>
+        <source>Incompatible version.</source>
+        <translation>Yhteensopimaton versio.</translation>
     </message>
     <message>
         <source>Information</source>
@@ -2520,6 +2480,10 @@
     <message>
         <source>Invalid private key.</source>
         <translation>Virheellinen yksityisavain.</translation>
+    </message>
+    <message>
+        <source>Invalid script detected.</source>
+        <translation>Virheellinen skripti havaittu.</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>
@@ -2538,12 +2502,20 @@
         <translation>Lataa lompakkoa...</translation>
     </message>
     <message>
+        <source>Lock is already in place.</source>
+        <translation>Lukitus on jo käytössä.</translation>
+    </message>
+    <message>
         <source>Options:</source>
         <translation>Vaihtoehdot:</translation>
     </message>
     <message>
         <source>Rescanning...</source>
         <translation>Skannaa uudelleen...</translation>
+    </message>
+    <message>
+        <source>Session not complete!</source>
+        <translation>Sessio ei valmis!</translation>
     </message>
     <message>
         <source>Session timed out.</source>
@@ -2590,12 +2562,28 @@
         <translation>Rahansiirtojen tulee olla positiivisia</translation>
     </message>
     <message>
+        <source>Transaction created successfully.</source>
+        <translation>Rahansiirto luotu onnistuneesti.</translation>
+    </message>
+    <message>
+        <source>Transaction fees are too high.</source>
+        <translation>Rahansiirron taksat ovat liian korkeat.</translation>
+    </message>
+    <message>
+        <source>Transaction not valid.</source>
+        <translation>Rahansiirto ei onnistu</translation>
+    </message>
+    <message>
         <source>Transaction too large for fee policy</source>
         <translation>Rahansiirto liian iso taksaan nähden</translation>
     </message>
     <message>
         <source>Transaction too large</source>
         <translation>Rahansiirto liian suuri</translation>
+    </message>
+    <message>
+        <source>Transmitting final transaction.</source>
+        <translation>Lähetetään viimeinen rahansiirto.</translation>
     </message>
     <message>
         <source>Upgrade wallet to latest format</source>
@@ -2614,6 +2602,10 @@
         <translation>Tarkistaa lompakkoa...</translation>
     </message>
     <message>
+        <source>Wallet is locked.</source>
+        <translation>Lompakko on lukittu.</translation>
+    </message>
+    <message>
         <source>Wallet options:</source>
         <translation>Lompakon vaihtoehdot:</translation>
     </message>
@@ -2624,6 +2616,10 @@
     <message>
         <source>Warning: This version is obsolete, upgrade required!</source>
         <translation>Varoitus: Tämä versio on vanha, päivitys vaadittu!</translation>
+    </message>
+    <message>
+        <source>Will retry...</source>
+        <translation>Yrittää uudelleen...</translation>
     </message>
     <message>
         <source>on startup</source>

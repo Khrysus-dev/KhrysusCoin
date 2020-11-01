@@ -6,7 +6,6 @@
 
 #include "random.h"
 #include "util.h"
-#include "test/test_khrysus.h"
 
 #include <set>
 
@@ -35,7 +34,7 @@ public:
     }
 };
 
-BOOST_FIXTURE_TEST_SUITE(mruset_tests, BasicTestingSetup)
+BOOST_AUTO_TEST_SUITE(mruset_tests)
 
 // Test that an mruset behaves like a set, as long as no more than MAX_SIZE elements are in it
 BOOST_AUTO_TEST_CASE(mruset_like_set)

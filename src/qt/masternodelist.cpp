@@ -1,8 +1,3 @@
-// Copyright (c) 2014-2016 The Dash Developers
-// Copyright (c) 2016-2019 The PIVX developers
-// Distributed under the MIT software license, see the accompanying
-// file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
 #include "masternodelist.h"
 #include "ui_masternodelist.h"
 
@@ -14,9 +9,8 @@
 #include "masternodeconfig.h"
 #include "masternodeman.h"
 #include "sync.h"
-#include "wallet/wallet.h"
+#include "wallet.h"
 #include "walletmodel.h"
-#include "askpassphrasedialog.h"
 
 #include <QMessageBox>
 #include <QTimer>
@@ -90,7 +84,7 @@ void MasternodeList::StartAlias(std::string strAlias)
     std::string strStatusHtml;
     strStatusHtml += "<center>Alias: " + strAlias;
 
-    for (CMasternodeConfig::CMasternodeEntry mne : masternodeConfig.getEntries()) {
+    BOOST_FOREACH (CMasternodeConfig::CMasternodeEntry mne, masternodeConfig.getEntries()) {
         if (mne.getAlias() == strAlias) {
             std::string strError;
             CMasternodeBroadcast mnb;
@@ -122,7 +116,7 @@ void MasternodeList::StartAll(std::string strCommand)
     int nCountFailed = 0;
     std::string strFailedHtml;
 
-    for (CMasternodeConfig::CMasternodeEntry mne : masternodeConfig.getEntries()) {
+    BOOST_FOREACH (CMasternodeConfig::CMasternodeEntry mne, masternodeConfig.getEntries()) {
         std::string strError;
         CMasternodeBroadcast mnb;
 
@@ -210,7 +204,7 @@ void MasternodeList::updateMyNodeList(bool fForce)
     nTimeMyListUpdated = GetTime();
 
     ui->tableWidgetMyMasternodes->setSortingEnabled(false);
-    for (CMasternodeConfig::CMasternodeEntry mne : masternodeConfig.getEntries()) {
+    BOOST_FOREACH (CMasternodeConfig::CMasternodeEntry mne, masternodeConfig.getEntries()) {
         int nIndex;
         if(!mne.castOutputIndex(nIndex))
             continue;
@@ -247,8 +241,8 @@ void MasternodeList::on_startButton_clicked()
 
     WalletModel::EncryptionStatus encStatus = walletModel->getEncryptionStatus();
 
-    if (encStatus == walletModel->Locked || encStatus == walletModel->UnlockedForAnonymizationOnly) {
-        WalletModel::UnlockContext ctx(walletModel->requestUnlock(AskPassphraseDialog::Context::Unlock_Full));
+    if (encStatus == walletModel->Locked || encStatus == walletModel->UnlockedForStakingOnly) {
+        WalletModel::UnlockContext ctx(walletModel->requestUnlock());
 
         if (!ctx.isValid()) return; // Unlock wallet was cancelled
 
@@ -271,8 +265,8 @@ void MasternodeList::on_startAllButton_clicked()
 
     WalletModel::EncryptionStatus encStatus = walletModel->getEncryptionStatus();
 
-    if (encStatus == walletModel->Locked || encStatus == walletModel->UnlockedForAnonymizationOnly) {
-        WalletModel::UnlockContext ctx(walletModel->requestUnlock(AskPassphraseDialog::Context::Unlock_Full));
+    if (encStatus == walletModel->Locked || encStatus == walletModel->UnlockedForStakingOnly) {
+        WalletModel::UnlockContext ctx(walletModel->requestUnlock());
 
         if (!ctx.isValid()) return; // Unlock wallet was cancelled
 
@@ -302,8 +296,8 @@ void MasternodeList::on_startMissingButton_clicked()
 
     WalletModel::EncryptionStatus encStatus = walletModel->getEncryptionStatus();
 
-    if (encStatus == walletModel->Locked || encStatus == walletModel->UnlockedForAnonymizationOnly) {
-        WalletModel::UnlockContext ctx(walletModel->requestUnlock(AskPassphraseDialog::Context::Unlock_Full));
+    if (encStatus == walletModel->Locked || encStatus == walletModel->UnlockedForStakingOnly) {
+        WalletModel::UnlockContext ctx(walletModel->requestUnlock());
 
         if (!ctx.isValid()) return; // Unlock wallet was cancelled
 

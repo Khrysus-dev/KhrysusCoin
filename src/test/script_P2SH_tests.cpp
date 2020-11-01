@@ -8,10 +8,9 @@
 #include "script/script.h"
 #include "script/script_error.h"
 #include "script/sign.h"
-#include "test_khrysus.h"
 
 #ifdef ENABLE_WALLET
-#include "wallet/wallet_ismine.h"
+#include "wallet_ismine.h"
 #endif
 
 #include <vector>
@@ -47,7 +46,8 @@ Verify(const CScript& scriptSig, const CScript& scriptPubKey, bool fStrict, Scri
     return VerifyScript(scriptSig, scriptPubKey, fStrict ? SCRIPT_VERIFY_P2SH : SCRIPT_VERIFY_NONE, MutableTransactionSignatureChecker(&txTo, 0), &err);
 }
 
-BOOST_FIXTURE_TEST_SUITE(script_P2SH_tests, TestingSetup)
+
+BOOST_AUTO_TEST_SUITE(script_P2SH_tests)
 
 BOOST_AUTO_TEST_CASE(sign)
 {

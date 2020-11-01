@@ -4,7 +4,6 @@
 
 #include "hash.h"
 #include "utilstrencodings.h"
-#include "test/test_khrysus.h"
 
 #include <vector>
 
@@ -12,7 +11,7 @@
 
 using namespace std;
 
-BOOST_FIXTURE_TEST_SUITE(hash_tests, BasicTestingSetup)
+BOOST_AUTO_TEST_SUITE(hash_tests)
 
 BOOST_AUTO_TEST_CASE(murmurhash3)
 {

@@ -3,7 +3,7 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Clique com o botão direito do rato para editar o endereço ou a descrição</translation>
+        <translation>Clique com o botão direito do mouse para editar o endereço ou a descrição</translation>
     </message>
     <message>
         <source>Create a new address</source>
@@ -11,7 +11,7 @@
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>&amp;Novo</translation>
+        <translation>Novo</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
@@ -23,11 +23,11 @@
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>Apagar o endereço selecionado da lista</translation>
+        <translation>Deletar da lista o endereço selecionado</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Apagar</translation>
+        <translation>&amp;Excluir</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
@@ -39,19 +39,19 @@
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>F&amp;echar</translation>
+        <translation>&amp;Fechar</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Escolha o endereço para onde enviar moedas</translation>
+        <translation>Escolha o endereço para enviar moedas</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Escolha o endereço onde receber moedas</translation>
+        <translation>Escolha o endereço para receber moedas</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
-        <translation>E&amp;scolher</translation>
+        <translation>Escol&amp;her</translation>
     </message>
     <message>
         <source>Sending addresses</source>
@@ -62,20 +62,20 @@
         <translation>Endereços de recebimento</translation>
     </message>
     <message>
-        <source>These are your Khrysus addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Esses são seus endereços Khrysus para onde enviar pagamentos. Confira sempre o montante e os endereços de destino antes de enviar moedas.</translation>
+        <source>These are your KHRY addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Esses são seus endereços KHRY para enviar pagamentos. Sempre confira a quantidade e os endereços de destino antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your Khrysus addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Esses são seus endereços Khrysus onde receber pagamentos. Recomenda-se o uso de um novo endereço para cada transacção.</translation>
+        <source>These are your KHRY addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Esses são seus endereços KHRY para receber pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation>&amp;Copiar Endereço</translation>
+        <translation>C&amp;opiar endereço</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
-        <translation>Copiar &amp;Descrição</translation>
+        <translation>Cop&amp;iar Descrição</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
@@ -117,11 +117,11 @@
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>Caixa de diálogo de senha</translation>
+        <translation>Caixa de diálogo de Senha</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>Digite a sua senha</translation>
+        <translation>Digite sua senha</translation>
     </message>
     <message>
         <source>New passphrase</source>
@@ -129,7 +129,7 @@
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Repetir nova senha</translation>
+        <translation>Repetir senha</translation>
     </message>
     <message>
         <source>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</source>
@@ -172,16 +172,16 @@
         <translation>Confirmar encriptação da carteira</translation>
     </message>
     <message>
-        <source>Khrysus will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your KHRSs from being stolen by malware infecting your computer.</source>
-        <translation>Khrysus encerrará para terminar o processo de encriptação. Lembre-se que encriptar sua carteira não protege completamente suas KHRSs contra roubo por malware infectando seu computador.</translation>
+        <source>Khrysus will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your KHRYs from being stolen by malware infecting your computer.</source>
+        <translation>Khrysus encerrará para terminar o processo de encriptação. Lembre-se que encriptar sua carteira não protege completamente suas KHRYs contra roubo por malware infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Tem certeza que deseja encriptar sua carteira?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR KHRS&lt;/b&gt;!</source>
-        <translation>Atenção: Se você encriptar sua carteira e perder a senha, você &lt;B&gt;PERDERÁ TODA SUA KHRS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR KHRY&lt;/b&gt;!</source>
+        <translation>Atenção: Se você encriptar sua carteira e perder a senha, você &lt;B&gt;PERDERÁ TODA SUA KHRY&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -225,9 +225,6 @@
     </message>
 </context>
 <context>
-    <name>BanTableModel</name>
-    </context>
-<context>
     <name>Bip38ToolDialog</name>
     <message>
         <source>BIP 38 Tool</source>
@@ -238,8 +235,16 @@
         <translation>Encriptar com &amp;BIP 38</translation>
     </message>
     <message>
+        <source>Enter a KHRY Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Digite um endereço KHRY que você gostaria de criptografar usando BIP 38. Digite uma frase secreta na caixa do meio. Pressione criptografar para calcular a chave privada criptografada.</translation>
+    </message>
+    <message>
         <source>Address:</source>
         <translation>Endereço:</translation>
+    </message>
+    <message>
+        <source>The KHRY address to sign the message with</source>
+        <translation>Um endereço KHRY para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -270,8 +275,16 @@
         <translation>Copiar a assinatura para a area de trabalho</translation>
     </message>
     <message>
+        <source>Sign the message to prove you own this KHRY address</source>
+        <translation>Assinar a Mensagem para provar que você e dono desse endereço KHRY.</translation>
+    </message>
+    <message>
         <source>Encrypt &amp;Key</source>
         <translation>Criptografar Chave</translation>
+    </message>
+    <message>
+        <source>Reset all sign message fields</source>
+        <translation>Reiniciar todas os campos das mensagens assinadas</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -280,6 +293,10 @@
     <message>
         <source>&amp;BIP 38 Decrypt</source>
         <translation>Criptografia BIP 38</translation>
+    </message>
+    <message>
+        <source>The KHRY address the message was signed with</source>
+        <translation>O endereço KHRY que foi assinado com</translation>
     </message>
     <message>
         <source>Decrypted Key:</source>
@@ -384,20 +401,9 @@
         <source>Edit Address</source>
         <translation>Alterar endereço</translation>
     </message>
-    <message>
-        <source>&amp;Label</source>
-        <translation>&amp;Descrição</translation>
-    </message>
-    <message>
-        <source>&amp;Address</source>
-        <translation>&amp;Endereço</translation>
-    </message>
     </context>
 <context>
     <name>FreespaceChecker</name>
-    </context>
-<context>
-    <name>GovernancePage</name>
     </context>
 <context>
     <name>HelpMessageDialog</name>
@@ -422,17 +428,6 @@
         <source>Address:</source>
         <translation>Endereço:</translation>
     </message>
-    <message>
-        <source>(no label)</source>
-        <translation>(Sem descrição)</translation>
-    </message>
-    </context>
-<context>
-    <name>MultisigDialog</name>
-    <message>
-        <source>Amount:</source>
-        <translation>Quantidade:</translation>
-    </message>
     </context>
 <context>
     <name>OpenURIDialog</name>
@@ -448,40 +443,6 @@
     </context>
 <context>
     <name>PeerTableModel</name>
-    </context>
-<context>
-    <name>PrivacyDialog</name>
-    <message>
-        <source>Choose previously used address</source>
-        <translation>Escolha o endereço usado anteriormente.</translation>
-    </message>
-    <message>
-        <source>Alt+A</source>
-        <translation>Alt+A</translation>
-    </message>
-    <message>
-        <source>Paste address from clipboard</source>
-        <translation>Cole o endereço da areá de trabalho. </translation>
-    </message>
-    <message>
-        <source>Alt+P</source>
-        <translation>Alt+P</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Prioridade:</translation>
-    </message>
-    <message>
-        <source>Fee:</source>
-        <translation>Taxa:</translation>
-    </message>
-    <message>
-        <source>no</source>
-        <translation>não</translation>
-    </message>
-    </context>
-<context>
-    <name>ProposalFrame</name>
     </context>
 <context>
     <name>QObject</name>
@@ -543,10 +504,6 @@
     <message>
         <source>Label</source>
         <translation>Descrição</translation>
-    </message>
-    <message>
-        <source>Address</source>
-        <translation>Endereço</translation>
     </message>
     <message>
         <source>Amount</source>
@@ -669,8 +626,8 @@
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Khrysus address to sign the message with</source>
-        <translation>Um endereço Khrysus para assinar a mensagem</translation>
+        <source>The KHRY address to sign the message with</source>
+        <translation>Um endereço KHRY para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -701,12 +658,12 @@
         <translation>Copiar a assinatura para a area de trabalho</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Khrysus address</source>
-        <translation>Assinar a Mensagem para provar que você e dono desse endereço Khrysus.</translation>
+        <source>Sign the message to prove you own this KHRY address</source>
+        <translation>Assinar a Mensagem para provar que você e dono desse endereço KHRY.</translation>
     </message>
     <message>
-        <source>The Khrysus address the message was signed with</source>
-        <translation>O endereço Khrysus que foi assinado com</translation>
+        <source>The KHRY address the message was signed with</source>
+        <translation>O endereço KHRY que foi assinado com</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -904,13 +861,14 @@
     </message>
     </context>
 <context>
-    <name>ZPivControlDialog</name>
-    </context>
-<context>
     <name>khrysus-core</name>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes do blockchain através de -rescan na inicialização</translation>
+    </message>
+    <message>
+        <source>Disable all Khrysus specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Desabilitar todas as funcionacilidades específicas da Khrysus (Masternodes, SwiftTX, Budgeting) (0-1, default %u)</translation>
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
@@ -929,6 +887,10 @@
         <translation>Erro: Espaço em disco baixo!</translation>
     </message>
     <message>
+        <source>Finalizing transaction.</source>
+        <translation>Finalizando transação.</translation>
+    </message>
+    <message>
         <source>Importing...</source>
         <translation>Importando...</translation>
     </message>
@@ -945,8 +907,20 @@
         <translation>Chave privada inválida.</translation>
     </message>
     <message>
+        <source>Invalid script detected.</source>
+        <translation>Script inválido detectado.</translation>
+    </message>
+    <message>
         <source>Loading wallet...</source>
         <translation>Carregando carteira...</translation>
+    </message>
+    <message>
+        <source>No Masternodes detected.</source>
+        <translation>Nenhum Masternode detectado.</translation>
+    </message>
+    <message>
+        <source>No compatible Masternode found.</source>
+        <translation>Nenhum Masternode compatível encontrado.</translation>
     </message>
     <message>
         <source>Options:</source>
@@ -983,6 +957,18 @@
     <message>
         <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
         <translation>Enviar transações como transações de taxa zero, se possível (padrão:%u)</translation>
+    </message>
+    <message>
+        <source>Server certificate file (default: %s)</source>
+        <translation>Arquivo de certificado do servidor (padrão:%s)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: %s)</source>
+        <translation>Chave privada do servidor (padrão:%s)</translation>
+    </message>
+    <message>
+        <source>Session not complete!</source>
+        <translation>Sessão não concluída!</translation>
     </message>
     <message>
         <source>Session timed out.</source>
@@ -1077,6 +1063,22 @@
         <translation>Parar de executar após importar blocos do disco (padrão:%u)</translation>
     </message>
     <message>
+        <source>Submitted following entries to masternode: %u / %d</source>
+        <translation>Enviado as seguintes entradas para masternode:%u / %d</translation>
+    </message>
+    <message>
+        <source>Submitted to masternode, waiting for more entries ( %u / %d ) %s</source>
+        <translation>Enviado para masternode, aguardando mais entradas (%u / %d) %s</translation>
+    </message>
+    <message>
+        <source>Submitted to masternode, waiting in queue %s</source>
+        <translation>Enviado para masternode, esperando na fila %s</translation>
+    </message>
+    <message>
+        <source>SwiftTX options:</source>
+        <translation>Opções SwiftTX:</translation>
+    </message>
+    <message>
         <source>Synchronization failed</source>
         <translation>Sincronização falhou</translation>
     </message>
@@ -1117,6 +1119,10 @@
         <translation>Isso é destinado a ferramentas de teste de regressão e desenvolvimento de aplicativos.</translation>
     </message>
     <message>
+        <source>This is not a Masternode.</source>
+        <translation>Isto não e um Masternode</translation>
+    </message>
+    <message>
         <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
         <translation>Limiar para desconectar pares com comportamentos incorretos (padrão:%u)</translation>
     </message>
@@ -1129,12 +1135,28 @@
         <translation>Os valores das transações devem ser positivos</translation>
     </message>
     <message>
+        <source>Transaction created successfully.</source>
+        <translation>Transação criada com sucesso.</translation>
+    </message>
+    <message>
+        <source>Transaction fees are too high.</source>
+        <translation>As taxas de transação são muito altas.</translation>
+    </message>
+    <message>
+        <source>Transaction not valid.</source>
+        <translation>A transação não é válida.</translation>
+    </message>
+    <message>
         <source>Transaction too large for fee policy</source>
         <translation>Transação muito grande para a política de tarifas</translation>
     </message>
     <message>
         <source>Transaction too large</source>
         <translation>Transmissão muito grande</translation>
+    </message>
+    <message>
+        <source>Transmitting final transaction.</source>
+        <translation>Transmissão da transação final.</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer (bind returned error %s)</source>
@@ -1149,8 +1171,16 @@
         <translation>Rede desconhecida especificada em -onlynet: '%s'</translation>
     </message>
     <message>
+        <source>Unknown state: id = %u</source>
+        <translation>Estado desconhecido: id =%u</translation>
+    </message>
+    <message>
         <source>Upgrade wallet to latest format</source>
         <translation>Atualizar a carteira para a ultimo formato</translation>
+    </message>
+    <message>
+        <source>Use OpenSSL (https) for JSON-RPC connections</source>
+        <translation>Use o OpenSSL(https) para conexões JSON-RPC</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
@@ -1179,6 +1209,10 @@
     <message>
         <source>Wallet %s resides outside data directory %s</source>
         <translation>carteira %s reside fora do diretório %s</translation>
+    </message>
+    <message>
+        <source>Wallet is locked.</source>
+        <translation>Carteira esta bloqueada.</translation>
     </message>
     <message>
         <source>Wallet needed to be rewritten: restart Khrysus Core to complete</source>
@@ -1211,6 +1245,10 @@
     <message>
         <source>You need to rebuild the database using -reindex to change -txindex</source>
         <translation>Você precisa reconstruir a database usando -reindex para mudar -txindex</translation>
+    </message>
+    <message>
+        <source>Your transaction was accepted into the pool!</source>
+        <translation>Sua transação foi aceita na pool!</translation>
     </message>
     </context>
 </TS>

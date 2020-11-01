@@ -1,5 +1,4 @@
 // Copyright (c) 2011-2014 The Bitcoin Core developers
-// Copyright (c) 2016-2019 The PIVX developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -10,11 +9,9 @@
 #include "uint256.h"
 #include "util.h"
 
-#include "test/test_bitcoin.h"
-
 #include <boost/test/unit_test.hpp>
 
-BOOST_FIXTURE_TEST_SUITE(miner_tests, TestingSetup)
+BOOST_AUTO_TEST_SUITE(miner_tests)
 
 static
 struct {
@@ -72,7 +69,7 @@ BOOST_AUTO_TEST_CASE(CreateNewBlock_validity)
     for (unsigned int i = 0; i < sizeof(blockinfo)/sizeof(*blockinfo); ++i)
     {
         CBlock *pblock = &pblocktemplate->block; // pointer for convenience
-        pblock->nVersion = 1;
+        pblock->nVersion = 4;
         pblock->nTime = chainActive.Tip()->GetMedianTimePast()+1;
         CMutableTransaction txCoinbase(pblock->vtx[0]);
         txCoinbase.vin[0].scriptSig = CScript();
@@ -261,7 +258,7 @@ BOOST_AUTO_TEST_CASE(CreateNewBlock_validity)
     SetMockTime(0);
     mempool.clear();
 
-    for (CTransaction *tx : txFirst)
+    BOOST_FOREACH(CTransaction *tx, txFirst)
         delete tx;
 
     Checkpoints::fEnabled = true;

@@ -62,12 +62,12 @@
         <translation>Prijímacia adresa</translation>
     </message>
     <message>
-        <source>These are your Khrysus addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto sú vaše Khrysus adresy na odosielanie platieb. Pred odoslaním vždy skontrolujte výšku a adresu prijemcu.</translation>
+        <source>These are your KHRY addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto sú vaše KHRY adresy na odosielanie platieb. Pred odoslaním vždy skontrolujte výšku a adresu prijemcu.</translation>
     </message>
     <message>
-        <source>These are your Khrysus addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto sú vaše Khrysus adresy na prijímanie platieb. Pre každú transakciu sa odporúča použiť novú prijímaciu adresu.</translation>
+        <source>These are your KHRY addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto sú vaše KHRY adresy na prijímanie platieb. Pre každú transakciu sa odporúča použiť novú prijímaciu adresu.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Potvrďte šifrovanie peňaženky</translation>
     </message>
     <message>
-        <source>Khrysus will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your KHRSs from being stolen by malware infecting your computer.</source>
-        <translation>Khrysus sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše KHRS pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
+        <source>Khrysus will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your KHRYs from being stolen by malware infecting your computer.</source>
+        <translation>Khrysus sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše KHRY pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Naozaj chcete zašifrovať svoju peňaženku?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR KHRS&lt;/b&gt;!</source>
-        <translation>Upozornenie: Ak zašifrujete svoju peňaženku a stratíte svoju prístupovú frázu, &lt;b&gt; PRÍDETE O VŠETKY KHRS &lt;/ b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR KHRY&lt;/b&gt;!</source>
+        <translation>Upozornenie: Ak zašifrujete svoju peňaženku a stratíte svoju prístupovú frázu, &lt;b&gt; PRÍDETE O VŠETKY KHRY &lt;/ b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -225,9 +225,6 @@
     </message>
 </context>
 <context>
-    <name>BanTableModel</name>
-    </context>
-<context>
     <name>Bip38ToolDialog</name>
     <message>
         <source>BIP 38 Tool</source>
@@ -238,8 +235,16 @@
         <translation>BIP 38 Šifrovanie</translation>
     </message>
     <message>
+        <source>Enter a KHRY Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Zadajte adresu KHRY, ktorú chcete zašifrovať pomocou BIP 38. Zadajte prístupovú frázu do stredného poľa. Stlačte šifrovanie na výpočet šifrovaného privátneho kľúča.</translation>
+    </message>
+    <message>
         <source>Address:</source>
         <translation>Adresa:</translation>
+    </message>
+    <message>
+        <source>The KHRY address to sign the message with</source>
+        <translation>Adresa KHRY, ktorou chcete správu podpísať</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -270,8 +275,16 @@
         <translation>Skopírujte aktuálny podpis do schránky</translation>
     </message>
     <message>
+        <source>Sign the message to prove you own this KHRY address</source>
+        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto KHRY adresy</translation>
+    </message>
+    <message>
         <source>Encrypt &amp;Key</source>
         <translation>Zašifrovať kľúč</translation>
+    </message>
+    <message>
+        <source>Reset all sign message fields</source>
+        <translation>Zmazať všetky polia správy</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -286,8 +299,20 @@
         <translation>Zadajte súkromný kľúč zašifrovaný BIP 38. Zadajte prístupovú frázu do stredného poľa. Kliknite na Dešifrovať kľúč, ak chcete vypočítať privátny kľúč. Po dešifrovaní kľúča pridáte do peňaženky tento súkromný kľúč kliknutím na položku 'Importovať adresu'.</translation>
     </message>
     <message>
+        <source>The KHRY address the message was signed with</source>
+        <translation>KHRY adresa, ktorou bola správa podpísaná</translation>
+    </message>
+    <message>
+        <source>Verify the message to ensure it was signed with the specified KHRY address</source>
+        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou KHRY adresou</translation>
+    </message>
+    <message>
         <source>Decrypt &amp;Key</source>
         <translation>Dešifrovať kľúč</translation>
+    </message>
+    <message>
+        <source>Reset all verify message fields</source>
+        <translation>Zmazať všetky polia verifikácie správy</translation>
     </message>
     <message>
         <source>Decrypted Key:</source>
@@ -573,8 +598,8 @@
         <translation>Khrysus Core</translation>
     </message>
     <message>
-        <source>Send coins to a Khrysus address</source>
-        <translation>Odoslať mince na adresu Khrysus</translation>
+        <source>Send coins to a KHRY address</source>
+        <translation>Odoslať mince na adresu KHRY</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and khrysus: URIs)</source>
@@ -601,12 +626,12 @@
         <translation>Zmeňte možnosti konfigurácie pre Khrysus</translation>
     </message>
     <message>
-        <source>Sign messages with your Khrysus addresses to prove you own them</source>
-        <translation>Podpíšte správy pomocou adresy Khrysus, aby ste preukázali, že ich vlastníte</translation>
+        <source>Sign messages with your KHRY addresses to prove you own them</source>
+        <translation>Podpíšte správy pomocou adresy KHRY, aby ste preukázali, že ich vlastníte</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Khrysus addresses</source>
-        <translation>Overte správy, aby sa zabezpečilo, že boli podpísané zadanými Khrysus adresami</translation>
+        <source>Verify messages to ensure they were signed with specified KHRY addresses</source>
+        <translation>Overte správy, aby sa zabezpečilo, že boli podpísané zadanými KHRY adresami</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -637,8 +662,8 @@
         <translation>Otvoriť konfiguračný súbor masternodu</translation>
     </message>
     <message>
-        <source>Open a Khrysus: URI or payment request</source>
-        <translation>Otvorte Khrysus: URI alebo žiadosť o platbu</translation>
+        <source>Open a khrysus: URI or payment request</source>
+        <translation>Otvorte khrysus: URI alebo žiadosť o platbu</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -679,6 +704,10 @@
     <message>
         <source>%1 and %2</source>
         <translation>%1 a %2</translation>
+    </message>
+    <message>
+        <source>%1 behind</source>
+        <translation>%1 pozadu</translation>
     </message>
     <message>
         <source>Catching up...</source>
@@ -756,7 +785,7 @@ MultiSend: %1</translation>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Peňaženka je &lt;b&gt;zašifrovaná&lt;/ b&gt; a momentálne je &lt;b&gt;zamknutá&lt;/ b&gt;</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>BlockExplorer</name>
     <message>
@@ -782,6 +811,10 @@ MultiSend: %1</translation>
 </context>
 <context>
     <name>ClientModel</name>
+    <message>
+        <source>Total: %1 (OBF compatible: %2 / Enabled: %3)</source>
+        <translation>Sumár: %1 (OBF kompatibilné: %2 / Zapnuté: %3)</translation>
+    </message>
     <message>
         <source>Network Alert</source>
         <translation>Upozornenie siete </translation>
@@ -865,9 +898,6 @@ MultiSend: %1</translation>
     <name>FreespaceChecker</name>
     </context>
 <context>
-    <name>GovernancePage</name>
-    </context>
-<context>
     <name>HelpMessageDialog</name>
     <message>
         <source>Khrysus Core</source>
@@ -906,17 +936,6 @@ MultiSend: %1</translation>
         <source>Address:</source>
         <translation>Adresa:</translation>
     </message>
-    <message>
-        <source>(no label)</source>
-        <translation>(žiaden štítok)</translation>
-    </message>
-    </context>
-<context>
-    <name>MultisigDialog</name>
-    <message>
-        <source>Amount:</source>
-        <translation>Suma:</translation>
-    </message>
     </context>
 <context>
     <name>OpenURIDialog</name>
@@ -934,56 +953,10 @@ MultiSend: %1</translation>
     <name>PeerTableModel</name>
     </context>
 <context>
-    <name>PrivacyDialog</name>
-    <message>
-        <source>Choose previously used address</source>
-        <translation>Vyberte predtým použitú adresu</translation>
-    </message>
-    <message>
-        <source>Alt+A</source>
-        <translation>Alt+A</translation>
-    </message>
-    <message>
-        <source>Paste address from clipboard</source>
-        <translation>Vložte adresu zo schránky</translation>
-    </message>
-    <message>
-        <source>Alt+P</source>
-        <translation>Alt+P</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Priorita:</translation>
-    </message>
-    <message>
-        <source>TextLabel</source>
-        <translation>TextLabel</translation>
-    </message>
-    <message>
-        <source>Fee:</source>
-        <translation>Poplatok:</translation>
-    </message>
-    <message>
-        <source>Bytes:</source>
-        <translation>Bytov:</translation>
-    </message>
-    <message>
-        <source>Change:</source>
-        <translation>Zmena:</translation>
-    </message>
-    </context>
-<context>
-    <name>ProposalFrame</name>
-    </context>
-<context>
     <name>QObject</name>
     <message>
         <source>Amount</source>
         <translation>Suma</translation>
-    </message>
-    <message>
-        <source>Khrysus Core</source>
-        <translation>Khrysus Core</translation>
     </message>
     </context>
 <context>
@@ -1005,10 +978,6 @@ MultiSend: %1</translation>
     <message>
         <source>Copy amount</source>
         <translation>Skopírovať sumu</translation>
-    </message>
-    <message>
-        <source>Copy address</source>
-        <translation>Skopírovať adresu</translation>
     </message>
 </context>
 <context>
@@ -1035,10 +1004,6 @@ MultiSend: %1</translation>
     <message>
         <source>Label</source>
         <translation>Štítok</translation>
-    </message>
-    <message>
-        <source>Address</source>
-        <translation>Adresa</translation>
     </message>
     <message>
         <source>Amount</source>
@@ -1117,8 +1082,8 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Khrysus address to sign the message with</source>
-        <translation>Adresa Khrysus, ktorou chcete správu podpísať</translation>
+        <source>The KHRY address to sign the message with</source>
+        <translation>Adresa KHRY, ktorou chcete správu podpísať</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1141,16 +1106,16 @@ MultiSend: %1</translation>
         <translation>Skopírujte aktuálny podpis do schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Khrysus address</source>
-        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto Khrysus adresy</translation>
+        <source>Sign the message to prove you own this KHRY address</source>
+        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto KHRY adresy</translation>
     </message>
     <message>
-        <source>The Khrysus address the message was signed with</source>
-        <translation>Khrysus adresa, ktorou bola správa podpísaná</translation>
+        <source>The KHRY address the message was signed with</source>
+        <translation>KHRY adresa, ktorou bola správa podpísaná</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Khrysus address</source>
-        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou Khrysus adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified KHRY address</source>
+        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou KHRY adresou</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1282,9 +1247,6 @@ MultiSend: %1</translation>
         <source>Export the data in the current tab to a file</source>
         <translation>Exportovať údaje na aktuálnej karte do súboru</translation>
     </message>
-    </context>
-<context>
-    <name>ZPivControlDialog</name>
     </context>
 <context>
     <name>khrysus-core</name>

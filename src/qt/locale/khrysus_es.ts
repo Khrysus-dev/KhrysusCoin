@@ -3,7 +3,7 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Click derecho para editar la dirección o etiqueta</translation>
+        <translation>Click derecho para editar dirección o etiqueta</translation>
     </message>
     <message>
         <source>Create a new address</source>
@@ -47,7 +47,7 @@
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Escoja la dirección en la cual recibirá las monedas</translation>
+        <translation>Escoja la dirección con las cual recibirá las monedas</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -62,12 +62,12 @@
         <translation>Direcciones de recepción</translation>
     </message>
     <message>
-        <source>These are your Khrysus addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estas son sus direcciones Khrysus para realizar pagos. Verifique siempre la cantidad y la dirección de recepción antes de enviar monedas.</translation>
+        <source>These are your KHRY addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estas son sus direcciones KHRY para realizar pagos. Verifique siempre la cantidad y la dirección de recepción antes de enviar monedas.</translation>
     </message>
     <message>
-        <source>These are your Khrysus addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Estas son sus direcciones Khrysus para recibir pagos. Es recomendable usar una nueva dirección de recepción para cada transacción.</translation>
+        <source>These are your KHRY addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Estas son sus direcciones KHRY para recibir pagos. Es recomendable usar una nueva dirección de recepción para cada transacción.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -136,12 +136,8 @@
         <translation>Sirve para desactivar el envío de dinero cuando la cuenta del SO está comprometida. No provee de una seguridad real</translation>
     </message>
     <message>
-        <source>For anonymization, automint, and staking only</source>
-        <translation>Para anonimización y staking solamente</translation>
-    </message>
-    <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Escriba la nueva contraseña para el monedero. &lt;br/&gt;Por favor utilice una contraseña de &lt;b&gt;10 o más caracteres aleatorios&lt;/b&gt;, u &lt;b&gt; ocho o más palabras&lt;/b&gt;</translation>
+        <translation>Escriba la nueva contraseña para la Wallet. &lt;br/&gt;Por favor utilice una contraseña de &lt;b&gt;10 o más caracteres aleatorios&lt;/b&gt;, u &lt;b&gt; ocho o más palabras&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
@@ -176,16 +172,16 @@
         <translation>Confirme el cifrado del monedero</translation>
     </message>
     <message>
-        <source>Khrysus will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your KHRSs from being stolen by malware infecting your computer.</source>
-        <translation>Khrysus se cerrará para finalizar el proceso de cifrado. Recuerde que cifrar su monedero no garantiza que sus KHRSs no sean robados mediante malware de su ordenador.</translation>
+        <source>Khrysus will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your KHRYs from being stolen by malware infecting your computer.</source>
+        <translation>Khrysus se cerrará para finalizar el proceso de cifrado. Recuerde que cifrar su monedero no garantiza que sus KHRYs no sean robados mediante malware de su ordenador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>¿Está seguro de que desea cifrar su monedero?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR KHRS&lt;/b&gt;!</source>
-        <translation>Atención: Si cifra su monedero y pierde su contraseña, perderá &lt;b&gt; TODOS SUS KHRS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR KHRY&lt;/b&gt;!</source>
+        <translation>Atención: Si cifra su monedero y pierde su contraseña, perderá &lt;b&gt; TODOS SUS KHRY&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -229,17 +225,6 @@
     </message>
 </context>
 <context>
-    <name>BanTableModel</name>
-    <message>
-        <source>IP/Netmask</source>
-        <translation>IP/Máscara de Red</translation>
-    </message>
-    <message>
-        <source>Banned Until</source>
-        <translation>Suspendido hasta</translation>
-    </message>
-</context>
-<context>
     <name>Bip38ToolDialog</name>
     <message>
         <source>BIP 38 Tool</source>
@@ -250,16 +235,16 @@
         <translation>&amp;Cifrado BIP 38</translation>
     </message>
     <message>
+        <source>Enter a KHRY Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Introduzca la dirección KHRY que querría cifrar usando BIP 38. Introduzca una contraseña en el campo central. Haga clic en cifrar para generar la clave privada cifrada.</translation>
+    </message>
+    <message>
         <source>Address:</source>
         <translation>Dirección:</translation>
     </message>
     <message>
-        <source>Enter a Khrysus Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Introduzca la dirección Khrysus que querría cifrar usando BIP 38. Introduzca una contraseña en el campo central. Haga clic en cifrar para generar la clave privada cifrada.</translation>
-    </message>
-    <message>
-        <source>The Khrysus address to encrypt</source>
-        <translation>La dirección Khrysus a cifrar</translation>
+        <source>The KHRY address to sign the message with</source>
+        <translation>La dirección KHRY con la que desee firmar el mensaje</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -267,7 +252,7 @@
     </message>
     <message>
         <source>Alt+A</source>
-        <translation>Alt+A</translation>
+        <translation>Alt + A</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
@@ -275,7 +260,7 @@
     </message>
     <message>
         <source>Alt+P</source>
-        <translation>Alt+P</translation>
+        <translation>Alt + P</translation>
     </message>
     <message>
         <source>Passphrase: </source>
@@ -290,24 +275,16 @@
         <translation>Copiar la firma actual al portapapeles del sistema</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this Khrysus address</source>
-        <translation>Cifrar la llave privada para esta dirección Khrysus</translation>
-    </message>
-    <message>
-        <source>Reset all fields</source>
-        <translation>Limpiar todos los campos</translation>
-    </message>
-    <message>
-        <source>The encrypted private key</source>
-        <translation>La llave privada cifrada</translation>
-    </message>
-    <message>
-        <source>Decrypt the entered key using the passphrase</source>
-        <translation>Descifrar la llave ingresada usando la frase de contraseña</translation>
+        <source>Sign the message to prove you own this KHRY address</source>
+        <translation>Firme el mensaje para demostrar que eres el propietario de esta dirección KHRY</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
         <translation>Cifrar &amp;Clave</translation>
+    </message>
+    <message>
+        <source>Reset all sign message fields</source>
+        <translation>Limpiar todos los campos de firma de mensaje</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -322,8 +299,20 @@
         <translation>Introduzca la clave cifrada privada BIP 38. Introduzca la contraseña en el campo central. Haga clic en descifrar clave para generar la clave privada. Después de que la clave sea descifrada, pulsando en 'Importar dirección' añadirá esta clave privada al monedero.</translation>
     </message>
     <message>
+        <source>The KHRY address the message was signed with</source>
+        <translation>La dirección KHRY con la que se firmó el mensaje</translation>
+    </message>
+    <message>
+        <source>Verify the message to ensure it was signed with the specified KHRY address</source>
+        <translation>Verifica el mensaje para asegurar que fue firmado con la dirección KHRY especificada</translation>
+    </message>
+    <message>
         <source>Decrypt &amp;Key</source>
         <translation>Descifrar &amp;Clave</translation>
+    </message>
+    <message>
+        <source>Reset all verify message fields</source>
+        <translation>Limpiar todos los campos de verificación de mensaje</translation>
     </message>
     <message>
         <source>Decrypted Key:</source>
@@ -402,7 +391,7 @@
     <name>BitcoinGUI</name>
     <message>
         <source>Wallet</source>
-        <translation>Monedero</translation>
+        <translation>Wallet</translation>
     </message>
     <message>
         <source>Node</source>
@@ -414,7 +403,7 @@
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>Mostrar visión general del monedero</translation>
+        <translation>Mostrar visión general de la wallet</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -431,10 +420,6 @@
     <message>
         <source>Browse transaction history</source>
         <translation>Navegar por el historial de transacciones</translation>
-    </message>
-    <message>
-        <source>Privacy Actions for zKHRS</source>
-        <translation>Acciones de privacidad para zKHRS</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -466,19 +451,19 @@
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Encriptar monedero...</translation>
+        <translation>&amp;Encriptar wallet...</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Encriptar las claves privadas que pertenecen a tu monedero</translation>
+        <translation>Encriptar las claves privadas que pertenecen a tu wallet</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Copia de seguridad del monedero...</translation>
+        <translation>&amp;Copia de seguridad de la wallet...</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>Copia de seguridad del monedero a otra ubicación</translation>
+        <translation>Copia de seguridad de la wallet a otra ubicación</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
@@ -486,11 +471,11 @@
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Cambiar contraseña usada para la encriptación del monedero</translation>
+        <translation>Cambiar contraseña usada para la encriptación de la wallet</translation>
     </message>
     <message>
         <source>&amp;Unlock Wallet...</source>
-        <translation>&amp;Desbloquear monedero...</translation>
+        <translation>&amp;Desbloquear wallet...</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
@@ -498,7 +483,7 @@
     </message>
     <message>
         <source>&amp;Lock Wallet</source>
-        <translation>&amp;Bloquear monedero</translation>
+        <translation>&amp;Bloquear Wallet</translation>
     </message>
     <message>
         <source>Sign &amp;message...</source>
@@ -542,11 +527,11 @@
     </message>
     <message>
         <source>Wallet &amp;Repair</source>
-        <translation>&amp;Reparación del monedero</translation>
+        <translation>&amp;Reparación de la wallet</translation>
     </message>
     <message>
         <source>Show wallet repair options</source>
-        <translation>Mostrar opciones de reparación del monedero</translation>
+        <translation>Mostrar opciones de reparación de la wallet</translation>
     </message>
     <message>
         <source>Open configuration file</source>
@@ -577,30 +562,6 @@
         <translation>Mostrar la lista de las direcciones y etiquetas usadas</translation>
     </message>
     <message>
-        <source>&amp;Multisignature creation...</source>
-        <translation>Creación multifirmas ...</translation>
-    </message>
-    <message>
-        <source>Create a new multisignature address and add it to this wallet</source>
-        <translation>Crear una nueva dirección multifirma y agregarla a este monedero</translation>
-    </message>
-    <message>
-        <source>&amp;Multisignature spending...</source>
-        <translation>Gasto &amp;multifirmas...</translation>
-    </message>
-    <message>
-        <source>Spend from a multisignature address</source>
-        <translation>Gastar desde una dirección multifirmas</translation>
-    </message>
-    <message>
-        <source>&amp;Multisignature signing...</source>
-        <translation>Firma &amp;multifirmas...</translation>
-    </message>
-    <message>
-        <source>Sign with a multisignature address</source>
-        <translation>Firmar con una dirección multifirmas</translation>
-    </message>
-    <message>
         <source>Open &amp;URI...</source>
         <translation>Abrir &amp;URI...</translation>
     </message>
@@ -608,21 +569,13 @@
         <source>&amp;Command-line options</source>
         <translation>&amp;Opciones de linea de comandos</translation>
     </message>
+    <message numerus="yes">
+        <source>Processed %n blocks of transaction history.</source>
+        <translation><numerusform>Procesado %n bloque del historial de transacciones.</numerusform><numerusform>Procesados %n bloques del historial de transacciones.</numerusform></translation>
+    </message>
     <message>
         <source>Synchronizing additional data: %p%</source>
         <translation>Sincronizando datos adicionales: %p%</translation>
-    </message>
-    <message>
-        <source>%1 behind. Scanning block %2</source>
-        <translation>%1 detrás. Escaneando bloque %2</translation>
-    </message>
-    <message>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for anonymization and staking only</source>
-        <translation>El monedero está &lt;b&gt;cifrado&lt;/b&gt; y actualmente &lt;b&gt;desbloqueado&lt;/b&gt; para anonimato y prueba de participación.</translation>
-    </message>
-    <message>
-        <source>Tor is &lt;b&gt;enabled&lt;/b&gt;: %1</source>
-        <translation>Tor está &lt;b&gt; habilitado&lt;/b&gt;: %1</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -646,11 +599,11 @@
     </message>
     <message>
         <source>Khrysus Core</source>
-        <translation>Khrysus Core</translation>
+        <translation>Núcleo Khrysus</translation>
     </message>
     <message>
-        <source>Send coins to a Khrysus address</source>
-        <translation>Enviar monedas a una dirección Khrysus</translation>
+        <source>Send coins to a KHRY address</source>
+        <translation>Enviar coins a una dirección KHRY</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and khrysus: URIs)</source>
@@ -662,31 +615,31 @@
     </message>
     <message>
         <source>&amp;Masternodes</source>
-        <translation>&amp;Masternodes</translation>
+        <translation>Nodos &amp;Maestros</translation>
     </message>
     <message>
         <source>Browse masternodes</source>
-        <translation>Explorar masternodes</translation>
+        <translation>Explorar nodos maestros</translation>
     </message>
     <message>
         <source>&amp;About Khrysus Core</source>
-        <translation>&amp;Sobre Khrysus Core</translation>
+        <translation>&amp;Sobre el núcleo de Khrysus</translation>
     </message>
     <message>
         <source>Show information about Khrysus Core</source>
-        <translation>Mostrar información sobre Khrysus Core</translation>
+        <translation>Mostrar información sobre el núcleo de Khrysus</translation>
     </message>
     <message>
         <source>Modify configuration options for Khrysus</source>
         <translation>Modificar las opciones de configuración de Khrysus</translation>
     </message>
     <message>
-        <source>Sign messages with your Khrysus addresses to prove you own them</source>
-        <translation>Firmar mensajes con sus direcciones Khrysus para demostrar que le pertenecen</translation>
+        <source>Sign messages with your KHRY addresses to prove you own them</source>
+        <translation>Firmar mensajes con sus direcciones KHRY para demostrar que le pertenecen</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Khrysus addresses</source>
-        <translation>Verificar mensajes para asegurar que están firmados con la dirección Khrysus especificada</translation>
+        <source>Verify messages to ensure they were signed with specified KHRY addresses</source>
+        <translation>Verificar mensajes para asegurar que están firmados con la dirección KHRY especificada</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -694,7 +647,7 @@
     </message>
     <message>
         <source>Encrypt and decrypt private keys using a passphrase</source>
-        <translation>Encriptar y desencriptar las llaves privadas usando una frase contraseña</translation>
+        <translation>Encriptar y desencriptar las llaves privadas usando una contraseña</translation>
     </message>
     <message>
         <source>&amp;MultiSend</source>
@@ -706,23 +659,23 @@
     </message>
     <message>
         <source>Open Wallet &amp;Configuration File</source>
-        <translation>Abrir fichero del monedero &amp;Configuración</translation>
+        <translation>Abrir Fichero de &amp;Configuración del Monedero</translation>
     </message>
     <message>
         <source>Open &amp;Masternode Configuration File</source>
-        <translation>Abrir Fichero de Configuración de &amp;Masternodes</translation>
+        <translation>Abrir Fichero de Configuración de Nodos &amp;Maestros</translation>
     </message>
     <message>
         <source>Open Masternode configuration file</source>
-        <translation>Abrir fichero de Configuración de masternodes</translation>
+        <translation>Abrir Fichero de Configuración de Nodos Maestros</translation>
     </message>
     <message>
-        <source>Open a Khrysus: URI or payment request</source>
-        <translation>Abrir un Khrysus: URI o solicitud de pago</translation>
+        <source>Open a khrysus: URI or payment request</source>
+        <translation>Abrir un khrysus: URI o solicitud de pago</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
-        <translation>Explorador de &amp;Blockchain</translation>
+        <translation>Explorador de &amp;Bloques</translation>
     </message>
     <message>
         <source>Block explorer window</source>
@@ -759,6 +712,10 @@
     <message>
         <source>%1 and %2</source>
         <translation>%1 y %2</translation>
+    </message>
+    <message>
+        <source>%1 behind</source>
+        <translation>%1 detrás</translation>
     </message>
     <message>
         <source>Catching up...</source>
@@ -811,7 +768,7 @@ Dirección: %4
     <message>
         <source>Staking is active
  MultiSend: %1</source>
-        <translation>Staking está activado
+        <translation>La recompensa de participación está activa
 MultiEnvío: %1</translation>
     </message>
     <message>
@@ -829,14 +786,6 @@ MultiEnvío: %1</translation>
 MultiEnvío: %1</translation>
     </message>
     <message>
-        <source>AutoMint is currently enabled and set to </source>
-        <translation>AutoMint está actualmente habilitado y configurado en</translation>
-    </message>
-    <message>
-        <source>AutoMint is disabled</source>
-        <translation>AutoMint está desactivado</translation>
-    </message>
-    <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>El monedero está &lt;b&gt;encriptado&lt;/b&gt; y actualmente &lt;b&gt;desbloqueado&lt;/b&gt;</translation>
     </message>
@@ -844,12 +793,12 @@ MultiEnvío: %1</translation>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>El monedero está &lt;b&gt;encriptado&lt;/b&gt; y actualmente &lt;b&gt;bloqueado&lt;/b&gt;</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>BlockExplorer</name>
     <message>
         <source>Blockchain Explorer</source>
-        <translation>Explorador del blockchain</translation>
+        <translation>Explorador de Cadena de Bloques</translation>
     </message>
     <message>
         <source>Back</source>
@@ -879,8 +828,8 @@ MultiEnvío: %1</translation>
 <context>
     <name>ClientModel</name>
     <message>
-        <source>Total: %1 (IPv4: %2 / IPv6: %3 / Tor: %4 / Unknown: %5)</source>
-        <translation>Total: %1 (IPv4: %2 / IPv6: %3 / Tor: %4 / Desconocido: %5)</translation>
+        <source>Total: %1 (OBF compatible: %2 / Enabled: %3)</source>
+        <translation>Total: %1 (Ofuscación compatible: %2 / Activado: %3)</translation>
     </message>
     <message>
         <source>Network Alert</source>
@@ -895,11 +844,11 @@ MultiEnvío: %1</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>Bytes:</translation>
+        <translation>Octetos:</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Suma:</translation>
+        <translation>Cantidad:</translation>
     </message>
     <message>
         <source>Priority:</source>
@@ -919,7 +868,7 @@ MultiEnvío: %1</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Después de Comisión:</translation>
+        <translation>Con Comisión:</translation>
     </message>
     <message>
         <source>Change:</source>
@@ -958,10 +907,6 @@ MultiEnvío: %1</translation>
         <translation>Recibido con dirección</translation>
     </message>
     <message>
-        <source>Type</source>
-        <translation>Tipo</translation>
-    </message>
-    <message>
         <source>Date</source>
         <translation>Fecha</translation>
     </message>
@@ -995,11 +940,11 @@ MultiEnvío: %1</translation>
     </message>
     <message>
         <source>Lock unspent</source>
-        <translation>Bloquear no gastado</translation>
+        <translation>Bloquear no gastados</translation>
     </message>
     <message>
         <source>Unlock unspent</source>
-        <translation>Desbloquear no gastado</translation>
+        <translation>Desbloquear no gastados</translation>
     </message>
     <message>
         <source>Copy quantity</source>
@@ -1048,6 +993,10 @@ MultiEnvío: %1</translation>
     <message>
         <source>medium-high</source>
         <translation>medio-alta</translation>
+    </message>
+    <message>
+        <source>Can vary +/- %1 ukhry per input.</source>
+        <translation>Puede variar +/- %1 ukhry por entrada.</translation>
     </message>
     <message>
         <source>medium</source>
@@ -1110,10 +1059,6 @@ MultiEnvío: %1</translation>
         <translation>Esta etiqueta se vuelve roja, si algún destinatario recibe una cantidad menor que %1.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 ukhrs per input.</source>
-        <translation>Puede variar +/- %1 ukhrs por entrada.</translation>
-    </message>
-    <message>
         <source>(no label)</source>
         <translation>(sin etiqueta)</translation>
     </message>
@@ -1165,8 +1110,8 @@ MultiEnvío: %1</translation>
         <translation>Editar dirección de envío</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Khrysus address.</source>
-        <translation>La dirección introducida "%1" no es una dirección Khrysus válida.</translation>
+        <source>The entered address "%1" is not a valid KHRY address.</source>
+        <translation>La dirección introducida "%1" no es una dirección KHRY válida.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1205,17 +1150,6 @@ MultiEnvío: %1</translation>
     </message>
 </context>
 <context>
-    <name>GovernancePage</name>
-    <message>
-        <source>Form</source>
-        <translation>Formulario</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    </context>
-<context>
     <name>HelpMessageDialog</name>
     <message>
         <source>version</source>
@@ -1223,7 +1157,7 @@ MultiEnvío: %1</translation>
     </message>
     <message>
         <source>Khrysus Core</source>
-        <translation>Khrysus Core</translation>
+        <translation>Núcleo Khrysus</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -1298,7 +1232,7 @@ MultiEnvío: %1</translation>
     </message>
     <message>
         <source>Khrysus Core</source>
-        <translation>Khrysus Core</translation>
+        <translation>Núcleo Khrysus</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1324,8 +1258,8 @@ MultiEnvío: %1</translation>
         <translation>Formulario</translation>
     </message>
     <message>
-        <source>MASTERNODES</source>
-        <translation>NODO MAESTROS</translation>
+        <source>My Masternodes</source>
+        <translation>Mis Nodos Maestros</translation>
     </message>
     <message>
         <source>Note: Status of your masternodes in local wallet can potentially be slightly incorrect.&lt;br /&gt;Always wait for wallet to sync additional data and then double check from another node&lt;br /&gt;if your node should be running but you still see "MISSING" in "Status" field.</source>
@@ -1389,19 +1323,19 @@ MultiEnvío: %1</translation>
     </message>
     <message>
         <source>Confirm masternode start</source>
-        <translation>Confirmar inicio del masternode</translation>
+        <translation>Confirmar inicio del nodo maestro</translation>
     </message>
     <message>
         <source>Are you sure you want to start masternode %1?</source>
-        <translation>¿Está seguro de que quiere arrancar el masternode %1?</translation>
+        <translation>¿Está seguro de que quiere arrancar el nodo maestro %1?</translation>
     </message>
     <message>
         <source>Confirm all masternodes start</source>
-        <translation>Confirmar el arranque de todos los masternodes</translation>
+        <translation>Confirmar el arranque de todos los nodos maestros</translation>
     </message>
     <message>
         <source>Are you sure you want to start ALL masternodes?</source>
-        <translation>¿Estás seguro de querer arrancar TODOS los masternodes?</translation>
+        <translation>¿Estás seguro de querer arrancar TODOS los nodos maestros?</translation>
     </message>
     <message>
         <source>Command is not available right now</source>
@@ -1413,11 +1347,11 @@ MultiEnvío: %1</translation>
     </message>
     <message>
         <source>Confirm missing masternodes start</source>
-        <translation>Confirmar arranque de masternodes no encontrados</translation>
+        <translation>Confirmar arranque de nodos maestros no encontrados</translation>
     </message>
     <message>
         <source>Are you sure you want to start MISSING masternodes?</source>
-        <translation>¿Estás seguro de querer arrancar los masternodes NO ENCONTRADOS?</translation>
+        <translation>¿Estás seguro de querer arrancar los nodos maestros NO ENCONTRADOS?</translation>
     </message>
 </context>
 <context>
@@ -1439,12 +1373,12 @@ MultiEnvío: %1</translation>
         <translation>Introduzca Dirección a la cual Enviar</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Khrysus addresses after it matures.
-To Add: enter percentage to give and Khrysus address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other KHRY addresses after it matures.
+To Add: enter percentage to give and KHRY address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiEnvío le permite enviar automáticamente hasta el 100% de recompensa de participación o de nodo maestro a una lista de otras direcciones Khrysus después de su maduración.
-Para Añadir: introduzca porcentaje a enviar y las direcciones Khrysus a añadir al vector MultiEnvío.
+        <translation>MultiEnvío le permite enviar automáticamente hasta el 100% de recompensa de participación o de nodo maestro a una lista de otras direcciones KHRY después de su maduración.
+Para Añadir: introduzca porcentaje a enviar y las direcciones KHRY a añadir al vector MultiEnvío.
 Para Eliminar: Introduzca la dirección a eliminar y pulse la tecla delete.
 MultiEnvío no se activará a menos que haga usted click en Activar</translation>
     </message>
@@ -1470,11 +1404,11 @@ MultiEnvío no se activará a menos que haga usted click en Activar</translation
     </message>
     <message>
         <source>Alt+A</source>
-        <translation>Alt+A</translation>
+        <translation>Alt + A</translation>
     </message>
     <message>
         <source>Percentage of stake to send</source>
-        <translation>Porcentaje de stake a enviar</translation>
+        <translation>Porcentaje de capital a enviar</translation>
     </message>
     <message>
         <source>Percentage:</source>
@@ -1482,19 +1416,11 @@ MultiEnvío no se activará a menos que haga usted click en Activar</translation
     </message>
     <message>
         <source>Address to send portion of stake to</source>
-        <translation>Dirección a enviar porción del stake</translation>
+        <translation>Dirección a enviar porción de la recompensa</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Dirección:</translation>
-    </message>
-    <message>
-        <source>Label:</source>
-        <translation>Etiqueta:</translation>
-    </message>
-    <message>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>Introduzca una etiqueta para esta dirección para añadirla a su libreta de direcciones</translation>
     </message>
     <message>
         <source>Delete Address From MultiSend Vector</source>
@@ -1522,236 +1448,49 @@ MultiEnvío no se activará a menos que haga usted click en Activar</translation
     </message>
     <message>
         <source>Send For Stakes</source>
-        <translation>Enviar Para Stakes</translation>
+        <translation>Enviar Para Participaciones</translation>
     </message>
     <message>
         <source>Send For Masternode Rewards</source>
-        <translation>Enviar Para Recomensas De masternodes</translation>
+        <translation>Enviar Para Recomensas De Nodos Maestros</translation>
     </message>
     <message>
-        <source>(no label)</source>
-        <translation>(sin etiqueta)</translation>
+        <source>The entered address:
+</source>
+        <translation>La dirección introducida:
+</translation>
     </message>
     <message>
-        <source>MultiSend Active for Stakes and Masternode Rewards</source>
-        <translation>MultiSend Activado para las recompensas de Stakes y Masternode</translation>
-    </message>
-    <message>
-        <source>MultiSend Active for Stakes</source>
-        <translation>MultiSend Activado para Stakes</translation>
-    </message>
-    <message>
-        <source>MultiSend Active for Masternode Rewards</source>
-        <translation>MultiSend Activado para las recompensas de Masternode</translation>
-    </message>
-    <message>
-        <source>MultiSend Not Active</source>
-        <translation>MultiSend Desactivado </translation>
-    </message>
-    <message>
-        <source>The entered address: %1 is invalid.
+        <source> is invalid.
 Please check the address and try again.</source>
-        <translation>La dirección introducida: %1 es inválida.
-Por favor comprueba la dirección e inténtalo nuevamente.</translation>
+        <translation>es inválida.
+Por favor compruebe la dirección e inténtelo de nuevo.</translation>
     </message>
     <message>
-        <source>The total amount of your MultiSend vector is over 100% of your stake reward</source>
-        <translation>La cantidad total de tu vector de MultiEnvío es superior al 100% de tu recompensa de Stake</translation>
-    </message>
-    <message>
-        <source>Saved the MultiSend to memory, but failed saving properties to the database.</source>
-        <translation>El MultiSend se guardó en la memoria, pero se produjo un error al guardar las propiedades en la base de datos.</translation>
-    </message>
-    <message>
-        <source>MultiSend Vector</source>
-        <translation>Vector de MultiSend</translation>
-    </message>
-    <message>
-        <source>Removed %1</source>
-        <translation>Removido %1</translation>
-    </message>
-    <message>
-        <source>Could not locate address</source>
-        <translation>No se pudo localizar la dirección</translation>
-    </message>
-    <message>
-        <source>Unable to activate MultiSend, check MultiSend vector</source>
-        <translation>No fue posible activar el MultiSend, verifica el vector de MultiSend</translation>
+        <source>The total amount of your MultiSend vector is over 100% of your stake reward
+</source>
+        <translation>La cantidad total de su vector MultiEnvío es superior al 100% de su recompensa
+</translation>
     </message>
     <message>
         <source>Please Enter 1 - 100 for percent.</source>
         <translation>Por favor Introduzca 1 - 100 por ciento.</translation>
     </message>
-</context>
-<context>
-    <name>MultisigDialog</name>
     <message>
-        <source>Multisignature Address Interactions</source>
-        <translation>Interacciones de direcciones multifirmas</translation>
+        <source>MultiSend Vector
+</source>
+        <translation>Vector MultiEnvío
+</translation>
     </message>
     <message>
-        <source>Create MultiSignature &amp;Address</source>
-        <translation>Crear una dirección multifirma</translation>
+        <source>Removed </source>
+        <translation>Borrado</translation>
     </message>
     <message>
-        <source>How many people must sign to verify a transaction</source>
-        <translation>Cuántas personas deben firmar para verificar una transacción</translation>
-    </message>
-    <message>
-        <source>Enter the minimum number of signatures required to sign transactions</source>
-        <translation>Entra el número mínimo de firmas requerido para firmar la transacción</translation>
-    </message>
-    <message>
-        <source>Address Label:</source>
-        <translation>Etiqueta de dirección</translation>
-    </message>
-    <message>
-        <source>Add another address that could sign to verify a transaction from the multisig address.</source>
-        <translation>Agrega otra dirección que pueda firmar para verificar la transacción desde la dirección multifirmas</translation>
-    </message>
-    <message>
-        <source>&amp;Add Address / Key</source>
-        <translation>&amp;Agrega dirección / Llave</translation>
-    </message>
-    <message>
-        <source>Local addresses or public keys that can sign:</source>
-        <translation>Direcciones locales o llaves publicas que puedan firmar:</translation>
-    </message>
-    <message>
-        <source>Create a new multisig address</source>
-        <translation>Crea una nueva dirección multifirmas</translation>
-    </message>
-    <message>
-        <source>C&amp;reate</source>
-        <translation>C&amp;rear</translation>
-    </message>
-    <message>
-        <source>Status:</source>
-        <translation>Estado:</translation>
-    </message>
-    <message>
-        <source>Use below to quickly import an address by its redeem. Don't forget to add a label before clicking import!
-Keep in mind, the wallet will rescan the blockchain to find transactions containing the new address.
-Please be patient after clicking import.</source>
-        <translation>Use debajo para importar rápidamente una dirección al canjearla. ¡No olvide agregar una etiqueta antes de hacer clic en importar!
-Tenga en cuenta que el monedero volverá a explorar el blockchain para buscar transacciones que contengan la nueva dirección.
-Por favor, tenga paciencia después de hacer clic en importar.</translation>
-    </message>
-    <message>
-        <source>&amp;Import Redeem</source>
-        <translation>&amp;Importar redimir</translation>
-    </message>
-    <message>
-        <source>&amp;Create MultiSignature Tx</source>
-        <translation>Crear transacción multifirmas</translation>
-    </message>
-    <message>
-        <source>Inputs:</source>
-        <translation>Entradas:</translation>
-    </message>
-    <message>
-        <source>Coin Control</source>
-        <translation>Control de moneda</translation>
-    </message>
-    <message>
-        <source>Quantity Selected:</source>
-        <translation>Cantidad Seleccionada:</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>Amount:</source>
-        <translation>Suma:</translation>
-    </message>
-    <message>
-        <source>Add an input to fund the outputs</source>
-        <translation>Agregue una entrada para financiar las salidas</translation>
-    </message>
-    <message>
-        <source>Add a Raw Input</source>
-        <translation>Agregar una entrada sin procesar</translation>
-    </message>
-    <message>
-        <source>Address / Amount:</source>
-        <translation>Dirección / Cantidad:</translation>
-    </message>
-    <message>
-        <source>Add destinations to send KHRS to</source>
-        <translation>Agregue los destinos para enviar KHRS</translation>
-    </message>
-    <message>
-        <source>Add &amp;Destination</source>
-        <translation>Agregar &amp;Destino</translation>
-    </message>
-    <message>
-        <source>Create a transaction object using the given inputs to the given outputs</source>
-        <translation>Crear un objeto de transacción usando las entradas dadas a las salidas dadas</translation>
-    </message>
-    <message>
-        <source>Cr&amp;eate</source>
-        <translation>Cr&amp;ear</translation>
-    </message>
-    <message>
-        <source>&amp;Sign MultiSignature Tx</source>
-        <translation>&amp;Firmar Tx multifirmas</translation>
-    </message>
-    <message>
-        <source>Transaction Hex:</source>
-        <translation>Hexadecimal de transacción:</translation>
-    </message>
-    <message>
-        <source>Sign the transaction from this wallet or from provided private keys</source>
-        <translation>Firma la transacción desde este monedero o desde llaves privadas provistas</translation>
-    </message>
-    <message>
-        <source>S&amp;ign</source>
-        <translation>F&amp;irmar</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;DISABLED until transaction has been signed enough times.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;DESACTIVADO hasta que la transacción se haya firmado suficientes veces.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>Co&amp;mmit</source>
-        <translation>Co&amp;nfirmar</translation>
-    </message>
-    <message>
-        <source>Add private keys to sign the transaction with</source>
-        <translation>Agregar llaves privadas para firmar la transacción</translation>
-    </message>
-    <message>
-        <source>Add Private &amp;Key</source>
-        <translation>Agregar &amp;llave privada</translation>
-    </message>
-    <message>
-        <source>Sign with only private keys (Not Recommened)</source>
-        <translation>Firmar solo con llaves privadas (No Recomendado)</translation>
-    </message>
-    <message>
-        <source>Invalid Tx Hash.</source>
-        <translation>Hash Tx inválido.</translation>
-    </message>
-    <message>
-        <source>Vout position must be positive.</source>
-        <translation>La posición de Vout debe ser positiva.</translation>
-    </message>
-    <message>
-        <source>Maximum possible addresses reached. (15)</source>
-        <translation>Máxima cantidad de direcciones posibles alcanzadas. (15)</translation>
-    </message>
-    <message>
-        <source>Vout Position: </source>
-        <translation>Posición Vout:</translation>
-    </message>
-    <message>
-        <source>Amount: </source>
-        <translation>Cantidad:</translation>
-    </message>
-    <message>
-        <source>Maximum (15)</source>
-        <translation>Máximo (15)</translation>
+        <source>Could not locate address
+</source>
+        <translation>No se pudo localizar la dirección
+</translation>
     </message>
 </context>
 <context>
@@ -1805,7 +1544,7 @@ Por favor, tenga paciencia después de hacer clic en importar.</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
-        <translation>M&amp;onedero</translation>
+        <translation>&amp;Monedero</translation>
     </message>
     <message>
         <source>If you disable the spending of unconfirmed change, the change from a transaction&lt;br/&gt;cannot be used until that transaction has at least one confirmation.&lt;br/&gt;This also affects how your balance is computed.</source>
@@ -1833,7 +1572,7 @@ Por favor, tenga paciencia después de hacer clic en importar.</translation>
     </message>
     <message>
         <source>Automatically start Khrysus after logging in to the system.</source>
-        <translation>Arrancar Khrysus automáticamente después de identificarse en el sistema.</translation>
+        <translation>Arrancar Khrysus automáticamente después de identificarse en Windows.</translation>
     </message>
     <message>
         <source>&amp;Start Khrysus on system login</source>
@@ -1841,19 +1580,19 @@ Por favor, tenga paciencia después de hacer clic en importar.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
-        <translation>Mostrar las características de control de monedas, o no</translation>
+        <translation>Mostrar las características de control de monedas individuales, o no</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
-        <translation>Activar funciones de &amp;control de monedas</translation>
+        <translation>Activar funciones de control de &amp;monedas</translation>
     </message>
     <message>
         <source>Show additional tab listing all your masternodes in first sub-tab&lt;br/&gt;and all masternodes on the network in second sub-tab.</source>
-        <translation>Mostrar pestaña adicional listando todos sus masternodes en la primera sub-pestaña&lt;br/&gt;y todos los masternodes de la red en la segunda sub-pestaña.</translation>
+        <translation>Mostrar pestaña adicional listando todos sus nodos maestros en la primera sub-pestaña&lt;br/&gt;y todos los nodos maestros de la red en la segunda sub-pestaña.</translation>
     </message>
     <message>
         <source>Show Masternodes Tab</source>
-        <translation>Mostrar la pestaña de masternodes</translation>
+        <translation>Mostrar la pestaña de Nodos Maestros</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
@@ -1868,42 +1607,8 @@ Por favor, tenga paciencia después de hacer clic en importar.</translation>
         <translation>El idioma de interface de usuario puede seleccionarse aquí. Este ajuste tomará efecto después de reiniciar Khrysus.</translation>
     </message>
     <message>
-        <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/khrysus-project/khrysus-project-translations</source>
-        <translation>¿Falta su lenguaje o la traducción está incompleta? Contribuya con las traducciones aquí:
-https://www.transifex.com/khrysus-project/khrysus-project-translations</translation>
-    </message>
-    <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Mapear un puerto utilizando &amp;UPnP</translation>
-    </message>
-    <message>
-        <source>Enable automatic minting of KHRS units to zKHRS</source>
-        <translation>Activar el minting automática de unidades KHRS a zKHRS</translation>
-    </message>
-    <message>
-        <source>Enable zKHRS Automint</source>
-        <translation>Activar zKHRS Automint</translation>
-    </message>
-    <message>
-        <source>Percentage of incoming KHRS which get automatically converted to zKHRS via Zerocoin Protocol (min: 10%)</source>
-        <translation>Porcentaje de KHRS entrantes que serán automáticamente convertidos a zKHRS a través del Protocolo Zerocoin (mín: 10%)</translation>
-    </message>
-    <message>
-        <source>Percentage of autominted zKHRS</source>
-        <translation>Porcentaje de zKHRS autogenerados</translation>
-    </message>
-    <message>
-        <source>Wait with automatic conversion to Zerocoin until enough KHRS for this denomination is available</source>
-        <translation>Esperar con la conversión automática a Zerocoin hasta que hayan suficientes KHRS disponibles para este tamaño de billete</translation>
-    </message>
-    <message>
-        <source>Preferred Automint zKHRS Denomination</source>
-        <translation>Tamaño de billete zKHRS preferido en la creación automática de dinero</translation>
-    </message>
-    <message>
-        <source>Stake split threshold:</source>
-        <translation>Parte limite de stake:</translation>
     </message>
     <message>
         <source>Connect to the Khrysus network through a SOCKS5 proxy.</source>
@@ -1954,8 +1659,8 @@ https://www.transifex.com/khrysus-project/khrysus-project-translations</translat
         <translation>&amp;Idioma de la interface de usuario:</translation>
     </message>
     <message>
-        <source>User Interface Theme:</source>
-        <translation>Tema de la Interface de Usuario:</translation>
+        <source>&amp;Unit to show amounts in:</source>
+        <translation>&amp;Unidad para mostrar cantidades:</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
@@ -1964,10 +1669,6 @@ https://www.transifex.com/khrysus-project/khrysus-project-translations</translat
     <message>
         <source>Decimal digits</source>
         <translation>Dígitos decimales</translation>
-    </message>
-    <message>
-        <source>Hide empty balances</source>
-        <translation>Ocultar saldos vazios</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -1998,8 +1699,8 @@ https://www.transifex.com/khrysus-project/khrysus-project-translations</translat
         <translation>&amp;Cancelar</translation>
     </message>
     <message>
-        <source>Any</source>
-        <translation>Qualquer</translation>
+        <source>I don't care</source>
+        <translation>No me preocupa</translation>
     </message>
     <message>
         <source>default</source>
@@ -2029,14 +1730,6 @@ https://www.transifex.com/khrysus-project/khrysus-project-translations</translat
         <source>The supplied proxy address is invalid.</source>
         <translation>La dirección proxy indicada es inválida.</translation>
     </message>
-    <message>
-        <source>The supplied proxy port is invalid.</source>
-        <translation>El puerto proxy suministrado no es válido.</translation>
-    </message>
-    <message>
-        <source>The supplied proxy settings are invalid.</source>
-        <translation>La configuración del proxy suministrado no es válida.</translation>
-    </message>
 </context>
 <context>
     <name>OverviewPage</name>
@@ -2045,20 +1738,16 @@ https://www.transifex.com/khrysus-project/khrysus-project-translations</translat
         <translation>Formulario</translation>
     </message>
     <message>
+        <source>KHRY Balances</source>
+        <translation>Balances KHRY</translation>
+    </message>
+    <message>
         <source>Available:</source>
         <translation>Disponible:</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
         <translation>Tu balance actualmente disponible</translation>
-    </message>
-    <message>
-        <source>Total Balance, including all unavailable coins.</source>
-        <translation>Balance Total, incluidas todas las monedas no disponibles.</translation>
-    </message>
-    <message>
-        <source>KHRS Balance</source>
-        <translation>Balance KHRS</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2077,44 +1766,8 @@ https://www.transifex.com/khrysus-project/khrysus-project-translations</translat
         <translation>Recompensa de participación o de nodo maestro que aún no ha madurado</translation>
     </message>
     <message>
-        <source>Current locked balance in watch-only addresses</source>
-        <translation>Saldo bloqueado actual en direcciones solo de lectura</translation>
-    </message>
-    <message>
-        <source>Your current Khrysus balance, unconfirmed and immature transactions included</source>
-        <translation>Su balance Khrysus actual, transacciones no confirmadas e inmaduras incluidas</translation>
-    </message>
-    <message>
-        <source>zKHRS Balance</source>
-        <translation>Balance zKHRS</translation>
-    </message>
-    <message>
-        <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zKHRS are spendable.</source>
-        <translation>Maduración: más de 20 confirmaciones y más de 1 acuñación de la misma denominación después de acuñarse.
-Estas zKHRS son utilizables.</translation>
-    </message>
-    <message>
-        <source>Unconfirmed: less than 20 confirmations
-Immature: confirmed, but less than 1 mint of the same denomination after it was minted</source>
-        <translation>Sin confirmar: menos de 20 confirmaciones
-Inmaduro: confirmado, pero menos de 1 acuñación de la misma denominación después de ser acuñado</translation>
-    </message>
-    <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Khrysus network after a connection is established, but this process has not completed yet.</source>
         <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Khrysus después de establecer una conexión, pero este proceso aún no se ha completado.</translation>
-    </message>
-    <message>
-        <source>OVERVIEW</source>
-        <translation>VISIÓN DE CONJUNTO</translation>
-    </message>
-    <message>
-        <source>Combined Balance (including unconfirmed and immature coins)</source>
-        <translation>Balance combinados (incluidas las monedas no confirmadas e inmaduras)</translation>
-    </message>
-    <message>
-        <source>Combined Balance</source>
-        <translation>Balance Combinado</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -2122,11 +1775,15 @@ Inmaduro: confirmado, pero menos de 1 acuñación de la misma denominación desp
     </message>
     <message>
         <source>Staked or masternode rewards in watch-only addresses that has not yet matured</source>
-        <translation>Recompensa stake o recompensa de masternodes en direcciones de sólo lectura que todavía no han madurado</translation>
+        <translation>Recompensa de participación o de nodo maestro en direcciones de sólo lectura que todavía no han madurado</translation>
     </message>
     <message>
         <source>Total:</source>
         <translation>Total:</translation>
+    </message>
+    <message>
+        <source>Your current total balance</source>
+        <translation>Su balance total actual</translation>
     </message>
     <message>
         <source>Current total balance in watch-only addresses</source>
@@ -2145,50 +1802,12 @@ Inmaduro: confirmado, pero menos de 1 acuñación de la misma denominación desp
         <translation>Disponible:</translation>
     </message>
     <message>
-        <source>Locked KHRS or Masternode collaterals. These are excluded from zKHRS minting.</source>
-        <translation>KHRS bloqueado o Masternode colaterales. Estos están excluidos de minting zKHRS.</translation>
-    </message>
-    <message>
-        <source>Locked:</source>
-        <translation>Bloqueado:</translation>
-    </message>
-    <message>
-        <source>Unconfirmed:</source>
-        <translation>Sin confirmar:</translation>
-    </message>
-    <message>
-        <source>Your current zKHRS balance, unconfirmed and immature zKHRS included.</source>
-        <translation>Su balance zKHRS actual, zKHRS inmaduro e inmaduro incluido.</translation>
-    </message>
-    <message>
         <source>Recent transactions</source>
         <translation>Transacciones recientes</translation>
     </message>
     <message>
         <source>out of sync</source>
         <translation>desincronizado</translation>
-    </message>
-    <message>
-        <source>Current percentage of zKHRS.
-If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
-</source>
-        <translation>Porcentaje actual de zKHRS.
-Si AutoMint está habilitado, este porcentaje se establecerá alrededor del porcentaje de AutoMint configurado (predeterminado = 10%).
-</translation>
-    </message>
-    <message>
-        <source>AutoMint is currently enabled and set to </source>
-        <translation>AutoMint está actualmente habilitado y configurado en</translation>
-    </message>
-    <message>
-        <source>To disable AutoMint add 'enablezeromint=0' in khrysus.conf.</source>
-        <translation>Para desactivar AutoMint agrega 'enablezeromint=0' en khrysus.conf.</translation>
-    </message>
-    <message>
-        <source>AutoMint is currently disabled.
-To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in khrysus.conf</source>
-        <translation>AutoMint está actualmente desactivado.
-Para habilitar AutoMint cambie 'enablezeromint = 0' a 'enablezeromint = 1' en khrysus.conf</translation>
     </message>
 </context>
 <context>
@@ -2218,8 +1837,8 @@ Para habilitar AutoMint cambie 'enablezeromint = 0' a 'enablezeromint = 1' en kh
         <translation>No se puede iniciar khrysus: módulo click-to-pay</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Khrysus address or malformed URI parameters.</source>
-        <translation>¡El identificador de la dirección no puede ser analizado! Esto puede ser causado por una dirección Khrysus inválida o parámetros del identificador malformados.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid KHRY address or malformed URI parameters.</source>
+        <translation>¡El identificador de la dirección no puede ser analizado! Esto puede ser causado por una dirección KHRY inválida o parámetros del identificador malformados.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2298,555 +1917,14 @@ Para habilitar AutoMint cambie 'enablezeromint = 0' a 'enablezeromint = 1' en kh
     </message>
 </context>
 <context>
-    <name>PrivacyDialog</name>
-    <message>
-        <source>Zerocoin Actions:</source>
-        <translation>Acciones Zerocoin:</translation>
-    </message>
-    <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Khrysus network after a connection is established, but this process has not completed yet.</source>
-        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Khrysus después de establecer una conexión, pero este proceso aún no se ha completado.</translation>
-    </message>
-    <message>
-        <source>Mint Zerocoin</source>
-        <translation>Creación de moneda Zerocoin</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>zKHRS</source>
-        <translation>zKHRS</translation>
-    </message>
-    <message>
-        <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
-        <translation>Resetear la base de datos del monedero Zerocoin. Esta opción borra transacciones que no consiguieron salir publicadas en el blockchain.</translation>
-    </message>
-    <message>
-        <source>Reset</source>
-        <translation>Reiniciar</translation>
-    </message>
-    <message>
-        <source>Rescan the complete blockchain for  Zerocoin mints and their meta-data.</source>
-        <translation>Reescanear el blockchain entero buscando Zerocoin mints y su meta-datos.</translation>
-    </message>
-    <message>
-        <source>ReScan</source>
-        <translation>ReeScanear</translation>
-    </message>
-    <message>
-        <source>Status and/or Mesages from the last Mint Action.</source>
-        <translation>Estado y/o Mensajes de la última acción mint.</translation>
-    </message>
-    <message>
-        <source>PRIVACY</source>
-        <translation>PRIVACIDAD</translation>
-    </message>
-    <message>
-        <source>zKHRS Control</source>
-        <translation>Control zKHRS</translation>
-    </message>
-    <message>
-        <source>zKHRS Selected:</source>
-        <translation>zKHRS Seleccionados:</translation>
-    </message>
-    <message>
-        <source>Quantity Selected:</source>
-        <translation>Cantidad Seleccionada:</translation>
-    </message>
-    <message>
-        <source>Spend Zerocoin. Without 'Pay To:' address creates payments to yourself.</source>
-        <translation>Gastar Zerocoin. Sin direcciones "Pagar a:", esto creará pagos a usted mismo.</translation>
-    </message>
-    <message>
-        <source>Spend Zerocoin</source>
-        <translation>Gastar Zerocoin</translation>
-    </message>
-    <message>
-        <source>Available (mature and spendable) zKHRS for spending</source>
-        <translation>zKHRS disponible (maduro y gastable) para gastar</translation>
-    </message>
-    <message>
-        <source>Available Balance:</source>
-        <translation>Balance disponible:</translation>
-    </message>
-    <message>
-        <source>Available (mature and spendable) zKHRS for spending
-
-zKHRS are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>zKHRS disponible (maduro y gastable) para gastar
-
-zKHRS son maduros cuando tienen más de 20 confirmaciones Y más de 2 mints de la misma denominación después que ellos fueron minted</translation>
-    </message>
-    <message>
-        <source>0 zKHRS</source>
-        <translation>0 zKHRS</translation>
-    </message>
-    <message>
-        <source>Pay &amp;To:</source>
-        <translation>Pagar &amp;A:</translation>
-    </message>
-    <message>
-        <source>The Khrysus address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>La dirección Khrysus a la que enviar el pago. Si se deja en blanco, crea un pago a usted mismo.</translation>
-    </message>
-    <message>
-        <source>Choose previously used address</source>
-        <translation>Escoja una dirección usada previamente</translation>
-    </message>
-    <message>
-        <source>Alt+A</source>
-        <translation>Alt+A</translation>
-    </message>
-    <message>
-        <source>Paste address from clipboard</source>
-        <translation>Pegar dirección desde el portapapeles</translation>
-    </message>
-    <message>
-        <source>Alt+P</source>
-        <translation>Alt+P</translation>
-    </message>
-    <message>
-        <source>&amp;Label:</source>
-        <translation>&amp;Etiqueta:</translation>
-    </message>
-    <message>
-        <source>Enter a label for this address to add it to the list of used addresses</source>
-        <translation>Introduzca una etiqueta para esta dirección para añadirla a la lista de direcciones utilizadas</translation>
-    </message>
-    <message>
-        <source>A&amp;mount:</source>
-        <translation>Cantidad:</translation>
-    </message>
-    <message>
-        <source>Convert Change to Zerocoin (might cost additional fees)</source>
-        <translation>Convertir el Cambio a Zerocoin (puede costar alguna comisión adicional)</translation>
-    </message>
-    <message>
-        <source>If checked, the wallet tries to minimize the returning change instead of minimizing the number of spent denominations.</source>
-        <translation>Si está marcado, el monedero intenta minimizar el cambio de vuelta en lugar de minimizar el numero de denominaciones necesarios.</translation>
-    </message>
-    <message>
-        <source>Minimize Change</source>
-        <translation>Minimizar Cambio</translation>
-    </message>
-    <message>
-        <source>Information about the available Zerocoin funds.</source>
-        <translation>Información sobre los fondos Zerocoin disponibles.</translation>
-    </message>
-    <message>
-        <source>Zerocoin Stats:</source>
-        <translation>Estadísticas Zerocoin:</translation>
-    </message>
-    <message>
-        <source>Total Balance including unconfirmed and immature zKHRS</source>
-        <translation>Balance total incluyendo zKHRS no confirmado e inmaduro</translation>
-    </message>
-    <message>
-        <source>Total Zerocoin  Balance:</source>
-        <translation>Balance total de Zerocoin:</translation>
-    </message>
-    <message>
-        <source>Denominations with value 1:</source>
-        <translation>Denominaciones con valor 1:</translation>
-    </message>
-    <message>
-        <source>Denom. with value 1:</source>
-        <translation>Denom. con valor 1:</translation>
-    </message>
-    <message>
-        <source>Unconfirmed: less than 20 confirmations
-Immature: confirmed, but less than 1 mint of the same denomination after it was minted</source>
-        <translation>Sin confirmar: menos de 20 confirmaciones
-Inmaduro: confirmado, pero menos de 1 acuñación de la misma denominación después de ser acuñado</translation>
-    </message>
-    <message>
-        <source>Show the current status of automatic zKHRS minting.
-
-To change the status (restart required):
-- enable: add 'enablezeromint=1' to khrysus.conf
-- disable: add 'enablezeromint=0' to khrysus.conf
-
-To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zKHRS
-
-</source>
-        <translation>Muestra el estado actual de zKHRS minting automática.
-
-Para cambiar el estado (reinicio requerido):
-- activar: añade 'enablezeromint = 1' en khrysus.conf
-- desctivar: añade 'enablezeromint = 0' en khrysus.conf
-
-Para cambiar el porcentaje (no se requiere reiniciar):
-- menú Configuración-&gt;Opciones-&gt;Porcentaje de zKHRS automint
-</translation>
-    </message>
-    <message>
-        <source>AutoMint Status</source>
-        <translation>Estado de AutoMint</translation>
-    </message>
-    <message>
-        <source>Global Supply:</source>
-        <translation>Suministro Global:</translation>
-    </message>
-    <message>
-        <source>Denom. 1:</source>
-        <translation>Denom. 1:</translation>
-    </message>
-    <message>
-        <source>Denom. 5:</source>
-        <translation>Denom. 5:</translation>
-    </message>
-    <message>
-        <source>Denom. 10:</source>
-        <translation>Denom. 10:</translation>
-    </message>
-    <message>
-        <source>Denom. 50:</source>
-        <translation>Denom. 50:</translation>
-    </message>
-    <message>
-        <source>Denom. 100:</source>
-        <translation>Denom. 100:</translation>
-    </message>
-    <message>
-        <source>Denom. 500:</source>
-        <translation>Denom. 500:</translation>
-    </message>
-    <message>
-        <source>Denom. 1000:</source>
-        <translation>Denom. 1000:</translation>
-    </message>
-    <message>
-        <source>Denom. 5000:</source>
-        <translation>Denom. 5000:</translation>
-    </message>
-    <message>
-        <source>0 x</source>
-        <translation>0 x</translation>
-    </message>
-    <message>
-        <source>Denominations with value 5:</source>
-        <translation>Denominación con valor 5:</translation>
-    </message>
-    <message>
-        <source>Denom. with value 5:</source>
-        <translation>Denom. con valor 5:</translation>
-    </message>
-    <message>
-        <source>Denominations with value 10:</source>
-        <translation>Denominación con valor 10:</translation>
-    </message>
-    <message>
-        <source>Denom. with value 10:</source>
-        <translation>Denom. con valor 10:</translation>
-    </message>
-    <message>
-        <source>Denominations with value 50:</source>
-        <translation>Denominación con valor 50:</translation>
-    </message>
-    <message>
-        <source>Denom. with value 50:</source>
-        <translation>Denom. con valor 50:</translation>
-    </message>
-    <message>
-        <source>Denominations with value 100:</source>
-        <translation>Denominación con valor 100:</translation>
-    </message>
-    <message>
-        <source>Denom. with value 100:</source>
-        <translation>Denom. con valor 100:</translation>
-    </message>
-    <message>
-        <source>Denominations with value 500:</source>
-        <translation>Denominación con valor 500:</translation>
-    </message>
-    <message>
-        <source>Denom. with value 500:</source>
-        <translation>Denom. con valor 500:</translation>
-    </message>
-    <message>
-        <source>Denominations with value 1000:</source>
-        <translation>Denominación con valor 1000:</translation>
-    </message>
-    <message>
-        <source>Denom. with value 1000:</source>
-        <translation>Denom. con valor 1000:</translation>
-    </message>
-    <message>
-        <source>Denominations with value 5000:</source>
-        <translation>Denominación con valor 5000:</translation>
-    </message>
-    <message>
-        <source>Denom. with value 5000:</source>
-        <translation>Denom. con valor 5000:</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Prioridad:</translation>
-    </message>
-    <message>
-        <source>TextLabel</source>
-        <translation>EtiquetaDeTexto</translation>
-    </message>
-    <message>
-        <source>Fee:</source>
-        <translation>Comisión:</translation>
-    </message>
-    <message>
-        <source>Dust:</source>
-        <translation>Calderilla:</translation>
-    </message>
-    <message>
-        <source>no</source>
-        <translation>no</translation>
-    </message>
-    <message>
-        <source>Bytes:</source>
-        <translation>Bytes:</translation>
-    </message>
-    <message>
-        <source>Insufficient funds!</source>
-        <translation>¡Fondos insuficientes!</translation>
-    </message>
-    <message>
-        <source>Coins automatically selected</source>
-        <translation>Monedas seleccionadas automáticamente</translation>
-    </message>
-    <message>
-        <source>medium</source>
-        <translation>media</translation>
-    </message>
-    <message>
-        <source>Coin Control Features</source>
-        <translation>Funciones de Control de Monedas</translation>
-    </message>
-    <message>
-        <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
-        <translation>Si esto está activado, pero la dirección de cambio está vacía o es inválida, el cambio será mandado a una nueva dirección generada.</translation>
-    </message>
-    <message>
-        <source>Custom change address</source>
-        <translation>Dirección de cambio personalizada</translation>
-    </message>
-    <message>
-        <source>Amount After Fee:</source>
-        <translation>Cantidad Después de comisión:</translation>
-    </message>
-    <message>
-        <source>Change:</source>
-        <translation>Cambio:</translation>
-    </message>
-    <message>
-        <source>out of sync</source>
-        <translation>desincronizado</translation>
-    </message>
-    <message>
-        <source>Mint Status: Okay</source>
-        <translation>Estado de Creación de Moneda: Ok</translation>
-    </message>
-    <message>
-        <source>Starting ResetMintZerocoin: rescanning complete blockchain, this will need up to 30 minutes depending on your hardware.
-Please be patient...</source>
-        <translation>Ejecutando ResetMintZerocoin: reescaneando el blockchain entero, esto necesitará hasta 30 minutos dependiendo de su hardware.
-Por favor espere...</translation>
-    </message>
-    <message>
-        <source>zKHRS Spend #: </source>
-        <translation>Gastar zKHRS #: </translation>
-    </message>
-    <message>
-        <source>zKHRS Mint</source>
-        <translation>Acuñar zKHRS</translation>
-    </message>
-    <message>
-        <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
-        <translation>&lt;b&gt;ativado&lt;/b&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;b&gt;disabled&lt;/b&gt;.</source>
-        <translation>&lt;b&gt;Desativado&lt;/b&gt;.</translation>
-    </message>
-    <message>
-        <source> Configured target percentage: &lt;b&gt;</source>
-        <translation>Porcentaje objetivo configurado:</translation>
-    </message>
-    <message>
-        <source>zKHRS is currently disabled due to maintenance.</source>
-        <translation>zKHRS actualmente está desactivado debido al mantenimiento.</translation>
-    </message>
-    <message>
-        <source>zKHRS is currently undergoing maintenance.</source>
-        <translation>zKHRS se encuentra actualmente en mantenimiento.</translation>
-    </message>
-    <message>
-        <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
-        <translation>Billetes con valor &lt;b&gt; 1&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. with value &lt;b&gt;5&lt;/b&gt;:</source>
-        <translation>Billetes con valor &lt;b&gt; 5&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. with value &lt;b&gt;10&lt;/b&gt;:</source>
-        <translation>Billetes con valor &lt;b&gt; 10&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. with value &lt;b&gt;50&lt;/b&gt;:</source>
-        <translation>Billetes con valor &lt;b&gt;50&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. with value &lt;b&gt;100&lt;/b&gt;:</source>
-        <translation>Billetes con valor &lt;b&gt;100&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. with value &lt;b&gt;500&lt;/b&gt;:</source>
-        <translation>Billetes con valor &lt;b&gt;500&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. with value &lt;b&gt;1000&lt;/b&gt;:</source>
-        <translation>Billetes con valor &lt;b&gt;1000&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. with value &lt;b&gt;5000&lt;/b&gt;:</source>
-        <translation>Billetes con valor &lt;b&gt;5000&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>AutoMint Status:</source>
-        <translation>Status AutoMint:</translation>
-    </message>
-    <message>
-        <source>Denom. &lt;b&gt;1&lt;/b&gt;:</source>
-        <translation>Denom. &lt;b&gt;1&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. &lt;b&gt;5&lt;/b&gt;:</source>
-        <translation>Denom. &lt;b&gt;5&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. &lt;b&gt;10&lt;/b&gt;:</source>
-        <translation>Denom. &lt;b&gt;10&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. &lt;b&gt;50&lt;/b&gt;:</source>
-        <translation>Denom. &lt;b&gt;50&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. &lt;b&gt;100&lt;/b&gt;:</source>
-        <translation>Denom. &lt;b&gt;100&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. &lt;b&gt;500&lt;/b&gt;:</source>
-        <translation>Denom. &lt;b&gt;500&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. &lt;b&gt;1000&lt;/b&gt;:</source>
-        <translation>Denom. &lt;b&gt;1000&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. &lt;b&gt;5000&lt;/b&gt;:</source>
-        <translation>Denom. &lt;b&gt;5000&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Duration: </source>
-        <translation>Duración:</translation>
-    </message>
-    <message>
-        <source> sec.
-</source>
-        <translation>seg.
-</translation>
-    </message>
-    <message>
-        <source>Starting ResetSpentZerocoin: </source>
-        <translation>Iniciando ResetSpentZerocoin:</translation>
-    </message>
-    <message>
-        <source>No 'Pay To' address provided, creating local payment</source>
-        <translation>No se especificó drección 'Pagar A', por lo que asumimos un pago local</translation>
-    </message>
-    <message>
-        <source>Invalid Khrysus Address</source>
-        <translation>Dirección Khrysus Inválida</translation>
-    </message>
-    <message>
-        <source>Invalid Send Amount</source>
-        <translation>Cantidad a Enviar Inválida</translation>
-    </message>
-    <message>
-        <source>Confirm additional Fees</source>
-        <translation>Confirmar comisiónes adicionales</translation>
-    </message>
-    <message>
-        <source>Are you sure you want to send?&lt;br /&gt;&lt;br /&gt;</source>
-        <translation>¿Está seguro que desea enviar?&lt;br /&gt;&lt;br /&gt;</translation>
-    </message>
-    <message>
-        <source> to address </source>
-        <translation>a la dirección</translation>
-    </message>
-    <message>
-        <source> to a newly generated (unused and therefore anonymous) local address &lt;br /&gt;</source>
-        <translation>a una dirección local recién generada (no utilizada y, por lo tanto, anónima)&lt;br /&gt;</translation>
-    </message>
-    <message>
-        <source>Confirm send coins</source>
-        <translation>Confirmar enviar monedas</translation>
-    </message>
-    <message>
-        <source>Failed to fetch mint associated with serial hash</source>
-        <translation>Error al buscar la asociación del acuñado con el hash serial</translation>
-    </message>
-    <message>
-        <source>Spend Zerocoin failed with status = </source>
-        <translation>Gastar Zerocoin falló con estado =</translation>
-    </message>
-    <message>
-        <source>denomination: </source>
-        <translation>Denominación:</translation>
-    </message>
-    <message>
-        <source>serial: </source>
-        <translation>serial:</translation>
-    </message>
-    <message>
-        <source>Spend is 1 of : </source>
-        <translation>Gasto 1 de :</translation>
-    </message>
-    <message>
-        <source>value out: </source>
-        <translation>valor salida:</translation>
-    </message>
-    <message>
-        <source>address: </source>
-        <translation>dirección:</translation>
-    </message>
-    <message>
-        <source>Sending successful, return code: </source>
-        <translation>Envío correcto, código devuelto: </translation>
-    </message>
-    <message>
-        <source>txid: </source>
-        <translation>txid:</translation>
-    </message>
-    <message>
-        <source>fee: </source>
-        <translation>comisión:</translation>
-    </message>
-</context>
-<context>
-    <name>ProposalFrame</name>
-    </context>
-<context>
     <name>QObject</name>
     <message>
         <source>Amount</source>
         <translation>Cantidad</translation>
     </message>
     <message>
-        <source>Enter a Khrysus address (e.g. %1)</source>
-        <translation>Introduzca una dirección Khrysus (p.e. %1)</translation>
+        <source>Enter a KHRY address (e.g. %1)</source>
+        <translation>Introduzca una dirección KHRY (p.e. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2869,10 +1947,6 @@ Por favor espere...</translation>
         <translation>RED</translation>
     </message>
     <message>
-        <source>BLOOM</source>
-        <translation>BLOOM</translation>
-    </message>
-    <message>
         <source>UNKNOWN</source>
         <translation>DESCONOCIDO</translation>
     </message>
@@ -2888,11 +1962,7 @@ Por favor espere...</translation>
         <source>%1 ms</source>
         <translation>%1 ms</translation>
     </message>
-    <message>
-        <source>Khrysus Core</source>
-        <translation>Khrysus Core</translation>
-    </message>
-    </context>
+</context>
 <context>
     <name>QRImageWidget</name>
     <message>
@@ -2984,7 +2054,7 @@ Por favor espere...</translation>
     </message>
     <message>
         <source>Block chain</source>
-        <translation>Blockchain</translation>
+        <translation>Cadena de bloques</translation>
     </message>
     <message>
         <source>Open the Khrysus debug log file from the current data directory. This can take a few seconds for large log files.</source>
@@ -2992,7 +2062,7 @@ Por favor espere...</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
-        <translation>Número de masternodes</translation>
+        <translation>Número de Nodos Maestros</translation>
     </message>
     <message>
         <source>&amp;Console</source>
@@ -3024,19 +2094,11 @@ Por favor espere...</translation>
     </message>
     <message>
         <source>&amp;Peers</source>
-        <translation>&amp;Peers</translation>
-    </message>
-    <message>
-        <source>Banned peers</source>
-        <translation>Peers proibidos</translation>
+        <translation>&amp;Nodos conectados</translation>
     </message>
     <message>
         <source>Select a peer to view detailed information.</source>
-        <translation>Seleccione un peer conectado para ver información detallada.</translation>
-    </message>
-    <message>
-        <source>Whitelisted</source>
-        <translation>En lista blance</translation>
+        <translation>Seleccione un nodo conectado para ver información detallada.</translation>
     </message>
     <message>
         <source>Direction</source>
@@ -3053,6 +2115,14 @@ Por favor espere...</translation>
     <message>
         <source>Services</source>
         <translation>Servicios</translation>
+    </message>
+    <message>
+        <source>Starting Height</source>
+        <translation>Altura de inicio</translation>
+    </message>
+    <message>
+        <source>Sync Height</source>
+        <translation>Altura de sincronía</translation>
     </message>
     <message>
         <source>Ban Score</source>
@@ -3087,48 +2157,8 @@ Por favor espere...</translation>
         <translation>Reparar &amp;Monedero</translation>
     </message>
     <message>
-        <source>Delete local Blockchain Folders</source>
-        <translation>Eliminar directorios locales de Blockchain</translation>
-    </message>
-    <message>
         <source>Wallet In Use:</source>
         <translation>Monedero En Uso:</translation>
-    </message>
-    <message>
-        <source>Starting Block</source>
-        <translation>Bloque de empiezo</translation>
-    </message>
-    <message>
-        <source>Synced Headers</source>
-        <translation>Encabezados sincronizados</translation>
-    </message>
-    <message>
-        <source>Synced Blocks</source>
-        <translation>Bloques sincronizados</translation>
-    </message>
-    <message>
-        <source>The duration of a currently outstanding ping.</source>
-        <translation>La duración de un ping actualmente pendiente.</translation>
-    </message>
-    <message>
-        <source>Ping Wait</source>
-        <translation>Espera de Ping</translation>
-    </message>
-    <message>
-        <source>Time Offset</source>
-        <translation>Desplazamiento de tiempo</translation>
-    </message>
-    <message>
-        <source>Custom Backup Path:</source>
-        <translation>Ruta personalizada de la copia de seguridad:</translation>
-    </message>
-    <message>
-        <source>Custom zKHRS Backup Path:</source>
-        <translation>Ruta personalizada de la copia de seguridad zKHRS:</translation>
-    </message>
-    <message>
-        <source>Custom Backups Threshold:</source>
-        <translation>Límite de copias de seguridad personalizadas:</translation>
     </message>
     <message>
         <source>Salvage wallet</source>
@@ -3140,11 +2170,11 @@ Por favor espere...</translation>
     </message>
     <message>
         <source>Rescan blockchain files</source>
-        <translation>Reescanear ficheros del blockchain</translation>
+        <translation>Reescanear ficheros de cadena de bloques</translation>
     </message>
     <message>
         <source>Rescan the block chain for missing wallet transactions.</source>
-        <translation>Reescanear el blockchain buscando transacciones que faltan en el monedero.</translation>
+        <translation>Reescanear la cadena de bloques buscando transacciones que faltan en el monedero.</translation>
     </message>
     <message>
         <source>Recover transactions 1</source>
@@ -3152,7 +2182,7 @@ Por favor espere...</translation>
     </message>
     <message>
         <source>Recover transactions from blockchain (keep meta-data, e.g. account owner).</source>
-        <translation>Recuperar transacciones del blockchain (mantener meta-datos, p.e. propietario de la cuenta,etc).</translation>
+        <translation>Recuperar transacciones desde la cadena de bloques (mantener meta-datos, p.e. propietario de la cuenta,etc).</translation>
     </message>
     <message>
         <source>Recover transactions 2</source>
@@ -3160,7 +2190,7 @@ Por favor espere...</translation>
     </message>
     <message>
         <source>Recover transactions from blockchain (drop meta-data).</source>
-        <translation>Recuperar transacciones del blockchain (ignorar meta-datos).</translation>
+        <translation>Recuperar transacciones desde la cadena de bloques (ignorar meta-datos).</translation>
     </message>
     <message>
         <source>Upgrade wallet format</source>
@@ -3168,15 +2198,7 @@ Por favor espere...</translation>
     </message>
     <message>
         <source>Rebuild block chain index from current blk000??.dat files.</source>
-        <translation>Reconstruir el índice del blockchain desde los archivos blk000??.dat actuales.</translation>
-    </message>
-    <message>
-        <source>-resync:</source>
-        <translation>resincronizando:</translation>
-    </message>
-    <message>
-        <source>Deletes all local blockchain folders so the wallet synchronizes from scratch.</source>
-        <translation>Eliminar todos los directorios locales del blockchain y sincronizar el monedero desde el principio</translation>
+        <translation>Reconstruir el índice de la cadena de bloques desde los archivos blk000??.dat actuales.</translation>
     </message>
     <message>
         <source>The buttons below will restart the wallet with command-line options to repair the wallet, fix issues with corrupt blockhain files or missing/obsolete transactions.</source>
@@ -3207,52 +2229,8 @@ Por favor espere...</translation>
         <translation>Bienvenido a la consola RPC de Khrysus.</translation>
     </message>
     <message>
-        <source>&amp;Disconnect Node</source>
-        <translation>&amp;Desconectar nodo</translation>
-    </message>
-    <message>
-        <source>Ban Node for</source>
-        <translation>Prohibir nodo por </translation>
-    </message>
-    <message>
-        <source>1 &amp;hour</source>
-        <translation>1 &amp;hora</translation>
-    </message>
-    <message>
-        <source>1 &amp;day</source>
-        <translation>1 &amp;día</translation>
-    </message>
-    <message>
-        <source>1 &amp;week</source>
-        <translation>1 &amp;semana</translation>
-    </message>
-    <message>
-        <source>1 &amp;year</source>
-        <translation>1 &amp;año</translation>
-    </message>
-    <message>
-        <source>&amp;Unban Node</source>
-        <translation>&amp;  No prohibir nodo</translation>
-    </message>
-    <message>
-        <source>This will delete your local blockchain folders and the wallet will synchronize the complete Blockchain from scratch.&lt;br /&gt;&lt;br /&gt;</source>
-        <translation>Esto eliminará las carpetas de blockchain locales y el monedero sincronizará la cadena de bloques completa desde cero.&lt;br /&gt;&lt;br /&gt;</translation>
-    </message>
-    <message>
-        <source>This needs quite some time and downloads a lot of data.&lt;br /&gt;&lt;br /&gt;</source>
-        <translation>Esto requiere bastante tiempo y la descarga una gran cantidad de datos.&lt;br /&gt;&lt;br /&gt;</translation>
-    </message>
-    <message>
-        <source>Your transactions and funds will be visible again after the download has completed.&lt;br /&gt;&lt;br /&gt;</source>
-        <translation>Sus transacciones y fondos serán visibles nuevamente después de que se haya completado la descarga.&lt;br /&gt;&lt;br /&gt;</translation>
-    </message>
-    <message>
-        <source>Do you want to continue?.&lt;br /&gt;</source>
-        <translation>¿Desea continuar?.&lt;br /&gt;</translation>
-    </message>
-    <message>
-        <source>Confirm resync Blockchain</source>
-        <translation>Confirmar resincronización del Blockchain</translation>
+        <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
+        <translation>Use las teclas arriba y abajo para navegar por la historia, y &lt;b&gt;Ctrl-L&lt;/b&gt; para limpiar la pantalla.</translation>
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
@@ -3275,12 +2253,8 @@ Por favor espere...</translation>
         <translation>%1 GB</translation>
     </message>
     <message>
-        <source>(node id: %1)</source>
-        <translation>(node id: %1)</translation>
-    </message>
-    <message>
         <source>via %1</source>
-        <translation>vía %1</translation>
+        <translation>via %1</translation>
     </message>
     <message>
         <source>never</source>
@@ -3295,16 +2269,12 @@ Por favor espere...</translation>
         <translation>Salientes</translation>
     </message>
     <message>
-        <source>Yes</source>
-        <translation>Sí</translation>
-    </message>
-    <message>
-        <source>No</source>
-        <translation>No</translation>
-    </message>
-    <message>
         <source>Unknown</source>
         <translation>Desconocido</translation>
+    </message>
+    <message>
+        <source>Fetching...</source>
+        <translation>Descargando...</translation>
     </message>
 </context>
 <context>
@@ -3326,16 +2296,8 @@ Por favor espere...</translation>
         <translation>Una etiqueta opcional a asociar con la nueva dirección de recepción.</translation>
     </message>
     <message>
-        <source>A&amp;mount:</source>
-        <translation>Cantidad:</translation>
-    </message>
-    <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Khrysus network.</source>
         <translation>Un mensaje opcional a adjuntar a la solicitud de pago, que será mostrado cuando se abra la solicitud. Nota: El mensaje no se envía junto al pago por la red Khrysus.</translation>
-    </message>
-    <message>
-        <source>RECEIVE</source>
-        <translation>RECIBIR</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Khrysus network.</source>
@@ -3352,6 +2314,10 @@ Por favor espere...</translation>
     <message>
         <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
         <translation>Una cantidad opcional a solicitar. Deje esto vacío o en cero para no pedir una cantidad específica.</translation>
+    </message>
+    <message>
+        <source>&amp;Amount:</source>
+        <translation>&amp;Cantidad:</translation>
     </message>
     <message>
         <source>&amp;Request payment</source>
@@ -3396,10 +2362,6 @@ Por favor espere...</translation>
     <message>
         <source>Copy amount</source>
         <translation>Copiar cantidad</translation>
-    </message>
-    <message>
-        <source>Copy address</source>
-        <translation>Copiar dirección</translation>
     </message>
 </context>
 <context>
@@ -3472,10 +2434,6 @@ Por favor espere...</translation>
         <translation>Mensaje</translation>
     </message>
     <message>
-        <source>Address</source>
-        <translation>Dirección</translation>
-    </message>
-    <message>
         <source>Amount</source>
         <translation>Cantidad</translation>
     </message>
@@ -3499,10 +2457,6 @@ Por favor espere...</translation>
         <translation>Enviar Monedas</translation>
     </message>
     <message>
-        <source>SEND</source>
-        <translation>ENVIAR</translation>
-    </message>
-    <message>
         <source>Coin Control Features</source>
         <translation>Funciones de Control de Monedas</translation>
     </message>
@@ -3516,11 +2470,11 @@ Por favor espere...</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>Bytes:</translation>
+        <translation>Octetos:</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Suma:</translation>
+        <translation>Cantidad:</translation>
     </message>
     <message>
         <source>Priority:</source>
@@ -3544,7 +2498,7 @@ Por favor espere...</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Después de Comisión:</translation>
+        <translation>Con Comisión:</translation>
     </message>
     <message>
         <source>Change:</source>
@@ -3571,8 +2525,8 @@ Por favor espere...</translation>
         <translation>Tamaño de UTXO:</translation>
     </message>
     <message>
-        <source>0 KHRS</source>
-        <translation>0 KHRS</translation>
+        <source>0 KHRY</source>
+        <translation>0 KHRY</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3596,7 +2550,7 @@ Por favor espere...</translation>
     </message>
     <message>
         <source>total at least</source>
-        <translation>total al menos</translation>
+        <translation>total por lo menos</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -3611,28 +2565,16 @@ Por favor espere...</translation>
         <translation>(La comisión automática no se ha inicializado todavía. Esto normalmente necesita unos cuantos bloques...)</translation>
     </message>
     <message>
-        <source>SwiftX</source>
-        <translation>SwiftX</translation>
-    </message>
-    <message>
         <source>Confirmation time:</source>
         <translation>Tiempo de confirmación:</translation>
     </message>
     <message>
-        <source>Open Coin Control...</source>
-        <translation>Abrir Control de Monedas...</translation>
+        <source>If the custom fee is set to 1000 uKHRYs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uKHRYs in fee,&lt;br /&gt;while "at least" pays 1000 uKHRYs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Si la comisión personalizada se fija en 1000 uKHRYs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uKHRYs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uKHRYs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
     </message>
     <message>
-        <source>Coins automatically selected</source>
-        <translation>Monedas seleccionadas automáticamente</translation>
-    </message>
-    <message>
-        <source>If the custom fee is set to 1000 uKHRSs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uKHRSs in fee,&lt;br /&gt;while "at least" pays 1000 uKHRSs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Si la comisión personalizada se fija en 1000 uKHRSs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uKHRSs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uKHRSs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
-    </message>
-    <message>
-        <source>If the custom fee is set to 1000 uKHRSs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uKHRSs in fee,&lt;br /&gt;while "total at least" pays 1000 uKHRSs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Si la comisión personalizada se fija en 1000 uKHRSs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uKHRSs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uKHRSs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uKHRYs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uKHRYs in fee,&lt;br /&gt;while "total at least" pays 1000 uKHRYs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Si la comisión personalizada se fija en 1000 uKHRYs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uKHRYs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uKHRYs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Khrysus transactions than the network can process.</source>
@@ -3680,11 +2622,11 @@ Por favor espere...</translation>
     </message>
     <message>
         <source>Add &amp;Recipient</source>
-        <translation>Añadir Destinatario</translation>
+        <translation>Añadir Destinata&amp;rio</translation>
     </message>
     <message>
-        <source>Anonymized KHRS</source>
-        <translation>KHRS anonimizados</translation>
+        <source>SwiftTX</source>
+        <translation>SwiftTX</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -3731,8 +2673,20 @@ Por favor espere...</translation>
         <translation>La herramienta de división de bloques no funciona con varias direcciones. Inténtelo otra vez.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Khrysus address</source>
-        <translation>Advertencia: Direcciones Khrysus inválidas</translation>
+        <source>using</source>
+        <translation>usando</translation>
+    </message>
+    <message>
+        <source>Warning: Invalid KHRY address</source>
+        <translation>Advertencia: Direcciones KHRY inválidas</translation>
+    </message>
+    <message>
+        <source>any available funds (not recommended)</source>
+        <translation>cualquier fondo disponible (no recomendado)</translation>
+    </message>
+    <message>
+        <source>and SwiftTX</source>
+        <translation>y SwiftTX</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -3761,10 +2715,6 @@ Por favor espere...</translation>
     <message>
         <source>The recipient address is not valid, please recheck.</source>
         <translation>La dirección de destino no es válida, por favor compruébelo de nuevo.</translation>
-    </message>
-    <message>
-        <source>using SwiftX</source>
-        <translation>usando o SwiftX</translation>
     </message>
     <message>
         <source> split into %1 outputs using the UTXO splitter.</source>
@@ -3799,14 +2749,6 @@ Por favor espere...</translation>
         <translation>¡La transacción fue rechazada! Esto puede ocurrir si alguna de sus monedas ya se gastó con anterioridad, por ejemplo, si estuvo usted usando una copia de su monedero wallet.dat y gastó allí monedas pero no las marcó como gastadas aquí.</translation>
     </message>
     <message>
-        <source>Error: The wallet was unlocked only to anonymize coins.</source>
-        <translation>Error: El monedero se desbloqueó sólo para anonimizar monedas.</translation>
-    </message>
-    <message>
-        <source>Error: The wallet was unlocked only to anonymize coins. Unlock canceled.</source>
-        <translation>Error: El monedero ya fue desbloqueado para anonimizar monedas. El desbloqueo total se ha cancelado.</translation>
-    </message>
-    <message>
         <source>Pay only the minimum fee of %1</source>
         <translation>Pagar sólo la comisión mínima de %1</translation>
     </message>
@@ -3830,8 +2772,8 @@ Por favor espere...</translation>
         <translation>Pagar &amp;A:</translation>
     </message>
     <message>
-        <source>The Khrysus address to send the payment to</source>
-        <translation>La dirección Khrysus a la cual enviar el pago</translation>
+        <source>The KHRY address to send the payment to</source>
+        <translation>La dirección KHRY a la cual enviar el pago</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3839,7 +2781,7 @@ Por favor espere...</translation>
     </message>
     <message>
         <source>Alt+A</source>
-        <translation>Alt+A</translation>
+        <translation>Alt + A</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
@@ -3847,7 +2789,7 @@ Por favor espere...</translation>
     </message>
     <message>
         <source>Alt+P</source>
-        <translation>Alt+P</translation>
+        <translation>Alt + P</translation>
     </message>
     <message>
         <source>Remove this entry</source>
@@ -3863,15 +2805,15 @@ Por favor espere...</translation>
     </message>
     <message>
         <source>A&amp;mount:</source>
-        <translation>Cantidad:</translation>
+        <translation>Ca&amp;ntidad:</translation>
     </message>
     <message>
         <source>Message:</source>
         <translation>Mensaje:</translation>
     </message>
     <message>
-        <source>A message that was attached to the Khrysus: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Khrysus network.</source>
-        <translation>Un mensaje adjunto al Khrysus: En recurso web especificado será guardado junto a la transacción para su referencia. Nota: Este mensaje no se enviará por la red Khrysus.</translation>
+        <source>A message that was attached to the khrysus: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Khrysus network.</source>
+        <translation>Un mensaje adjunto al khrysus: En recurso web especificado será guardado junto a la transacción para su referencia. Nota: Este mensaje no se enviará por la red Khrysus.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3920,8 +2862,8 @@ Por favor espere...</translation>
         <translation>Usted puede firmar mensajes con su dirección para probar que son auténticos. Tenga cuidado con firmar algo corto o vago como "hola", pues los ataques de phising pueden engañarle para que firme su identidad para ellos. Sólo firme textos detallados con los que esté de acuerdo.</translation>
     </message>
     <message>
-        <source>The Khrysus address to sign the message with</source>
-        <translation>La dirección Khrysus con la que desee firmar el mensaje</translation>
+        <source>The KHRY address to sign the message with</source>
+        <translation>La dirección KHRY con la que desee firmar el mensaje</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3929,7 +2871,7 @@ Por favor espere...</translation>
     </message>
     <message>
         <source>Alt+A</source>
-        <translation>Alt+A</translation>
+        <translation>Alt + A</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
@@ -3937,7 +2879,7 @@ Por favor espere...</translation>
     </message>
     <message>
         <source>Alt+P</source>
-        <translation>Alt+P</translation>
+        <translation>Alt + P</translation>
     </message>
     <message>
         <source>Enter the message you want to sign here</source>
@@ -3952,16 +2894,16 @@ Por favor espere...</translation>
         <translation>Copiar la firma actual al portapapeles del sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Khrysus address</source>
-        <translation>Firme el mensaje para demostrar que eres el propietario de esta dirección Khrysus</translation>
+        <source>Sign the message to prove you own this KHRY address</source>
+        <translation>Firme el mensaje para demostrar que eres el propietario de esta dirección KHRY</translation>
     </message>
     <message>
-        <source>The Khrysus address the message was signed with</source>
-        <translation>La dirección Khrysus con la que se firmó el mensaje</translation>
+        <source>The KHRY address the message was signed with</source>
+        <translation>La dirección KHRY con la que se firmó el mensaje</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Khrysus address</source>
-        <translation>Verifica el mensaje para asegurar que fue firmado con la dirección Khrysus especificada</translation>
+        <source>Verify the message to ensure it was signed with the specified KHRY address</source>
+        <translation>Verifica el mensaje para asegurar que fue firmado con la dirección KHRY especificada</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -4048,7 +2990,7 @@ Por favor espere...</translation>
     <name>SplashScreen</name>
     <message>
         <source>Khrysus Core</source>
-        <translation>Khrysus Core</translation>
+        <translation>Núcleo Khrysus</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -4061,6 +3003,10 @@ Por favor espere...</translation>
     <message>
         <source>The Dash Core developers</source>
         <translation>Los desarrolladores de Dash Core</translation>
+    </message>
+    <message>
+        <source>The PIVX Core developers</source>
+        <translation>Los desarrolladores de PIVX Core</translation>
     </message>
     <message>
         <source>The Khrysus Core developers</source>
@@ -4089,6 +3035,18 @@ Por favor espere...</translation>
         <translation>conflictivo (bloque huérfano?)</translation>
     </message>
     <message>
+        <source>%1/offline (verified via swifttx)</source>
+        <translation>%1/offline (verificado via swifttx)</translation>
+    </message>
+    <message>
+        <source>%1/confirmed (verified via swifttx)</source>
+        <translation>%1/confirmado (verificado via swifttx)</translation>
+    </message>
+    <message>
+        <source>%1 confirmations (verified via swifttx)</source>
+        <translation>%1 confirmaciones (verificado via swifttx)</translation>
+    </message>
+    <message>
         <source>%1/offline</source>
         <translation>%1/offline</translation>
     </message>
@@ -4101,35 +3059,23 @@ Por favor espere...</translation>
         <translation>%1 confirmaciones</translation>
     </message>
     <message>
-        <source>%1/offline (verified via SwiftX)</source>
-        <translation>%1/offline (verificado via swifttx)</translation>
-    </message>
-    <message>
-        <source>%1/confirmed (verified via SwiftX)</source>
-        <translation>%1/confirmado (verificado via swifttx)</translation>
-    </message>
-    <message>
-        <source>%1 confirmations (verified via SwiftX)</source>
-        <translation>%1 confirmaciones (verificado via swifttx)</translation>
-    </message>
-    <message>
-        <source>%1/offline (SwiftX verification in progress - %2 of %3 signatures)</source>
+        <source>%1/offline (SwiftTX verification in progress - %2 of %3 signatures)</source>
         <translation>%1/offline (verificación SwiftTX en marcha - %2 de %3 firmas)</translation>
     </message>
     <message>
-        <source>%1/confirmed (SwiftX verification in progress - %2 of %3 signatures )</source>
+        <source>%1/confirmed (SwiftTX verification in progress - %2 of %3 signatures )</source>
         <translation>%1/confirmado (verificación SwiftTX en marcha - %2 de %3 firmas)</translation>
     </message>
     <message>
-        <source>%1 confirmations (SwiftX verification in progress - %2 of %3 signatures)</source>
+        <source>%1 confirmations (SwiftTX verification in progress - %2 of %3 signatures)</source>
         <translation>%1 confirmaciones (verificación SwiftTX en marcha - %2 de %3 firmas)</translation>
     </message>
     <message>
-        <source>%1/offline (SwiftX verification failed)</source>
+        <source>%1/offline (SwiftTX verification failed)</source>
         <translation>%1/offline (falló la verificación SwiftTX)</translation>
     </message>
     <message>
-        <source>%1/confirmed (SwiftX verification failed)</source>
+        <source>%1/confirmed (SwiftTX verification failed)</source>
         <translation>%1/confirmado (falló la verificación SwiftTX)</translation>
     </message>
     <message>
@@ -4323,62 +3269,6 @@ Por favor espere...</translation>
         <translation>Recibido desde</translation>
     </message>
     <message>
-        <source>Received via Obfuscation</source>
-        <translation>Recibido por medio de Ofuscación</translation>
-    </message>
-    <message>
-        <source>KHRS Stake</source>
-        <translation>Stake KHRS</translation>
-    </message>
-    <message>
-        <source>zKHRS Stake</source>
-        <translation>Stake zKHRS</translation>
-    </message>
-    <message>
-        <source>Obfuscation Denominate</source>
-        <translation>Ofuscación Denominada</translation>
-    </message>
-    <message>
-        <source>Obfuscation Collateral Payment</source>
-        <translation>Pago Colateral de Ofuscación</translation>
-    </message>
-    <message>
-        <source>Obfuscation Make Collateral Inputs</source>
-        <translation>La Ofuscación Crea Entradas Colaterales</translation>
-    </message>
-    <message>
-        <source>Obfuscation Create Denominations</source>
-        <translation>Ofuscación Crea Billetes</translation>
-    </message>
-    <message>
-        <source>Converted KHRS to zKHRS</source>
-        <translation>KHRS convertidos a zKHRS</translation>
-    </message>
-    <message>
-        <source>Spent zKHRS</source>
-        <translation>Gastar zKHRS</translation>
-    </message>
-    <message>
-        <source>Received KHRS from zKHRS</source>
-        <translation>KHRS recibidos desde zKHRS</translation>
-    </message>
-    <message>
-        <source>Minted Change as zKHRS from zKHRS Spend</source>
-        <translation>Cambio de acuñación en zKHRS al Gastar zKHRS</translation>
-    </message>
-    <message>
-        <source>Converted zKHRS to KHRS</source>
-        <translation>zKHRS convertidos a KHRS</translation>
-    </message>
-    <message>
-        <source>Anonymous (zKHRS Transaction)</source>
-        <translation>Anónimo (Transacción zKHRS)</translation>
-    </message>
-    <message>
-        <source>Anonymous (zKHRS Stake)</source>
-        <translation>Anónimo (Stake zKHRS)</translation>
-    </message>
-    <message>
         <source>Sent to</source>
         <translation>Enviado a</translation>
     </message>
@@ -4391,12 +3281,12 @@ Por favor espere...</translation>
         <translation>Pago a usted mismo</translation>
     </message>
     <message>
-        <source>Mined</source>
-        <translation>Minado</translation>
+        <source>Minted</source>
+        <translation>Creación de moneda</translation>
     </message>
     <message>
-        <source>Obfuscated</source>
-        <translation>Ofuscado</translation>
+        <source>Mined</source>
+        <translation>Minado</translation>
     </message>
     <message>
         <source>watch-only</source>
@@ -4490,18 +3380,6 @@ Por favor espere...</translation>
         <translation>Recompensa de Nodo Maestro</translation>
     </message>
     <message>
-        <source>Zerocoin Mint</source>
-        <translation>Creación de moneda Zerocoin</translation>
-    </message>
-    <message>
-        <source>Zerocoin Spend</source>
-        <translation>Gasto de Zerocoin</translation>
-    </message>
-    <message>
-        <source>Zerocoin Spend to Self</source>
-        <translation>Pago Zerocoin a tí mismo</translation>
-    </message>
-    <message>
         <source>Other</source>
         <translation>Otro</translation>
     </message>
@@ -4586,14 +3464,6 @@ Por favor espere...</translation>
         <translation>Exportación Correcta</translation>
     </message>
     <message>
-        <source>Received KHRS from zKHRS</source>
-        <translation>KHRS recibidos desde zKHRS</translation>
-    </message>
-    <message>
-        <source>Zerocoin Spend, Change in zKHRS</source>
-        <translation>Gastar Zerocoin, Cambio en zKHRS</translation>
-    </message>
-    <message>
         <source>The transaction history was successfully saved to %1.</source>
         <translation>El historial de transacción fue guardado satisfactoriamente a %1.</translation>
     </message>
@@ -4627,16 +3497,12 @@ Por favor espere...</translation>
         <translation>Enviar Monedas</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 KHRS.</source>
-        <translation>SwiftTX no soporta el envío de importes tan altos todavía. Las transacciones están actualmente limitadas a %1 KHRS.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 KHRY.</source>
+        <translation>SwiftTX no soporta el envío de importes tan altos todavía. Las transacciones están actualmente limitadas a %1 KHRY.</translation>
     </message>
 </context>
 <context>
     <name>WalletView</name>
-    <message>
-        <source>HISTORY</source>
-        <translation>HISTÓRIA</translation>
-    </message>
     <message>
         <source>&amp;Export</source>
         <translation>&amp;Exportar</translation>
@@ -4657,30 +3523,23 @@ Por favor espere...</translation>
         <source>Wallet Data (*.dat)</source>
         <translation>Datos del Monedero (*.dat)</translation>
     </message>
+    <message>
+        <source>Backup Failed</source>
+        <translation>La copia de seguridad Falló</translation>
+    </message>
+    <message>
+        <source>There was an error trying to save the wallet data to %1.</source>
+        <translation>Hubo un error intentando guardar los datos del monedero a %1.</translation>
+    </message>
+    <message>
+        <source>Backup Successful</source>
+        <translation>Copia de Seguridad Satisfactoria</translation>
+    </message>
+    <message>
+        <source>The wallet data was successfully saved to %1.</source>
+        <translation>Los datos del monedero se guardaron correctamente a %1.</translation>
+    </message>
 </context>
-<context>
-    <name>ZPivControlDialog</name>
-    <message>
-        <source>Select zKHRS to Spend</source>
-        <translation>Selecciona zKHRS para Gastar</translation>
-    </message>
-    <message>
-        <source>Quantity</source>
-        <translation>Cantidad</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>zKHRS</source>
-        <translation>zKHRS</translation>
-    </message>
-    <message>
-        <source>Select/Deselect All</source>
-        <translation>Seleccionar/Deseleccionar Todos</translation>
-    </message>
-    </context>
 <context>
     <name>khrysus-core</name>
     <message>
@@ -4690,6 +3549,10 @@ Por favor espere...</translation>
     <message>
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
         <translation>Permitir conexiones JSON-RPC  desde la fuente especificada. Valido para &lt;ip&gt; sea una única IP (ej: 1.2.3.4), una red/mascara de red (ej: 1.2.3.4/255.255.255.0) o una red/CIDR (ej: 1.2.3.4/24). Esta opción puede ser especificada múltiples veces.</translation>
+    </message>
+    <message>
+        <source>An error occurred while setting up the RPC address %s port %u for listening: %s</source>
+        <translation>Un error ocurrió mientras se ajustaba la dirección RPC %s puerto %u para escucha en: %s</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
@@ -4702,10 +3565,6 @@ Por favor espere...</translation>
     <message>
         <source>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</source>
         <translation>Escuchar únicamente a la tarjeta de red indicada para conexiones JSON-RPC. Use la notación [host]:puerto para IPv6. Esta opción puede ser especificada varias veces (por defecto: escuchar en todas las tarjetas de red)</translation>
-    </message>
-    <message>
-        <source>Calculated accumulator checkpoint is not what is recorded by block index</source>
-        <translation>El punto de chequeo del acumulador que hemos calculado no coincide con lo guardado en el índice de bloques</translation>
     </message>
     <message>
         <source>Cannot obtain a lock on data directory %s. Khrysus Core is probably already running.</source>
@@ -4728,28 +3587,20 @@ Por favor espere...</translation>
         <translation>Borrar todas las transacciones del monedero y solo recuperar partes de la cadena de bloque a traves de -rescan al inicio.</translation>
     </message>
     <message>
-        <source>Delete all zerocoin spends and mints that have been recorded to the blockchain database and reindex them (0-1, default: %u)</source>
-        <translation>Elimina todos registros de las transferencias y el acuñado de Zerocoin que se hayan registrado en la base de datos de Blockchain y vuelva a indexarlos (0-1, default: %u)</translation>
+        <source>Disable all Khrysus specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Desabilitar toda la funcionalidad especifica Khrysus (Masternodes, SwiftTX, Budgeting) (0-1, predeterminado: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
         <translation>Distribuido bajo licencia MIT software license, ver el archivo adjunto COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;</translation>
     </message>
     <message>
-        <source>Enable automatic wallet backups triggered after each zKHRS minting (0-1, default: %u)</source>
-        <translation>Habilite copias de seguridad automáticas del monedero que se activan después de cada acuñación zKHRS (0-1, predeterminado: %u)</translation>
-    </message>
-    <message>
-        <source>Enable or disable staking functionality for KHRS inputs (0-1, default: %u)</source>
-        <translation>Habilitar o deshabilitar la funcionalidad de staking para las entradas KHRS (0-1, predeterminado: %u)</translation>
-    </message>
-    <message>
-        <source>Enable or disable staking functionality for zKHRS inputs (0-1, default: %u)</source>
-        <translation>Habilitar o deshabilitar la funcionalidad de staking para las entradas zKHRS (0-1, predeterminado: %u)</translation>
-    </message>
-    <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
         <translation>Activar la función de administración de sporks con la llave privada apropiada.</translation>
+    </message>
+    <message>
+        <source>Enable swifttx, show confirmations for locked transactions (bool, default: %s)</source>
+        <translation>Activar swifttx, mostrar confirmaciones para transacciones bloqueadas (bool, predeterminado: %s)</translation>
     </message>
     <message>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
@@ -4758,10 +3609,6 @@ Por favor espere...</translation>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
         <translation>Error: La escucha para conexiones entrantes falló (la escucha retorno error %s)</translation>
-    </message>
-    <message>
-        <source>Error: The transaction is larger than the maximum allowed transaction size!</source>
-        <translation>Error: ¡La transacción es más grande que el tamaño máximo de transacción permitido!</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
@@ -4780,16 +3627,20 @@ Por favor espere...</translation>
         <translation>Ejecutar comando cuando el mejor bloque cambie (%s en cmd es reemplazado por el block hash)</translation>
     </message>
     <message>
-        <source>Fees (in KHRS/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Comisiones (en KHRS/Kb) menores a esta son consideradas gratuitas para la propagación de la transacción (default: %s)</translation>
+        <source>Fees (in KHRY/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Comisiones (en KHRY/Kb) menores a esta son consideradas gratuitas para la propagación de la transacción (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in KHRS/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Comisiones (en KHRS/Kb) menores a esta son consideradas gratuitas para la creación de la transacción (default: %s)</translation>
+        <source>Fees (in KHRY/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Comisiones (en KHRY/Kb) menores a esta son consideradas gratuitas para la creación de la transacción (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
         <translation>Trasladar la actividad de la base de datos en el pool de memoria al log de disco cada &lt;n&gt; megabytes (default: %u)</translation>
+    </message>
+    <message>
+        <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
+        <translation>Cuán exhaustiva es la verificación de bloque de -checkblocks (0-4, predeterminado: %u)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
@@ -4798,10 +3649,6 @@ Por favor espere...</translation>
     <message>
         <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
         <translation>En este modo -genproclimit controla cuantos bloques son generados inmediatamente.</translation>
-    </message>
-    <message>
-        <source>Insufficient or insufficient confirmed funds, you might need to wait a few minutes and try again.</source>
-        <translation>Fondos insuficientes o fondos confirmados insuficientes, es posible que tenga que esperar unos minutos y volver a intentarlo.</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
@@ -4813,7 +3660,7 @@ Por favor espere...</translation>
     </message>
     <message>
         <source>Log transaction priority and fee per kB when mining blocks (default: %u)</source>
-        <translation>Prioridad y comisión del registro de transacciones por kB cuando se esta minando bloques (predeterminado: %u)</translation>
+        <translation>Prioridad del registro de transacciones por kB cuando se esta minando bloques (predeterminado: %u)</translation>
     </message>
     <message>
         <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
@@ -4825,15 +3672,11 @@ Por favor espere...</translation>
     </message>
     <message>
         <source>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
-        <translation>Comisión máxima total para usar en una única transacción de monedero, definirlo muy bajo puede abortar transacciones largas (predeterminado: %s)</translation>
+        <translation>Comisión máxima total para usar en una única transacción de billetera, definirlo muy bajo puede abortar transacciones largas (predeterminado: %s)</translation>
     </message>
     <message>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
         <translation>Número de segundos a mantener pares con mal comportamiento de reconectarse (predeterminado: %u)</translation>
-    </message>
-    <message>
-        <source>Obfuscation uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
-        <translation>La ofuscación utiliza importes en denominaciones exactas para enviar fondos, puedes simplemente necesitar anonimizar algunas monedas mas. </translation>
     </message>
     <message>
         <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
@@ -4842,10 +3685,6 @@ Por favor espere...</translation>
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
         <translation>Consultar por direcciones de pares vía búsqueda en DNS, si cantidad de direcciones esta bajo (predeterminado: 1 a menos que se utilice -connect)</translation>
-    </message>
-    <message>
-        <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
-        <translation>Credenciales aleatorias para cada conexión proxy. Esto habilita el aislamiento del flujos de datos Tor (por defecto: %u)</translation>
     </message>
     <message>
         <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
@@ -4876,24 +3715,44 @@ Por favor espere...</translation>
         <translation>Soportar filtrado de bloques y transacciones con filtros bloom (por defecto: %u)</translation>
     </message>
     <message>
+        <source>SwiftTX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
+        <translation>SwiftTX requiere entradas con hasta 6 confirmaciones, es posible que debas esperar unos minutos e intentar nuevamente.</translation>
+    </message>
+    <message>
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
         <translation>Este producto incluye software desarrollado por el Proyecto OpenSSL para uso en OpenSSL Toolkit &lt;https://www.openssl.org/&gt; y software de cifrado escrito por Eric Young y software de UPnP escrito por Thomas Bernard.</translation>
+    </message>
+    <message>
+        <source>To use khrysusd, or the -server option to khrysus-qt, you must set an rpcpassword in the configuration file:
+%s
+It is recommended you use the following random password:
+rpcuser=khrysusrpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s "Khrysus Alert" admin@foo.com
+</source>
+        <translation>Para usar khrysusd, o la opción -server de khrysus-qt, debes definir un rpcpassword en el archivo de configuración:
+%s
+Es recomendado que uses la siguiente contraseña aleatoria:
+rpcuser=khrysusrpc
+rpcrpcpassword=%s
+(No necesitas recordar esta contraseña)
+El nombre de usuario y contraseña NO DEBEN ser los mismos.
+Si el archivo no existe, crearlo con permisos de solo lectura para el propietario.
+También es recomendado definir alertnotify de manera que seas notificado de problemas;
+por ejemplo: alertnotify=echo %%s | mail -s "Khrysus Alert" admin@foo.com
+</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer. Khrysus Core is probably already running.</source>
         <translation>Imposible conectar a %s en esta computadora. Es probable que Khrysus Core ya este corriendo.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
-        <translation>Imposible localizar suficientes fondos denominados de Ofuscación para esta transacción.</translation>
-    </message>
-    <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 KHRS.</source>
-        <translation>Imposible localizar suficientes fondos no-denominados de Ofuscación para esta transacción que no es igual a 10000 KHRS.</translation>
-    </message>
-    <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 KHRS.</source>
-        <translation>Imposible localizar fondos suficientes para esta transacción que no es igual a 10000 KHRS.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 KHRY.</source>
+        <translation>Imposible localizar fondos suficientes para esta transacción que no es igual a 10000 KHRY.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4968,12 +3827,20 @@ Por favor espere...</translation>
         <translation>Aceptar peticiones públicas REST (predeterminado: %u)</translation>
     </message>
     <message>
+        <source>Acceptable ciphers (default: %s)</source>
+        <translation>Métodos de cifrado aceptables (predeterminado: %s)</translation>
+    </message>
+    <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation>Agregar un nodo a conectarse y intentar mantener abierta la conexión</translation>
     </message>
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
         <translation>Permitir búsquedas DNS para -addnode, -seednode y -connect</translation>
+    </message>
+    <message>
+        <source>Already have that input.</source>
+        <translation>Ya tiene esa entrada.</translation>
     </message>
     <message>
         <source>Always query for peer addresses via DNS lookup (default: %u)</source>
@@ -4984,20 +3851,16 @@ Por favor espere...</translation>
         <translation>Intentar recuperar claves privadas desde un wallet.dat dañado</translation>
     </message>
     <message>
-        <source>Automatically create Tor hidden service (default: %d)</source>
-        <translation>Crear automáticamente servicio Tor oculto (por defecto: %d)</translation>
-    </message>
-    <message>
         <source>Block creation options:</source>
         <translation>Opciones de creación de bloque:</translation>
     </message>
     <message>
-        <source>Calculating missing accumulators...</source>
-        <translation>Calculando acumuladores pendientes...</translation>
+        <source>Can't find random Masternode.</source>
+        <translation>No se puede encontrar un Masternode al azar.</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
-        <translation>No se puede volver a una versión anterior del monedero</translation>
+        <translation>No se puede volver a una versión anterior de la billetera</translation>
     </message>
     <message>
         <source>Cannot resolve -bind address: '%s'</source>
@@ -5014,6 +3877,10 @@ Por favor espere...</translation>
     <message>
         <source>Cannot write default address</source>
         <translation>No se puede escribir la dirección predeterminada</translation>
+    </message>
+    <message>
+        <source>Collateral not valid.</source>
+        <translation>Colateral no válido.</translation>
     </message>
     <message>
         <source>Connect only to the specified node(s)</source>
@@ -5044,8 +3911,16 @@ Por favor espere...</translation>
         <translation>Copyright (C) 2015-%i The PIVX Core Developers</translation>
     </message>
     <message>
+        <source>Copyright (C) 2017-%i The Khrysus Core Developers</source>
+        <translation>Copyright (C) 2017-%i The Khrysus Core Developers</translation>
+    </message>
+    <message>
         <source>Corrupted block database detected</source>
         <translation>Se detectó base de datos de bloques dañado</translation>
+    </message>
+    <message>
+        <source>Could not parse -rpcbind value %s as network address</source>
+        <translation>El valor %s de -rpcbind no pudo ser leído como una dirección de red.</translation>
     </message>
     <message>
         <source>Could not parse masternode.conf</source>
@@ -5054,14 +3929,6 @@ Por favor espere...</translation>
     <message>
         <source>Debugging/Testing options:</source>
         <translation>Opciones de Depuración/Pruebas:</translation>
-    </message>
-    <message>
-        <source>Delete blockchain folders and resync from scratch</source>
-        <translation>Eliminar directorios de Blockchain y resincronizar desde el principio</translation>
-    </message>
-    <message>
-        <source>Disable OS notifications for incoming transactions (default: %u)</source>
-        <translation>Desactivar notificaciones del sistema para transacciones extrantes (por defecto: %u)</translation>
     </message>
     <message>
         <source>Disable safemode, override a real safe mode event (default: %u)</source>
@@ -5073,7 +3940,7 @@ Por favor espere...</translation>
     </message>
     <message>
         <source>Do not load the wallet and disable wallet RPC calls</source>
-        <translation>No cargar la monedero y desactivar las llamadas RPC del monedero</translation>
+        <translation>No cargar la billetera y desactivar las llamadas RPC de billetera</translation>
     </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>
@@ -5084,20 +3951,16 @@ Por favor espere...</translation>
         <translation>Realizando carga</translation>
     </message>
     <message>
-        <source>Enable automatic Zerocoin minting (0-1, default: %u)</source>
-        <translation>Habilitar creación automática de Zerocoin (0-1, por defecto: %u)</translation>
-    </message>
-    <message>
-        <source>Enable publish hash transaction (locked via SwiftX) in &lt;address&gt;</source>
-        <translation>Activar inclusión del hash de la transacción (fijada mediante SwiftTX) en &lt;address&gt;</translation>
-    </message>
-    <message>
-        <source>Enable publish raw transaction (locked via SwiftX) in &lt;address&gt;</source>
-        <translation>Activar inclusión de la transacción en bruto (fijada mediante SwiftTX) en &lt;address&gt;</translation>
-    </message>
-    <message>
         <source>Enable the client to act as a masternode (0-1, default: %u)</source>
         <translation>Habilitar al cliente para actuar como un nodo maestro (0-1. predeterminado: %u)</translation>
+    </message>
+    <message>
+        <source>Entries are full.</source>
+        <translation>Las entradas están llenas.</translation>
+    </message>
+    <message>
+        <source>Error connecting to Masternode.</source>
+        <translation>Error al conectar al Nodo Maestro</translation>
     </message>
     <message>
         <source>Error initializing block database</source>
@@ -5105,7 +3968,7 @@ Por favor espere...</translation>
     </message>
     <message>
         <source>Error initializing wallet database environment %s!</source>
-        <translation>Error al inicializar ambiente %s de base de datos del monedero!</translation>
+        <translation>Error al inicializar ambiente %s de base de datos de billetera!</translation>
     </message>
     <message>
         <source>Error loading block database</source>
@@ -5117,11 +3980,11 @@ Por favor espere...</translation>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Error al cargar wallet.dat: Monedero dañado</translation>
+        <translation>Error al cargar wallet.dat: Billetera dañada</translation>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet requires newer version of Khrysus Core</source>
-        <translation>Error al cargar wallet.dat: El monedero requiere una nueva versión del Khrysus Core</translation>
+        <translation>Error al cargar wallet.dat: La Billetera requiere una nueva versión del Núcleo Khrysus</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -5134,10 +3997,6 @@ Por favor espere...</translation>
     <message>
         <source>Error recovering public key.</source>
         <translation>Error al recuperar clave pública.</translation>
-    </message>
-    <message>
-        <source>Error writing zerocoinDB to disk</source>
-        <translation>Error al escribir zerocoinDB en el disco</translation>
     </message>
     <message>
         <source>Error</source>
@@ -5157,31 +4016,35 @@ Por favor espere...</translation>
     </message>
     <message>
         <source>Error: Wallet locked, unable to create transaction!</source>
-        <translation>Error: ¡Monedero bloqueado, imposible crear transacción!</translation>
-    </message>
-    <message>
-        <source>Failed to calculate accumulator checkpoint</source>
-        <translation>Error al calcular el punto de control del acumulador</translation>
+        <translation>Error: Billetera bloqueada, imposible crear transacción!</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>Falló la escucha en cualquiera de los puertos. Usar -listen=0 si quieres esto.</translation>
     </message>
     <message>
-        <source>Failed to parse host:port string</source>
-        <translation>Error al analizar el host: cadena del puerto</translation>
-    </message>
-    <message>
         <source>Failed to read block</source>
         <translation>Falló al leer el bloque</translation>
     </message>
     <message>
-        <source>Fee (in KHRS/kB) to add to transactions you send (default: %s)</source>
-        <translation>Comisión (en KHRS/kB) para agregar a la transacción que envías (predeterminado: %s)</translation>
+        <source>Fee (in KHRY/kB) to add to transactions you send (default: %s)</source>
+        <translation>Comisión (en KHRY/kB) para agregar a la transacción que envías (predeterminado: %s)</translation>
+    </message>
+    <message>
+        <source>Finalizing transaction.</source>
+        <translation>Finalizando transacción.</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
         <translation>Forzar modo seguro (predeterminado: %u)</translation>
+    </message>
+    <message>
+        <source>Found enough users, signing ( waiting %s )</source>
+        <translation>Se han encontrado suficientes usuarios, firmando ( esperando %s )</translation>
+    </message>
+    <message>
+        <source>Found enough users, signing ...</source>
+        <translation>Se han encontrado suficientes usuarios, firmando ...</translation>
     </message>
     <message>
         <source>Generate coins (default: %u)</source>
@@ -5208,6 +4071,14 @@ Por favor espere...</translation>
         <translation>Incluir direcciones IP en salida de depuración (predeterminado: %u)</translation>
     </message>
     <message>
+        <source>Incompatible mode.</source>
+        <translation>Modo incompatible.</translation>
+    </message>
+    <message>
+        <source>Incompatible version.</source>
+        <translation>Versión imcompatible.</translation>
+    </message>
+    <message>
         <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
         <translation>Bloque de génesis incorrecto o no encontrado. datadir equivocado para red?</translation>
     </message>
@@ -5220,16 +4091,20 @@ Por favor espere...</translation>
         <translation>La prueba de salud de inicialización ha fallado. Khrysus Core se cerrará.</translation>
     </message>
     <message>
-        <source>Insufficient funds</source>
-        <translation>Fondos insuficientes</translation>
+        <source>Input is not valid.</source>
+        <translation>La entrada no es válida.</translation>
     </message>
     <message>
         <source>Insufficient funds.</source>
         <translation>Fondos insuficientes.</translation>
     </message>
     <message>
-        <source>Invalid -onion address or hostname: '%s'</source>
-        <translation>Dirección o nombre de equipo -onion inválido: '%s'</translation>
+        <source>Invalid -onion address: '%s'</source>
+        <translation>Dirección -onion inválida: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Dirección -proxy inválida: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
@@ -5256,10 +4131,6 @@ Por favor espere...</translation>
         <translation>Importe inválido para -reservebalance=&lt;amount&gt;</translation>
     </message>
     <message>
-        <source>Invalid amount</source>
-        <translation>Cantidad incorrecta</translation>
-    </message>
-    <message>
         <source>Invalid masternodeprivkey. Please see documenation.</source>
         <translation>Valor de masternodeprivkey es inválido. Por favor ver la documentación.</translation>
     </message>
@@ -5276,96 +4147,12 @@ Por favor espere...</translation>
         <translation>Clave pública inválida.</translation>
     </message>
     <message>
-        <source>Percentage of automatically minted Zerocoin  (1-100, default: %u)</source>
-        <translation>Porcentaje de Zerocoin creadas automáticamente (10-100, por defecto: %u)</translation>
-    </message>
-    <message>
-        <source>Reindex the KHRS and zKHRS money supply statistics</source>
-        <translation>Reindexar as estatísticas de fornecimento de dinheiro KHRS e zKHRS</translation>
-    </message>
-    <message>
-        <source>Reindexing zerocoin database...</source>
-        <translation>Reindexando la base de datos zerocoin...</translation>
-    </message>
-    <message>
-        <source>Reindexing zerocoin failed</source>
-        <translation>La reindexación zerocoin ha fallado</translation>
-    </message>
-    <message>
-        <source>Selected coins value is less than payment target</source>
-        <translation>El valor de las monedas seleccionadas es menor que el monto a pagar</translation>
-    </message>
-    <message>
-        <source>SwiftX options:</source>
-        <translation>Opciones SwiftX:</translation>
+        <source>Invalid script detected.</source>
+        <translation>Script inválido detectado.</translation>
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for staking or merchant applications!</source>
         <translation>Esto es una versión pre-release de prueba - use bajo su propia responsabilidad - ¡No lo utilice para recompensa de participación ni aplicaciones de comercio!</translation>
-    </message>
-    <message>
-        <source> mints deleted
-</source>
-        <translation>creaciones de moneda borradas
-</translation>
-    </message>
-    <message>
-        <source> mints updated, </source>
-        <translation>creaciones de moneda actualizadas,</translation>
-    </message>
-    <message>
-        <source> unconfirmed transactions removed
-</source>
-        <translation>transacciones sin confirmar eliminadas
-</translation>
-    </message>
-    <message>
-        <source>Disable all Khrysus specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>Desabilitar toda la funcionalidad especifica Khrysus (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, predeterminado: %u)</translation>
-    </message>
-    <message>
-        <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
-        <translation>Activar swifttx, mostrar confirmaciones para transacciones bloqueadas (bool, predeterminado: %s)</translation>
-    </message>
-    <message>
-        <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>¡La transacción fue rechazada! Esto puede ocurrir si alguna de sus monedas ya se gastó con anterioridad, por ejemplo, si estuvo usted usando una copia de su monedero wallet.dat y gastó allí monedas pero no las marcó como gastadas aquí.</translation>
-    </message>
-    <message>
-        <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation>Error: ¡Esta transacción requiere una tasa de al menos %s debido a la cantidad enviada, su complejidad, o el uso de fondos recibidos recientemente!</translation>
-    </message>
-    <message>
-        <source>Error: Unsupported argument -checklevel found. Checklevel must be level 4.</source>
-        <translation>Error: Se ha especificado un argumento no soportado -checklevel. El Checklevel debe ser siempre 4. </translation>
-    </message>
-    <message>
-        <source>Execute command when the best block changes and its size is over (%s in cmd is replaced by block hash, %d with the block size)</source>
-        <translation>Ejecute el comando cuando el mejor bloque cambie y su tamaño haya terminado (%s en cmd se reemplaza por el hash del bloque, %d con el tamaño de bloque)</translation>
-    </message>
-    <message>
-        <source>Failed to find coin set amongst held coins with less than maxNumber of Spends</source>
-        <translation>No se puede encontrar el conjunto de monedas necesarias entre las monedas disponibles con menos de maxNumber para poder gastarlas</translation>
-    </message>
-    <message>
-        <source>In rare cases, a spend with 7 coins exceeds our maximum allowable transaction size, please retry spend using 6 or less coins</source>
-        <translation>En casos excepcionales, un envío con más de 7 monedas excede el tamaño máximo de transacción permitidas, intente gastar 6 monedas o menos.</translation>
-    </message>
-    <message>
-        <source>Preferred Denomination for automatically minted Zerocoin  (1/5/10/50/100/500/1000/5000), 0 for no preference. default: %u)</source>
-        <translation>Denominación preferida para acuñado automatico de Zerocoin (1/5/10/50/100/500/1000/5000), 0 para ninguna preferencia. predeterminado: %u)</translation>
-    </message>
-    <message>
-        <source>Specify custom backup path to add a copy of any automatic zKHRS backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
-        <translation>Especifique la ruta de copia de seguridad personalizada para agregar una copia de cualquier copia de seguridad zKHRS automática. Si se establece como directorio, cada copia de seguridad genera un archivo con marcas de tiempo. Si se establece como archivo, se reescribirá en ese archivo cada copia de seguridad. Si también se establece backuppath, se realizarán 4 copias de seguridad</translation>
-    </message>
-    <message>
-        <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
-        <translation>Especifique una ruta de copia de seguridad personalizada para agregar una copia de cualquier copia de seguridad de monedero. Si se establece como directorio, cada copia de seguridad genera un archivo con marcas de tiempo. Si se establece como archivo, se reescribirá en ese archivo cada copia de seguridad generada.</translation>
-    </message>
-    <message>
-        <source>SwiftX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
-        <translation>SwiftX requiere entradas con al menos 6 confirmaciones, es posible que deba esperar unos minutos e intente de nuevo.</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>
@@ -5374,10 +4161,6 @@ Por favor espere...</translation>
     <message>
         <source>Attempt to force blockchain corruption recovery</source>
         <translation>Intentar forzar la recuperación de la cadena de bloques corrupta</translation>
-    </message>
-    <message>
-        <source>CoinSpend: Accumulator witness does not verify</source>
-        <translation>CoinSpend: El testigo del acumulador no verifica</translation>
     </message>
     <message>
         <source>Display the stake modifier calculations in the debug.log file.</source>
@@ -5392,6 +4175,10 @@ Por favor espere...</translation>
         <translation>Activar inclusión del hash del bloque en &lt;address&gt;</translation>
     </message>
     <message>
+        <source>Enable publish hash transaction (locked via SwiftTX) in &lt;address&gt;</source>
+        <translation>Activar inclusión del hash de la transacción (fijada mediante SwiftTX) en &lt;address&gt;</translation>
+    </message>
+    <message>
         <source>Enable publish hash transaction in &lt;address&gt;</source>
         <translation>Activar inclusión del hash de la transacción en &lt;address&gt;</translation>
     </message>
@@ -5400,40 +4187,16 @@ Por favor espere...</translation>
         <translation>Activar inclusión del bloque en bruto en &lt;address&gt;</translation>
     </message>
     <message>
+        <source>Enable publish raw transaction (locked via SwiftTX) in &lt;address&gt;</source>
+        <translation>Activar inclusión de la transacción en bruto (fijada mediante SwiftTX) en &lt;address&gt;</translation>
+    </message>
+    <message>
         <source>Enable publish raw transaction in &lt;address&gt;</source>
         <translation>Activar inclusión de la transacción en bruto en &lt;address&gt;</translation>
     </message>
     <message>
         <source>Enable staking functionality (0-1, default: %u)</source>
         <translation>Activar funcionalidad de recompensa por participación (0-1, por defecto: %u)</translation>
-    </message>
-    <message>
-        <source>Error: A fatal internal error occurred, see debug.log for details</source>
-        <translation>Error: Un error interno fatal a ocurrido, ver debug.log para mas detalles</translation>
-    </message>
-    <message>
-        <source>Error: No valid utxo!</source>
-        <translation>Error: ¡utxo no válido!</translation>
-    </message>
-    <message>
-        <source>Failed to create mint</source>
-        <translation>Error al acuñar</translation>
-    </message>
-    <message>
-        <source>Failed to find Zerocoins in wallet.dat</source>
-        <translation>Error al encontrar Zerocoins en wallet.dat</translation>
-    </message>
-    <message>
-        <source>Failed to select a zerocoin</source>
-        <translation>Error al seleccionar una zerocoin</translation>
-    </message>
-    <message>
-        <source>Failed to wipe zerocoinDB</source>
-        <translation>Error al borrar zerocoinDB</translation>
-    </message>
-    <message>
-        <source>Failed to write coin serial number into wallet</source>
-        <translation>Error al escribir el número de serie de la moneda en el monedero</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
@@ -5476,10 +4239,6 @@ Por favor espere...</translation>
         <translation>Cargando cache de pagos de nodos maestros</translation>
     </message>
     <message>
-        <source>Loading sporks...</source>
-        <translation>Cargando sporks...</translation>
-    </message>
-    <message>
         <source>Loading wallet... (%3.2f %%)</source>
         <translation>Cargando monedero: (%3.2f %%)</translation>
     </message>
@@ -5488,16 +4247,12 @@ Por favor espere...</translation>
         <translation>Cargando monedero...</translation>
     </message>
     <message>
-        <source>Location of the auth cookie (default: data dir)</source>
-        <translation>Ubicación de la cookie de autenticación (predeterminado: data dir)</translation>
+        <source>Lock is already in place.</source>
+        <translation>Bloqueo esta en su lugar.</translation>
     </message>
     <message>
         <source>Lock masternodes from masternode configuration file (default: %u)</source>
         <translation>Bloquear nodos maestros desde el archivo de configuración de nodo maestro (predeterminado: %u)</translation>
-    </message>
-    <message>
-        <source>Lookup(): Invalid -proxy address or hostname: '%s'</source>
-        <translation>Lookup(): Inválido -dirección proxy o nombre de host '%s'</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
@@ -5508,6 +4263,14 @@ Por favor espere...</translation>
         <translation>Opciones de Masternode:</translation>
     </message>
     <message>
+        <source>Masternode queue is full.</source>
+        <translation>La cola del Nodo Maestro esta llena.</translation>
+    </message>
+    <message>
+        <source>Masternode:</source>
+        <translation>Nodo maestro:</translation>
+    </message>
+    <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
         <translation>Buffer de recepción máximo por conexión, &lt;n&gt;*1000 bytes (predeterminado: %u)</translation>
     </message>
@@ -5516,32 +4279,44 @@ Por favor espere...</translation>
         <translation>Máximo buffer de envío por conexión, &lt;n&gt;*1000 bytes (predeterminado: %u)</translation>
     </message>
     <message>
-        <source>Mint did not make it into blockchain</source>
-        <translation>El Acuñado no se realizó en blockchain</translation>
-    </message>
-    <message>
-        <source>Need address because change is not exact</source>
-        <translation>Necesita dirección porque el cambio no es exacto</translation>
+        <source>Missing input transaction information.</source>
+        <translation>Información de transacciones de entrada perdidas.</translation>
     </message>
     <message>
         <source>Need to specify a port with -whitebind: '%s'</source>
         <translation>Necesita especificar un puerto con -whitebind: '%s'</translation>
     </message>
     <message>
+        <source>No Masternodes detected.</source>
+        <translation>No se han detectado Masternodes.</translation>
+    </message>
+    <message>
+        <source>No compatible Masternode found.</source>
+        <translation>No hay un Masternode compatible encontrado.</translation>
+    </message>
+    <message>
         <source>Node relay options:</source>
         <translation>Opciones de transmisión del nodo:</translation>
+    </message>
+    <message>
+        <source>Non-standard public key detected.</source>
+        <translation>Clave pública no-estandar ha sido detectada.</translation>
+    </message>
+    <message>
+        <source>Not compatible with existing transactions.</source>
+        <translation>No es compatible con las transacciones salientes.</translation>
     </message>
     <message>
         <source>Not enough file descriptors available.</source>
         <translation>No hay suficientes descriptores de archivo disponibles.</translation>
     </message>
     <message>
-        <source>Number of automatic wallet backups (default: 10)</source>
-        <translation>Número de Copias de seguridad automáticas de monedero (predeterminado: 10)</translation>
+        <source>Not in the Masternode list.</source>
+        <translation>No en la lista Masternode.</translation>
     </message>
     <message>
-        <source>Number of custom location backups to retain (default: %d)</source>
-        <translation>Número de copias de seguridad personalizadas que se deben retener (predeterminado: %d)</translation>
+        <source>Number of automatic wallet backups (default: 10)</source>
+        <translation>Número de Copias de seguridad automáticas de monedero (predeterminado: 10)</translation>
     </message>
     <message>
         <source>Only accept block chain matching built-in checkpoints (default: %u)</source>
@@ -5560,14 +4335,6 @@ Por favor espere...</translation>
         <translation>Contraseña para conexiones JSON-RPC</translation>
     </message>
     <message>
-        <source>isValid(): Invalid -proxy address or hostname: '%s'</source>
-        <translation>isValid(): Inválido -dirección proxy o nombre de host '%s'</translation>
-    </message>
-    <message>
-        <source>Preparing for resync...</source>
-        <translation>Preparando para resincronizar...</translation>
-    </message>
-    <message>
         <source>Prepend debug output with timestamp (default: %u)</source>
         <translation>Agregar timestamp a la salida de depuración (predeterminado: %u)</translation>
     </message>
@@ -5576,8 +4343,16 @@ Por favor espere...</translation>
         <translation>Mostrar versión y salir</translation>
     </message>
     <message>
+        <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>Opciones RPC SSL: (ver el Bitcoin Wiki para instrucciones de instalación SSL)</translation>
+    </message>
+    <message>
         <source>RPC server options:</source>
         <translation>Opciones del servidor RPC:</translation>
+    </message>
+    <message>
+        <source>RPC support for HTTP persistent connections (default: %d)</source>
+        <translation>Soporte RPC para conexiones persistentes HTTP (predeterminado %d)</translation>
     </message>
     <message>
         <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
@@ -5596,10 +4371,6 @@ Por favor espere...</translation>
         <translation>Recibir y mostrar alertas de red P2P (predeterminado: %u)</translation>
     </message>
     <message>
-        <source>Reindex the accumulator database</source>
-        <translation>Reindexar la base de datos del acumulador</translation>
-    </message>
-    <message>
         <source>Relay and mine data carrier transactions (default: %u)</source>
         <translation>Transmitir y minar datos de transacciones enviadas (predeterminado: %u)</translation>
     </message>
@@ -5616,14 +4387,6 @@ Por favor espere...</translation>
         <translation>Reescaneado...</translation>
     </message>
     <message>
-        <source>ResetMintZerocoin finished: </source>
-        <translation>ResetMintZerocoin finalizado:</translation>
-    </message>
-    <message>
-        <source>ResetSpentZerocoin finished: </source>
-        <translation>ResetSpentZerocoin finalizado:</translation>
-    </message>
-    <message>
         <source>Run a thread to flush wallet periodically (default: %u)</source>
         <translation>Ejecutar un hilo de ejecución para nivelar el monedero periódicamente (predeterminado: %u)</translation>
     </message>
@@ -5634,6 +4397,18 @@ Por favor espere...</translation>
     <message>
         <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
         <translation>Enviar transacciones como transacciones cero-comisión si es posible (predeterminado: %u)</translation>
+    </message>
+    <message>
+        <source>Server certificate file (default: %s)</source>
+        <translation>Archivo certificado del servidor (predeterminado: %s)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: %s)</source>
+        <translation>Clave privada del servidor (predeterminado: %s)</translation>
+    </message>
+    <message>
+        <source>Session not complete!</source>
+        <translation>Sesión no completa!</translation>
     </message>
     <message>
         <source>Session timed out.</source>
@@ -5660,10 +4435,6 @@ Por favor espere...</translation>
         <translation>Ajustar el tamaño mínimo de bloque en bytes (predeterminado: %u)</translation>
     </message>
     <message>
-        <source>Set the Maximum reorg depth (default: %u)</source>
-        <translation>Establezca la profundidad máxima de reorganización (valor predeterminado: %u)</translation>
-    </message>
-    <message>
         <source>Set the masternode private key</source>
         <translation>Ajustar la clave privada de masternode</translation>
     </message>
@@ -5673,7 +4444,7 @@ Por favor espere...</translation>
     </message>
     <message>
         <source>Sets the DB_PRIVATE flag in the wallet db environment (default: %u)</source>
-        <translation>Definir la bandera DB_PRIVATE en la db de la monedero del ambiente (predeterminado: %u)</translation>
+        <translation>Definir la bandera DB_PRIVATE en la db de la billetera del ambiente (predeterminado: %u)</translation>
     </message>
     <message>
         <source>Show all debugging options (usage: --help -help-debug)</source>
@@ -5717,15 +4488,11 @@ Por favor espere...</translation>
     </message>
     <message>
         <source>Specify wallet file (within data directory)</source>
-        <translation>Especifique el archivo del monedero (dentro del directorio de datos)</translation>
+        <translation>Especifique el archivo monedero (dentro del directorio de datos)</translation>
     </message>
     <message>
         <source>Specify your own public address</source>
         <translation>Especifique su propia dirección pública</translation>
-    </message>
-    <message>
-        <source>Spend Valid</source>
-        <translation>Gastar Válido</translation>
     </message>
     <message>
         <source>Spend unconfirmed change when sending transactions (default: %u)</source>
@@ -5738,6 +4505,22 @@ Por favor espere...</translation>
     <message>
         <source>Stop running after importing blocks from disk (default: %u)</source>
         <translation>Parar la ejecución después de importar bloques desde el disco (predeterminado: %u)</translation>
+    </message>
+    <message>
+        <source>Submitted following entries to masternode: %u / %d</source>
+        <translation>Se enviaron las siguientes entradas a masternode: %u / %d</translation>
+    </message>
+    <message>
+        <source>Submitted to masternode, waiting for more entries ( %u / %d ) %s</source>
+        <translation>Enviado a masternode, esperando por mas entradas (%u / %d) %s</translation>
+    </message>
+    <message>
+        <source>Submitted to masternode, waiting in queue %s</source>
+        <translation>Enviado a masternode, quedando en espera %s</translation>
+    </message>
+    <message>
+        <source>SwiftTX options:</source>
+        <translation>Opciones SwiftTX:</translation>
     </message>
     <message>
         <source>Synchronization failed</source>
@@ -5768,18 +4551,6 @@ Por favor espere...</translation>
         <translation>Sincronizando con la red... </translation>
     </message>
     <message>
-        <source>Syncing zKHRS wallet...</source>
-        <translation>Sincronizando el monedero zKHRS...</translation>
-    </message>
-    <message>
-        <source>The coin spend has been used</source>
-        <translation>El gasto de moneda se ha usado</translation>
-    </message>
-    <message>
-        <source>The transaction did not verify</source>
-        <translation>La transacción no se verificó</translation>
-    </message>
-    <message>
         <source>This help message</source>
         <translation>Este mensaje de ayuda</translation>
     </message>
@@ -5792,28 +4563,12 @@ Por favor espere...</translation>
         <translation>Esto esta destinado para herramientas de prueba de regresión y desarrollo de aplicaciones.</translation>
     </message>
     <message>
+        <source>This is not a Masternode.</source>
+        <translation>Este no es un nodo maestro.</translation>
+    </message>
+    <message>
         <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
         <translation>Limite para desconexión de peers de mal desempeño (predeterminado: %u)</translation>
-    </message>
-    <message>
-        <source>Too many spends needed</source>
-        <translation>Demasiados gastos necesarios</translation>
-    </message>
-    <message>
-        <source>Tor control port password (default: empty)</source>
-        <translation>Contraseña del puerto de control Tor (por defecto: vacío)</translation>
-    </message>
-    <message>
-        <source>Tor control port to use if onion listening enabled (default: %s)</source>
-        <translation>Puerto de control Tor a utilizar si está activada la escucha Onion (por defecto: %s)</translation>
-    </message>
-    <message>
-        <source>Transaction Created</source>
-        <translation>Transacción creada</translation>
-    </message>
-    <message>
-        <source>Transaction Mint Started</source>
-        <translation>Cotação de transação iniciada</translation>
     </message>
     <message>
         <source>Transaction amount too small</source>
@@ -5824,6 +4579,18 @@ Por favor espere...</translation>
         <translation>El monto de la transacción debe ser positivo</translation>
     </message>
     <message>
+        <source>Transaction created successfully.</source>
+        <translation>Transacción creada satisfactoriamente.</translation>
+    </message>
+    <message>
+        <source>Transaction fees are too high.</source>
+        <translation>La comision de transacción es demasiado alta.</translation>
+    </message>
+    <message>
+        <source>Transaction not valid.</source>
+        <translation>La transacción no es valida.</translation>
+    </message>
+    <message>
         <source>Transaction too large for fee policy</source>
         <translation>La transacción es demasiado grande para la política de comisión.</translation>
     </message>
@@ -5832,8 +4599,8 @@ Por favor espere...</translation>
         <translation>La transacción es demasiado grande</translation>
     </message>
     <message>
-        <source>Trying to spend an already spent serial #, try again.</source>
-        <translation>Tentando gastar um número de série já gasto, tente novamente.</translation>
+        <source>Transmitting final transaction.</source>
+        <translation>Transmitiendo la transacción final.</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer (bind returned error %s)</source>
@@ -5844,16 +4611,20 @@ Por favor espere...</translation>
         <translation>Imposible firmar el mensaje spork, ¿llave equivocada?</translation>
     </message>
     <message>
-        <source>Unable to start HTTP server. See debug log for details.</source>
-        <translation>No se puede iniciar el servidor HTTP. Ver registro de depuración para más detalles.</translation>
-    </message>
-    <message>
         <source>Unknown network specified in -onlynet: '%s'</source>
         <translation>Red especificada desconocida en -onlynet: '%s'</translation>
     </message>
     <message>
+        <source>Unknown state: id = %u</source>
+        <translation>Estado desconocido: id = %u</translation>
+    </message>
+    <message>
         <source>Upgrade wallet to latest format</source>
-        <translation>Actualizar el monedero al último formato</translation>
+        <translation>Actualizar el monedero al formato ultimo</translation>
+    </message>
+    <message>
+        <source>Use OpenSSL (https) for JSON-RPC connections</source>
+        <translation>Usar OpenSSL (https) para conexiones JSON-RPC</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
@@ -5864,20 +4635,12 @@ Por favor espere...</translation>
         <translation>Usar UPnP para mapear el puerto de escucha (predeterminado: 1 cuando esta en escucha)</translation>
     </message>
     <message>
-        <source>Use a custom max chain reorganization depth (default: %u)</source>
-        <translation>Utilice una profundidad de reorganización de cadena máxima personalizada (valor predeterminado: %u)</translation>
-    </message>
-    <message>
         <source>Use the test network</source>
         <translation>Usar la red de prueba</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
         <translation>Nombre de usuario para conexiones JSON-RPC</translation>
-    </message>
-    <message>
-        <source>Value is below the smallest available denomination (= 1) of zKHRS</source>
-        <translation>El valor está por debajo de la denominación más pequeña disponible (= 1) de zKHRS</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -5889,11 +4652,15 @@ Por favor espere...</translation>
     </message>
     <message>
         <source>Wallet %s resides outside data directory %s</source>
-        <translation>El monedero %s esta ubicada fuera del directorio de datos %s</translation>
+        <translation>La billetera %s esta ubicada fuera del directorio de datos %s</translation>
+    </message>
+    <message>
+        <source>Wallet is locked.</source>
+        <translation>Monedero bloqueado.</translation>
     </message>
     <message>
         <source>Wallet needed to be rewritten: restart Khrysus Core to complete</source>
-        <translation>El Monedero necesita ser reescrito: reinicie Khrysus Core para completar</translation>
+        <translation>Monedero necesita ser reescrito: reinicie Khrysus Core para completar</translation>
     </message>
     <message>
         <source>Wallet options:</source>
@@ -5920,12 +4687,20 @@ Por favor espere...</translation>
         <translation>Advertencia: Argumento no soportado -debugnet ignorado, use -debug=net.</translation>
     </message>
     <message>
-        <source>You don't have enough Zerocoins in your wallet</source>
-        <translation>No tienes suficientes Zerocoins en tu monedero</translation>
+        <source>Will retry...</source>
+        <translation>Probando...</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to change -txindex</source>
         <translation>Usted necesita reconstruir la base de datos usando -reindex para cambiar -txindex</translation>
+    </message>
+    <message>
+        <source>Your entries added successfully.</source>
+        <translation>Su entrada a sido agregada satisfactoriamente.</translation>
+    </message>
+    <message>
+        <source>Your transaction was accepted into the pool!</source>
+        <translation>Su transacción ha sido aceptada en el pool!</translation>
     </message>
     <message>
         <source>Zapping all transactions from wallet...</source>
@@ -5936,16 +4711,12 @@ Por favor espere...</translation>
         <translation>Opciones de notificación ZeroMQ:</translation>
     </message>
     <message>
-        <source>Zerocoin options:</source>
-        <translation>Opciones Zerocoin:</translation>
-    </message>
-    <message>
         <source>on startup</source>
         <translation>al inicio</translation>
     </message>
     <message>
         <source>wallet.dat corrupt, salvage failed</source>
-        <translation>wallet.dat esta corrupto, fallo al guardar</translation>
+        <translation>wallet.dat esta corrupto, guardado falló</translation>
     </message>
 </context>
 </TS>

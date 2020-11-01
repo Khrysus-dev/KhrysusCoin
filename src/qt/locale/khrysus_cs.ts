@@ -15,7 +15,7 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Kopírovat vybranou adresu do schránky</translation>
+        <translation>Kopírovat vybranou adresu do mezipaměti</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -62,12 +62,12 @@
         <translation>Adresy pro přijetí peněz</translation>
     </message>
     <message>
-        <source>These are your Khrysus addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto jsou Vaše Khrysus adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
+        <source>These are your KHRY addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto jsou Vaše KHRY adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
     </message>
     <message>
-        <source>These are your Khrysus addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto jsou Vaše Khrysus adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
+        <source>These are your KHRY addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto jsou Vaše KHRY adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Potvrdit zašifrování peněženky</translation>
     </message>
     <message>
-        <source>Khrysus will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your KHRSs from being stolen by malware infecting your computer.</source>
-        <translation>Khrysus se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše KHRSy před krádží, pokud je Váš počítač infikován malwarem.</translation>
+        <source>Khrysus will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your KHRYs from being stolen by malware infecting your computer.</source>
+        <translation>Khrysus se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše KHRYy před krádží, pokud je Váš počítač infikován malwarem.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Opravdu chcete zašifrovat Vaši peněženku?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR KHRS&lt;/b&gt;!</source>
-        <translation>Varování: Pokud zašifrujete svou peněženku a ztratíte frázové heslo, tak &lt;b&gt;ZTRATÍTE VŠECHNY VAŠE KHRSy&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR KHRY&lt;/b&gt;!</source>
+        <translation>Varování: Pokud zašifrujete svou peněženku a ztratíte frázové heslo, tak &lt;b&gt;ZTRATÍTE VŠECHNY VAŠE KHRYy&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -225,9 +225,6 @@
     </message>
 </context>
 <context>
-    <name>BanTableModel</name>
-    </context>
-<context>
     <name>Bip38ToolDialog</name>
     <message>
         <source>BIP 38 Tool</source>
@@ -238,8 +235,16 @@
         <translation>&amp;BIP 38 Šifrovat</translation>
     </message>
     <message>
+        <source>Enter a KHRY Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Zadejte KHRY adresu, kterou si přejete zašifrovat pomocí BIP38. Frázové heslo zadejte do prostředního boxu. Stiskněte šifrovat pro výpočet šifrovaného privátního klíče.</translation>
+    </message>
+    <message>
         <source>Address:</source>
         <translation>Adresa:</translation>
+    </message>
+    <message>
+        <source>The KHRY address to sign the message with</source>
+        <translation>KHRY adresa pro podepsání zprávy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -270,8 +275,16 @@
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
+        <source>Sign the message to prove you own this KHRY address</source>
+        <translation>Podepsat zprávu k prokázání, že vlastníte tuto KHRY adresu</translation>
+    </message>
+    <message>
         <source>Encrypt &amp;Key</source>
         <translation>Šifrovat &amp;Klíč</translation>
+    </message>
+    <message>
+        <source>Reset all sign message fields</source>
+        <translation>Resetovat všechny položky podepsání zprávy</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -286,8 +299,20 @@
         <translation>Vložte BIP 38 šifrovaný privítní klíc. Frázové heslo vložte do prostředního boxu. Kliknětě na Dešifrovat Klíč pro výpočet privátního klíče. Poté co bude klíč dešifrován, kliknutím na 'Importovat Adresu' přidáte privátní klíč do Vaší peněženky.</translation>
     </message>
     <message>
+        <source>The KHRY address the message was signed with</source>
+        <translation>KHRY adresa zprávy byla podpsána</translation>
+    </message>
+    <message>
+        <source>Verify the message to ensure it was signed with the specified KHRY address</source>
+        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou KHRY adresou</translation>
+    </message>
+    <message>
         <source>Decrypt &amp;Key</source>
         <translation>Dešifrovat &amp;Klíč</translation>
+    </message>
+    <message>
+        <source>Reset all verify message fields</source>
+        <translation>Resetovat všechny položky pro ověření zprávy</translation>
     </message>
     <message>
         <source>Decrypted Key:</source>
@@ -395,10 +420,6 @@
     <message>
         <source>Browse transaction history</source>
         <translation>Procházet historii transakcí</translation>
-    </message>
-    <message>
-        <source>Privacy Actions for zKHRS</source>
-        <translation>Řešení soukromí pro zKHRS</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -541,30 +562,6 @@
         <translation>Zobrazit seznam použitých adres  a popisků pro přijetí plateb</translation>
     </message>
     <message>
-        <source>&amp;Multisignature creation...</source>
-        <translation>&amp;Vytvoření multisignatury</translation>
-    </message>
-    <message>
-        <source>Create a new multisignature address and add it to this wallet</source>
-        <translation>Vytvořit novou multisignaturní adresu a přidat ji do této peněženky</translation>
-    </message>
-    <message>
-        <source>&amp;Multisignature spending...</source>
-        <translation>&amp;Multisignaturní výdaje...</translation>
-    </message>
-    <message>
-        <source>Spend from a multisignature address</source>
-        <translation>Uhradit z multisignaturní adresy</translation>
-    </message>
-    <message>
-        <source>&amp;Multisignature signing...</source>
-        <translation>&amp;Multisignaturní podepisování...</translation>
-    </message>
-    <message>
-        <source>Sign with a multisignature address</source>
-        <translation>Podepsat multisignaturní adresou</translation>
-    </message>
-    <message>
         <source>Open &amp;URI...</source>
         <translation>Otevřít &amp;URI...</translation>
     </message>
@@ -575,10 +572,6 @@
     <message>
         <source>Synchronizing additional data: %p%</source>
         <translation>Synchronizuji přídavná data: %p%</translation>
-    </message>
-    <message>
-        <source>%1 behind. Scanning block %2</source>
-        <translation>Zbývá %1 bloků. Skenuji blok %2</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -605,16 +598,12 @@
         <translation>Khrysus Core</translation>
     </message>
     <message>
-        <source>Send coins to a Khrysus address</source>
-        <translation>Odeslat platbuna Khrysus adresu</translation>
+        <source>Send coins to a KHRY address</source>
+        <translation>Odeslat platbuna KHRY adresu</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and khrysus: URIs)</source>
         <translation>Vyžádat platbu (generování QK kódu a khrysus: URIs)</translation>
-    </message>
-    <message>
-        <source>&amp;Privacy</source>
-        <translation>&amp;Soukromí</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -633,16 +622,16 @@
         <translation>Zobraz informace o Khrysus Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Khrysus</source>
-        <translation>Upravit možnosti konfigurace pro Khrysus</translation>
+        <source>Modify configuration options for KHRY</source>
+        <translation>Upravit možnosti konfigurace pro KHRY</translation>
     </message>
     <message>
-        <source>Sign messages with your Khrysus addresses to prove you own them</source>
-        <translation>Podepsat zprávy Vaší Khrysus adresou pro prokázaní, že jste jejich vlastníkem</translation>
+        <source>Sign messages with your KHRY addresses to prove you own them</source>
+        <translation>Podepsat zprávy Vaší KHRY adresou pro prokázaní, že jste jejich vlastníkem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Khrysus addresses</source>
-        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými Khrysus adresami</translation>
+        <source>Verify messages to ensure they were signed with specified KHRY addresses</source>
+        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými KHRY adresami</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -673,8 +662,8 @@
         <translation>Otevřít Masternodový konfigurační soubor</translation>
     </message>
     <message>
-        <source>Open a Khrysus: URI or payment request</source>
-        <translation>Otevřít Khrysus: URI nebo platební žádost</translation>
+        <source>Open a khrysus: URI or payment request</source>
+        <translation>Otevřít khrysus: URI nebo platební žádost</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -717,8 +706,8 @@
         <translation>%1 a %2</translation>
     </message>
     <message>
-        <source>Catching up...</source>
-        <translation>Doháníme co se dá...</translation>
+        <source>%1 behind</source>
+        <translation>%1 za</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
@@ -792,20 +781,12 @@ MultiSend: %1</translation>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Peněženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálně je &lt;b&gt;zamčená&lt;/b&gt;</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>BlockExplorer</name>
     <message>
         <source>Blockchain Explorer</source>
         <translation>Blockchainový průzkumník</translation>
-    </message>
-    <message>
-        <source>Back</source>
-        <translation>Zpět</translation>
-    </message>
-    <message>
-        <source>Forward</source>
-        <translation>Dále</translation>
     </message>
     <message>
         <source>Address / Block / Transaction</source>
@@ -826,10 +807,6 @@ MultiSend: %1</translation>
 </context>
 <context>
     <name>ClientModel</name>
-    <message>
-        <source>Total: %1 (IPv4: %2 / IPv6: %3 / Tor: %4 / Unknown: %5)</source>
-        <translation>Celkem: %1 (IPv4: %2 / IPv6: %3 / Tor: %4 / neznámé: %5)</translation>
-    </message>
     <message>
         <source>Network Alert</source>
         <translation>Upozornění sítě</translation>
@@ -1081,8 +1058,8 @@ MultiSend: %1</translation>
         <translation>Upravit adresu k odeslání platby</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Khrysus address.</source>
-        <translation>Zadaná adresa "%1" není validní Khrysus adresa.</translation>
+        <source>The entered address "%1" is not a valid KHRY address.</source>
+        <translation>Zadaná adresa "%1" není validní KHRY adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1120,17 +1097,6 @@ MultiSend: %1</translation>
         <translation>Zde nelze vytvořit složku.</translation>
     </message>
 </context>
-<context>
-    <name>GovernancePage</name>
-    <message>
-        <source>Form</source>
-        <translation>Od</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    </context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
@@ -1222,6 +1188,10 @@ MultiSend: %1</translation>
     <message>
         <source>Form</source>
         <translation>Od</translation>
+    </message>
+    <message>
+        <source>My Masternodes</source>
+        <translation>Moje Masternody</translation>
     </message>
     <message>
         <source>Alias</source>
@@ -1399,29 +1369,44 @@ MultiSend: %1</translation>
         <translation>Poslat pro odměny masternodů</translation>
     </message>
     <message>
-        <source>(no label)</source>
-        <translation>(bez popisku)</translation>
+        <source>The entered address:
+</source>
+        <translation>Zadaná adresa:
+</translation>
+    </message>
+    <message>
+        <source> is invalid.
+Please check the address and try again.</source>
+        <translation>není validní.
+Prosím zkontrolujte adresu a zkuste to znovu.</translation>
+    </message>
+    <message>
+        <source>The total amount of your MultiSend vector is over 100% of your stake reward
+</source>
+        <translation>Celkovvá hodnota Vašeho MultiSend Vekktoru je přes 100% vaší odměny ze vsázení
+</translation>
     </message>
     <message>
         <source>Please Enter 1 - 100 for percent.</source>
         <translation>Prosím, zadejte 1-100 procent.</translation>
     </message>
+    <message>
+        <source>MultiSend Vector
+</source>
+        <translation>MultiSend Vektor
+</translation>
+    </message>
+    <message>
+        <source>Removed </source>
+        <translation>Odstraněno</translation>
+    </message>
+    <message>
+        <source>Could not locate address
+</source>
+        <translation>Nemůžu najít adresu
+</translation>
+    </message>
 </context>
-<context>
-    <name>MultisigDialog</name>
-    <message>
-        <source>Status:</source>
-        <translation>Stav:</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>Amount:</source>
-        <translation>Hodnota:</translation>
-    </message>
-    </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
@@ -1567,14 +1552,22 @@ MultiSend: %1</translation>
         <translation>Zpracovávané:</translation>
     </message>
     <message>
+        <source>Balances</source>
+        <translation>Balance</translation>
+    </message>
+    <message>
         <source>Total:</source>
         <translation>Celkem:</translation>
+    </message>
+    <message>
+        <source>Your current total balance</source>
+        <translation>Vaše aktuální celková balance</translation>
     </message>
     <message>
         <source>Spendable:</source>
         <translation>Disponibilní:</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>PaymentServer</name>
     <message>
@@ -1593,76 +1586,6 @@ MultiSend: %1</translation>
         <translation>Čas pingnutí</translation>
     </message>
 </context>
-<context>
-    <name>PrivacyDialog</name>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>Reset</source>
-        <translation>Reset</translation>
-    </message>
-    <message>
-        <source>Choose previously used address</source>
-        <translation>Vyberte již dříve použitou adresu</translation>
-    </message>
-    <message>
-        <source>Alt+A</source>
-        <translation>Alt+A</translation>
-    </message>
-    <message>
-        <source>Paste address from clipboard</source>
-        <translation>Vložit adresu z mezipamětí</translation>
-    </message>
-    <message>
-        <source>Alt+P</source>
-        <translation>Alt+P</translation>
-    </message>
-    <message>
-        <source>&amp;Label:</source>
-        <translation>&amp;Popis</translation>
-    </message>
-    <message>
-        <source>A&amp;mount:</source>
-        <translation>H&amp;odnota:</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Priorita:</translation>
-    </message>
-    <message>
-        <source>TextLabel</source>
-        <translation>TextPopisku</translation>
-    </message>
-    <message>
-        <source>Fee:</source>
-        <translation>Poplatek:</translation>
-    </message>
-    <message>
-        <source>no</source>
-        <translation>ne</translation>
-    </message>
-    <message>
-        <source>Bytes:</source>
-        <translation>Byty:</translation>
-    </message>
-    <message>
-        <source>Insufficient funds!</source>
-        <translation>Nedostatek prostředků!</translation>
-    </message>
-    <message>
-        <source>medium</source>
-        <translation>střední</translation>
-    </message>
-    <message>
-        <source>Change:</source>
-        <translation>Změna:</translation>
-    </message>
-    </context>
-<context>
-    <name>ProposalFrame</name>
-    </context>
 <context>
     <name>QObject</name>
     <message>
@@ -1688,10 +1611,6 @@ MultiSend: %1</translation>
     <message>
         <source>N/A</source>
         <translation>N/A</translation>
-    </message>
-    <message>
-        <source>Khrysus Core</source>
-        <translation>Khrysus Core</translation>
     </message>
     </context>
 <context>
@@ -1867,12 +1786,12 @@ MultiSend: %1</translation>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
-        <source>A&amp;mount:</source>
-        <translation>H&amp;odnota:</translation>
-    </message>
-    <message>
         <source>&amp;Label:</source>
         <translation>&amp;Popis</translation>
+    </message>
+    <message>
+        <source>&amp;Amount:</source>
+        <translation>&amp;Hodnota</translation>
     </message>
     <message>
         <source>&amp;Request payment</source>
@@ -1901,10 +1820,6 @@ MultiSend: %1</translation>
     <message>
         <source>Copy amount</source>
         <translation>Kopírovat hodnotu</translation>
-    </message>
-    <message>
-        <source>Copy address</source>
-        <translation>Kopírovat adresu</translation>
     </message>
 </context>
 <context>
@@ -1961,10 +1876,6 @@ MultiSend: %1</translation>
         <translation>Zpráva</translation>
     </message>
     <message>
-        <source>Address</source>
-        <translation>Adresa</translation>
-    </message>
-    <message>
         <source>Amount</source>
         <translation>Hodnota</translation>
     </message>
@@ -2016,8 +1927,8 @@ MultiSend: %1</translation>
         <translation>Změna:</translation>
     </message>
     <message>
-        <source>0 KHRS</source>
-        <translation>0 KHRS</translation>
+        <source>0 KHRY</source>
+        <translation>0 KHRY</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2058,6 +1969,10 @@ MultiSend: %1</translation>
     <message>
         <source>Add &amp;Recipient</source>
         <translation>Přidat &amp;Příjemce</translation>
+    </message>
+    <message>
+        <source>SwiftTX</source>
+        <translation>SwiftTX</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -2141,8 +2056,8 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Khrysus address to sign the message with</source>
-        <translation>Khrysus adresa pro podepsání zprávy</translation>
+        <source>The KHRY address to sign the message with</source>
+        <translation>KHRY adresa pro podepsání zprávy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2169,16 +2084,16 @@ MultiSend: %1</translation>
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Khrysus address</source>
-        <translation>Podepsat zprávu k prokázání, že vlastníte tuto Khrysus adresu</translation>
+        <source>Sign the message to prove you own this KHRY address</source>
+        <translation>Podepsat zprávu k prokázání, že vlastníte tuto KHRY adresu</translation>
     </message>
     <message>
-        <source>The Khrysus address the message was signed with</source>
-        <translation>Khrysus adresa zprávy byla podpsána</translation>
+        <source>The KHRY address the message was signed with</source>
+        <translation>KHRY adresa zprávy byla podpsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Khrysus address</source>
-        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou Khrysus adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified KHRY address</source>
+        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou KHRY adresou</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2324,13 +2239,6 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>ZPivControlDialog</name>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    </context>
-<context>
     <name>khrysus-core</name>
     <message>
         <source>Error</source>
@@ -2339,6 +2247,10 @@ MultiSend: %1</translation>
     <message>
         <source>Information</source>
         <translation>Informace</translation>
+    </message>
+    <message>
+        <source>SwiftTX options:</source>
+        <translation>SwiftTx možnosti:</translation>
     </message>
     <message>
         <source>Synchronization failed</source>
@@ -2369,12 +2281,28 @@ MultiSend: %1</translation>
         <translation>Toto je experimentální software.</translation>
     </message>
     <message>
+        <source>This is not a Masternode.</source>
+        <translation>Toto není Masternode.</translation>
+    </message>
+    <message>
         <source>Transaction amount too small</source>
         <translation>Hodnota transakce je příliš malá</translation>
     </message>
     <message>
         <source>Transaction amounts must be positive</source>
         <translation>Hodnota transakce musí být kladná</translation>
+    </message>
+    <message>
+        <source>Transaction created successfully.</source>
+        <translation>Transakce byla uspěšně vytvořena.</translation>
+    </message>
+    <message>
+        <source>Transaction fees are too high.</source>
+        <translation>Poplatek za transakci je příliš vysoký.</translation>
+    </message>
+    <message>
+        <source>Transaction not valid.</source>
+        <translation>Transakce není validní.</translation>
     </message>
     <message>
         <source>Transaction too large for fee policy</source>
@@ -2387,6 +2315,10 @@ MultiSend: %1</translation>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>
         <translation>Neznámá síť uvedená v -onlynet: '%s'</translation>
+    </message>
+    <message>
+        <source>Unknown state: id = %u</source>
+        <translation>Neznámý stav: id = %u</translation>
     </message>
     <message>
         <source>Upgrade wallet to latest format</source>
@@ -2403,6 +2335,10 @@ MultiSend: %1</translation>
     <message>
         <source>Verifying wallet...</source>
         <translation>Ověřování peněženky...</translation>
+    </message>
+    <message>
+        <source>Wallet is locked.</source>
+        <translation>Peněženka je zamčená</translation>
     </message>
     <message>
         <source>Wallet options:</source>

@@ -1,5 +1,5 @@
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2019 The PIVX developers
+// Copyright (c) 2015-2017 The PIVX developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -9,6 +9,9 @@
 #include "key.h"
 #include "main.h"
 #include "masternode.h"
+#include "clientversion.h"
+
+#include <boost/lexical_cast.hpp>
 
 using namespace std;
 
@@ -29,7 +32,7 @@ void ProcessMessageMasternodePayments(CNode* pfrom, std::string& strCommand, CDa
 bool IsBlockPayeeValid(const CBlock& block, int nBlockHeight);
 std::string GetRequiredPaymentsString(int nBlockHeight);
 bool IsBlockValueValid(const CBlock& block, CAmount nExpectedValue, CAmount nMinted);
-void FillBlockPayee(CMutableTransaction& txNew, CAmount nFees, bool fProofOfStake, bool fZKHRSStake);
+void FillBlockPayee(CMutableTransaction& txNew, CAmount nFees, bool fProofOfStake);
 
 void DumpMasternodePayments();
 
@@ -107,7 +110,7 @@ public:
     {
         LOCK(cs_vecPayments);
 
-        for (CMasternodePayee& payee : vecPayments) {
+        BOOST_FOREACH (CMasternodePayee& payee, vecPayments) {
             if (payee.scriptPubKey == payeeIn) {
                 payee.nVotes += nIncrement;
                 return;
@@ -123,7 +126,7 @@ public:
         LOCK(cs_vecPayments);
 
         int nVotes = -1;
-        for (CMasternodePayee& p : vecPayments) {
+        BOOST_FOREACH (CMasternodePayee& p, vecPayments) {
             if (p.nVotes > nVotes) {
                 payee = p.scriptPubKey;
                 nVotes = p.nVotes;
@@ -137,7 +140,7 @@ public:
     {
         LOCK(cs_vecPayments);
 
-        for (CMasternodePayee& p : vecPayments) {
+        BOOST_FOREACH (CMasternodePayee& p, vecPayments) {
             if (p.nVotes >= nVotesReq && p.scriptPubKey == payee) return true;
         }
 
@@ -217,9 +220,9 @@ public:
     {
         std::string ret = "";
         ret += vinMasternode.ToString();
-        ret += ", " + std::to_string(nBlockHeight);
+        ret += ", " + boost::lexical_cast<std::string>(nBlockHeight);
         ret += ", " + payee.ToString();
-        ret += ", " + std::to_string((int)vchSig.size());
+        ret += ", " + boost::lexical_cast<std::string>((int)vchSig.size());
         return ret;
     }
 };
@@ -282,7 +285,7 @@ public:
     int GetMinMasternodePaymentsProto();
     void ProcessMessageMasternodePayments(CNode* pfrom, std::string& strCommand, CDataStream& vRecv);
     std::string GetRequiredPaymentsString(int nBlockHeight);
-    void FillBlockPayee(CMutableTransaction& txNew, int64_t nFees, bool fProofOfStake, bool fZKHRSStake);
+    void FillBlockPayee(CMutableTransaction& txNew, int64_t nFees, bool fProofOfStake);
     std::string ToString() const;
     int GetOldestBlock();
     int GetNewestBlock();

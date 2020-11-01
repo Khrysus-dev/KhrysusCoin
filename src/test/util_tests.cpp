@@ -1,5 +1,4 @@
 // Copyright (c) 2011-2014 The Bitcoin Core developers
-// Copyright (c) 2017-2018 The PIVX developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -11,7 +10,6 @@
 #include "sync.h"
 #include "utilstrencodings.h"
 #include "utilmoneystr.h"
-#include "test/test_khrysus.h"
 
 #include <stdint.h>
 #include <vector>
@@ -20,7 +18,7 @@
 
 using namespace std;
 
-BOOST_FIXTURE_TEST_SUITE(util_tests, BasicTestingSetup)
+BOOST_AUTO_TEST_SUITE(util_tests)
 
 BOOST_AUTO_TEST_CASE(util_criticalsection)
 {
@@ -355,8 +353,8 @@ BOOST_AUTO_TEST_CASE(test_ParseInt64)
     BOOST_CHECK(ParseInt64("01234", &n) && n == 1234LL); // no octal
     BOOST_CHECK(ParseInt64("2147483647", &n) && n == 2147483647LL);
     BOOST_CHECK(ParseInt64("-2147483648", &n) && n == -2147483648LL);
-    BOOST_CHECK(ParseInt64("9223372036854775807", &n) && n == (int64_t)9223372036854775807);
-    BOOST_CHECK(ParseInt64("-9223372036854775808", &n) && n == (int64_t)-9223372036854775807-1);
+    BOOST_CHECK(ParseInt64("9223372036854775807", &n) && n == 9223372036854775807LL);
+    BOOST_CHECK(ParseInt64("-9223372036854775808", &n) && n == -9223372036854775808LL);
     BOOST_CHECK(ParseInt64("-1234", &n) && n == -1234LL);
     // Invalid values
     BOOST_CHECK(!ParseInt64("", &n));

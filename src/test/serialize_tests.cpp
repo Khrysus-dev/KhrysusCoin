@@ -4,8 +4,6 @@
 
 #include "serialize.h"
 #include "streams.h"
-#include "hash.h"
-#include "test/test_khrysus.h"
 
 #include <stdint.h>
 
@@ -13,7 +11,7 @@
 
 using namespace std;
 
-BOOST_FIXTURE_TEST_SUITE(serialize_tests, BasicTestingSetup)
+BOOST_AUTO_TEST_SUITE(serialize_tests)
 
 BOOST_AUTO_TEST_CASE(varints)
 {
@@ -72,8 +70,8 @@ static bool isCanonicalException(const std::ios_base::failure& ex)
 
     // The string returned by what() can be different for different platforms.
     // Instead of directly comparing the ex.what() with an expected string,
-    // create an instance of exception to see if ex.what() matches
-    // the expected explanatory string returned by the exception instance.
+    // create an instance of exception to see if ex.what() matches 
+    // the expected explanatory string returned by the exception instance. 
     return strcmp(expectedException.what(), ex.what()) == 0;
 }
 

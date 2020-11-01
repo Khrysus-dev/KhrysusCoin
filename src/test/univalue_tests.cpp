@@ -1,5 +1,4 @@
 // Copyright 2014 BitPay, Inc.
-// Copyright (c) 2017-2018 The PIVX developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -8,13 +7,12 @@
 #include <string>
 #include <map>
 #include <univalue.h>
-#include "test/test_khrysus.h"
 
 #include <boost/test/unit_test.hpp>
 
 using namespace std;
 
-BOOST_FIXTURE_TEST_SUITE(univalue_tests, BasicTestingSetup)
+BOOST_AUTO_TEST_SUITE(univalue_tests)
 
 BOOST_AUTO_TEST_CASE(univalue_constructor)
 {

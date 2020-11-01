@@ -1,8 +1,0 @@
-/usr/bin/khrysus-cli		--	gen_context(system_u:object_r:khrysus_exec_t,s0)
-/usr/sbin/khrysusd		--	gen_context(system_u:object_r:khrysus_exec_t,s0)
-/usr/lib(64)?/khrysus/khrysusd		--	gen_context(system_u:object_r:khrysus_exec_t,s0)
-
-/etc/khrysus(/.*)?		gen_context(system_u:object_r:khrysus_conf_t,s0)
-/var/lib/khrysus(/.*)?		gen_context(system_u:object_r:khrysus_var_lib_t,s0)
-
-(/var)?/run/khrysusd(/.*)?   gen_context(system_u:object_r:khrysus_var_run_t,s0)

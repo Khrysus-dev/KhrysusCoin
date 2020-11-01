@@ -1,0 +1,1 @@
+qt/qt_libbitcoinqt_a-qrc_khrysus_locale.o: qt/qrc_khrysus_locale.cpp

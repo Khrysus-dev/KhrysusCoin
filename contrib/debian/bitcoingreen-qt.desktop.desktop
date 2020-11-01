@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Khrysus
+Comment=Khrysus P2P Cryptocurrency
+Exec=khrysus-qt %u
+Terminal=false
+Type=Application
+Icon=khrysus128
+MimeType=x-scheme-handler/khrysus;
+Categories=Office;Finance;
+Name[en_US]=khrysus-qt.desktop

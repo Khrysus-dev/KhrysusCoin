@@ -1,6 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
+// Copyright (c) 2017-2020 The Khrysus developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -19,18 +20,18 @@ BitcoinUnits::BitcoinUnits(QObject* parent) : QAbstractListModel(parent),
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(KHRS);
-    unitlist.append(mKHRS);
-    unitlist.append(uKHRS);
+    unitlist.append(KHRY);
+    unitlist.append(mKHRY);
+    unitlist.append(uKHRY);
     return unitlist;
 }
 
 bool BitcoinUnits::valid(int unit)
 {
     switch (unit) {
-    case KHRS:
-    case mKHRS:
-    case uKHRS:
+    case KHRY:
+    case mKHRY:
+    case uKHRY:
         return true;
     default:
         return false;
@@ -40,12 +41,12 @@ bool BitcoinUnits::valid(int unit)
 QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
-    case KHRS:
-        return QString("khrysus");
-    case mKHRS:
-        return QString("mkhrysus");
-    case uKHRS:
-        return QString::fromUtf8("ukhrysus");
+    case KHRY:
+        return QString("khry");
+    case mKHRY:
+        return QString("mkhry");
+    case uKHRY:
+        return QString::fromUtf8("ukhry");
     default:
         return QString("???");
     }
@@ -55,23 +56,23 @@ QString BitcoinUnits::name(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case KHRS:
-            return QString("KHRS");
-        case mKHRS:
-            return QString("mKHRS");
-        case uKHRS:
-            return QString::fromUtf8("μKHRS");
+        case KHRY:
+            return QString("KHRY");
+        case mKHRY:
+            return QString("mKHRY");
+        case uKHRY:
+            return QString::fromUtf8("μKHRY");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case KHRS:
-            return QString("tKHRS");
-        case mKHRS:
-            return QString("mtKHRS");
-        case uKHRS:
-            return QString::fromUtf8("μtKHRS");
+        case KHRY:
+            return QString("tKHRY");
+        case mKHRY:
+            return QString("mtKHRY");
+        case uKHRY:
+            return QString::fromUtf8("μtKHRY");
         default:
             return QString("???");
         }
@@ -82,23 +83,23 @@ QString BitcoinUnits::description(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case KHRS:
-            return QString("KHRS");
-        case mKHRS:
-            return QString("Milli-KHRS (1 / 1" THIN_SP_UTF8 "000)");
-        case uKHRS:
-            return QString("Micro-KHRS (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case KHRY:
+            return QString("KHRY");
+        case mKHRY:
+            return QString("Milli-KHRY (1 / 1" THIN_SP_UTF8 "000)");
+        case uKHRY:
+            return QString("Micro-KHRY (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case KHRS:
-            return QString("TestKHRSs");
-        case mKHRS:
-            return QString("Milli-TestKHRS (1 / 1" THIN_SP_UTF8 "000)");
-        case uKHRS:
-            return QString("Micro-TestKHRS (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case KHRY:
+            return QString("TestKHRYs");
+        case mKHRY:
+            return QString("Milli-TestKHRY (1 / 1" THIN_SP_UTF8 "000)");
+        case uKHRY:
+            return QString("Micro-TestKHRY (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
@@ -108,11 +109,11 @@ QString BitcoinUnits::description(int unit)
 qint64 BitcoinUnits::factor(int unit)
 {
     switch (unit) {
-    case KHRS:
+    case KHRY:
         return 100000000;
-    case mKHRS:
+    case mKHRY:
         return 100000;
-    case uKHRS:
+    case uKHRY:
         return 100;
     default:
         return 100000000;
@@ -122,11 +123,11 @@ qint64 BitcoinUnits::factor(int unit)
 int BitcoinUnits::decimals(int unit)
 {
     switch (unit) {
-    case KHRS:
+    case KHRY:
         return 8;
-    case mKHRS:
+    case mKHRY:
         return 5;
-    case uKHRS:
+    case uKHRY:
         return 2;
     default:
         return 0;

@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2018 The PIVX developers
+// Copyright (c) 2015-2017 The PIVX developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -16,14 +16,12 @@
 #include <QKeyEvent>
 #include <QMessageBox>
 #include <QPushButton>
-#include <QWidget>
 
-AskPassphraseDialog::AskPassphraseDialog(Mode mode, QWidget* parent, WalletModel* model, Context context) : QDialog(parent, Qt::WindowSystemMenuHint | Qt::WindowTitleHint | Qt::WindowCloseButtonHint),
-                                                                                                            ui(new Ui::AskPassphraseDialog),
-                                                                                                            mode(mode),
-                                                                                                            model(model),
-                                                                                                            context(context),
-                                                                                                            fCapsLock(false)
+AskPassphraseDialog::AskPassphraseDialog(Mode mode, QWidget* parent, WalletModel* model) : QDialog(parent),
+                                                                                           ui(new Ui::AskPassphraseDialog),
+                                                                                           mode(mode),
+                                                                                           model(model),
+                                                                                           fCapsLock(false)
 {
     ui->setupUi(this);
     this->setStyleSheet(GUIUtil::loadStyleSheet());
@@ -44,15 +42,16 @@ AskPassphraseDialog::AskPassphraseDialog(Mode mode, QWidget* parent, WalletModel
     this->model = model;
 
     switch (mode) {
-    case Mode::Encrypt: // Ask passphrase x2
+    case Encrypt: // Ask passphrase x2
         ui->warningLabel->setText(tr("Enter the new passphrase to the wallet.<br/>Please use a passphrase of <b>ten or more random characters</b>, or <b>eight or more words</b>."));
         ui->passLabel1->hide();
         ui->passEdit1->hide();
         setWindowTitle(tr("Encrypt wallet"));
         break;
-    case Mode::UnlockAnonymize:
-        ui->anonymizationCheckBox->show();
-    case Mode::Unlock: // Ask passphrase
+    case UnlockStaking:
+        ui->stakingCheckBox->setChecked(true);
+        ui->stakingCheckBox->show();
+    case Unlock: // Ask passphrase
         ui->warningLabel->setText(tr("This operation needs your wallet passphrase to unlock the wallet."));
         ui->passLabel2->hide();
         ui->passEdit2->hide();
@@ -60,7 +59,7 @@ AskPassphraseDialog::AskPassphraseDialog(Mode mode, QWidget* parent, WalletModel
         ui->passEdit3->hide();
         setWindowTitle(tr("Unlock wallet"));
         break;
-    case Mode::Decrypt: // Ask passphrase
+    case Decrypt: // Ask passphrase
         ui->warningLabel->setText(tr("This operation needs your wallet passphrase to decrypt the wallet."));
         ui->passLabel2->hide();
         ui->passEdit2->hide();
@@ -68,24 +67,13 @@ AskPassphraseDialog::AskPassphraseDialog(Mode mode, QWidget* parent, WalletModel
         ui->passEdit3->hide();
         setWindowTitle(tr("Decrypt wallet"));
         break;
-    case Mode::ChangePass: // Ask old passphrase + new passphrase x2
+    case ChangePass: // Ask old passphrase + new passphrase x2
         setWindowTitle(tr("Change passphrase"));
         ui->warningLabel->setText(tr("Enter the old and new passphrase to the wallet."));
         break;
     }
 
-    // Set checkbox "For anonymization, automint, and staking only" depending on from where we were called
-    if (context == Context::Unlock_Menu || context == Context::Mint_zKHRS || context == Context::BIP_38 || context == Context::UI_Vote) {
-        ui->anonymizationCheckBox->setChecked(true);
-    }
-    else {
-        ui->anonymizationCheckBox->setChecked(false);
-    }
-
-    // It doesn't make sense to show the checkbox for sending KHRS because you wouldn't check it anyway.
-    if (context == Context::Send_KHRS || context == Context::Send_zKHRS) {
-        ui->anonymizationCheckBox->hide();
-    }
+    ui->stakingCheckBox->setChecked(model->isStakingOnlyUnlocked());
 
     textChanged();
     connect(ui->passEdit1, SIGNAL(textChanged(QString)), this, SLOT(textChanged()));
@@ -117,13 +105,13 @@ void AskPassphraseDialog::accept()
     newpass2.assign(ui->passEdit3->text().toStdString().c_str());
 
     switch (mode) {
-    case Mode::Encrypt: {
+    case Encrypt: {
         if (newpass1.empty() || newpass2.empty()) {
             // Cannot encrypt with empty passphrase
             break;
         }
         QMessageBox::StandardButton retval = QMessageBox::question(this, tr("Confirm wallet encryption"),
-            tr("Warning: If you encrypt your wallet and lose your passphrase, you will <b>LOSE ALL OF YOUR KHRS</b>!") + "<br><br>" + tr("Are you sure you wish to encrypt your wallet?"),
+            tr("Warning: If you encrypt your wallet and lose your passphrase, you will <b>LOSE ALL OF YOUR KHRY</b>!") + "<br><br>" + tr("Are you sure you wish to encrypt your wallet?"),
             QMessageBox::Yes | QMessageBox::Cancel,
             QMessageBox::Cancel);
         if (retval == QMessageBox::Yes) {
@@ -133,7 +121,7 @@ void AskPassphraseDialog::accept()
                         "<qt>" +
                             tr("Khrysus will close now to finish the encryption process. "
                                "Remember that encrypting your wallet cannot fully protect "
-                               "your KHRSs from being stolen by malware infecting your computer.") +
+                               "your KHRYs from being stolen by malware infecting your computer.") +
                             "<br><br><b>" +
                             tr("IMPORTANT: Any previous backups you have made of your wallet file "
                                "should be replaced with the newly generated, encrypted wallet file. "
@@ -154,16 +142,16 @@ void AskPassphraseDialog::accept()
             QDialog::reject(); // Cancelled
         }
     } break;
-    case Mode::UnlockAnonymize:
-    case Mode::Unlock:
-        if (!model->setWalletLocked(false, oldpass, ui->anonymizationCheckBox->isChecked())) {
+    case UnlockStaking:
+    case Unlock:
+        if (!model->setWalletLocked(false, oldpass, ui->stakingCheckBox->isChecked())) {
             QMessageBox::critical(this, tr("Wallet unlock failed"),
                 tr("The passphrase entered for the wallet decryption was incorrect."));
         } else {
             QDialog::accept(); // Success
         }
         break;
-    case Mode::Decrypt:
+    case Decrypt:
         if (!model->setWalletEncrypted(false, oldpass)) {
             QMessageBox::critical(this, tr("Wallet decryption failed"),
                 tr("The passphrase entered for the wallet decryption was incorrect."));
@@ -171,7 +159,7 @@ void AskPassphraseDialog::accept()
             QDialog::accept(); // Success
         }
         break;
-    case Mode::ChangePass:
+    case ChangePass:
         if (newpass1 == newpass2) {
             if (model->changePassphrase(oldpass, newpass1)) {
                 QMessageBox::information(this, tr("Wallet encrypted"),
@@ -194,15 +182,15 @@ void AskPassphraseDialog::textChanged()
     // Validate input, set Ok button to enabled when acceptable
     bool acceptable = false;
     switch (mode) {
-    case Mode::Encrypt: // New passphrase x2
+    case Encrypt: // New passphrase x2
         acceptable = !ui->passEdit2->text().isEmpty() && !ui->passEdit3->text().isEmpty();
         break;
-    case Mode::UnlockAnonymize: // Old passphrase x1
-    case Mode::Unlock:          // Old passphrase x1
-    case Mode::Decrypt:
+    case UnlockStaking: // Old passphrase x1
+    case Unlock:          // Old passphrase x1
+    case Decrypt:
         acceptable = !ui->passEdit1->text().isEmpty();
         break;
-    case Mode::ChangePass: // Old passphrase x1, new passphrase x2
+    case ChangePass: // Old passphrase x1, new passphrase x2
         acceptable = !ui->passEdit1->text().isEmpty() && !ui->passEdit2->text().isEmpty() && !ui->passEdit3->text().isEmpty();
         break;
     }

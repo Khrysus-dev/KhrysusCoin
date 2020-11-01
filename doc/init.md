@@ -10,14 +10,13 @@ can be found in the contrib/init folder.
     contrib/init/khrysusd.conf:       Upstart service configuration file
     contrib/init/khrysusd.init:       CentOS compatible SysV style init script
 
-Service User
+1. Service User
 ---------------------------------
 
-All three Linux startup configurations assume the existence of a "khrysus" user
+All three startup configurations assume the existence of a "khrysus" user
 and group.  They must be created before attempting to use these scripts.
-The macOS configuration assumes khrysusd will be set up for the current user.
 
-Configuration
+2. Configuration
 ---------------------------------
 
 At a bare minimum, khrysusd requires that the rpcpassword setting be set
@@ -30,34 +29,27 @@ file, however it is recommended that a strong and secure password be used
 as this password is security critical to securing the wallet should the
 wallet be enabled.
 
-If khrysusd is run with the "-server" flag (set by default), and no rpcpassword is set,
-it will use a special cookie file for authentication. The cookie is generated with random
-content when the daemon starts, and deleted when it exits. Read access to this file
-controls who can access it through RPC.
+If khrysusd is run with "-daemon" flag, and no rpcpassword is set, it will
+print a randomly generated suitable password to stderr.  You can also
+generate one from the shell yourself like this:
 
-By default the cookie is stored in the data directory, but it's location can be overridden
-with the option '-rpccookiefile'.
+bash -c 'tr -dc a-zA-Z0-9 < /dev/urandom | head -c32 && echo'
 
-This allows for running khrysusd without having to do any manual configuration.
-
-`conf`, `pid`, and `wallet` accept relative paths which are interpreted as
-relative to the data directory. `wallet` *only* supports relative paths.
+Once you have a password in hand, set rpcpassword= in /etc/khrysus/khrysus.conf
 
 For an example configuration file that describes the configuration settings,
 see contrib/debian/examples/khrysus.conf.
 
-Paths
+3. Paths
 ---------------------------------
-
-### Linux
 
 All three configurations assume several paths that might need to be adjusted.
 
 Binary:              /usr/bin/khrysusd
 Configuration file:  /etc/khrysus/khrysus.conf
 Data directory:      /var/lib/khrysusd
-PID file:            `/var/run/khrysusd/khrysusd.pid` (OpenRC and Upstart) or `/run/khrysusd/khrysusd.pid` (systemd)
-Lock file:           `/var/lock/subsys/khrysusd` (CentOS)
+PID file:            /var/run/khrysusd/khrysusd.pid (OpenRC and Upstart)
+                     /var/lib/khrysusd/khrysusd.pid (systemd)
 
 The configuration file, PID directory (if applicable) and data directory
 should all be owned by the khrysus user and group.  It is advised for security
@@ -65,80 +57,42 @@ reasons to make the configuration file and data directory only readable by the
 khrysus user and group.  Access to khrysus-cli and other khrysusd rpc clients
 can then be controlled by group membership.
 
-NOTE: When using the systemd .service file, the creation of the aforementioned
-directories and the setting of their permissions is automatically handled by
-systemd. Directories are given a permission of 710, giving the khrysus group
-access to files under it _if_ the files themselves give permission to the
-khrysus group to do so (e.g. when `-sysperms` is specified). This does not allow
-for the listing of files under the directory.
-
-NOTE: It is not currently possible to override `datadir` in
-`/etc/khrysus/khrysus.conf` with the current systemd, OpenRC, and Upstart init
-files out-of-the-box. This is because the command line options specified in the
-init files take precedence over the configurations in
-`/etc/khrysus/khrysus.conf`. However, some init systems have their own
-configuration mechanisms that would allow for overriding the command line
-options specified in the init files (e.g. setting `BITCOIND_DATADIR` for
-OpenRC).
-
-### macOS
-
-Binary:              `/usr/local/bin/khrysusd`
-Configuration file:  `~/Library/Application Support/Khrysus/khrysus.conf`
-Data directory:      `~/Library/Application Support/Khrysus`
-Lock file:           `~/Library/Application Support/Khrysus/.lock`
-
-Installing Service Configuration
+4. Installing Service Configuration
 -----------------------------------
 
-### systemd
+4a) systemd
 
-Installing this .service file consists of just copying it to
+Installing this .service file consists on just copying it to
 /usr/lib/systemd/system directory, followed by the command
-`systemctl daemon-reload` in order to update running systemd configuration.
+"systemctl daemon-reload" in order to update running systemd configuration.
 
-To test, run `systemctl start khrysusd` and to enable for system startup run
-`systemctl enable khrysusd`
+To test, run "systemctl start khrysusd" and to enable for system startup run
+"systemctl enable khrysusd"
 
-NOTE: When installing for systemd in Debian/Ubuntu the .service file needs to be copied to the /lib/systemd/system directory instead.
-
-### OpenRC
+4b) OpenRC
 
 Rename khrysusd.openrc to khrysusd and drop it in /etc/init.d.  Double
 check ownership and permissions and make it executable.  Test it with
-`/etc/init.d/khrysusd start` and configure it to run on startup with
-`rc-update add khrysusd`
+"/etc/init.d/khrysusd start" and configure it to run on startup with
+"rc-update add khrysusd"
 
-### Upstart (for Debian/Ubuntu based distributions)
+4c) Upstart (for Debian/Ubuntu based distributions)
 
-Upstart is the default init system for Debian/Ubuntu versions older than 15.04. If you are using version 15.04 or newer and haven't manually configured upstart you should follow the systemd instructions instead.
-
-Drop khrysusd.conf in /etc/init.  Test by running `service khrysusd start`
+Drop khrysusd.conf in /etc/init.  Test by running "service khrysusd start"
 it will automatically start on reboot.
 
 NOTE: This script is incompatible with CentOS 5 and Amazon Linux 2014 as they
-use old versions of Upstart and do not supply the start-stop-daemon utility.
+use old versions of Upstart and do not supply the start-stop-daemon uitility.
 
-### CentOS
+4d) CentOS
 
-Copy khrysusd.init to /etc/init.d/khrysusd. Test by running `service khrysusd start`.
+Copy khrysusd.init to /etc/init.d/khrysusd. Test by running "service khrysusd start".
 
 Using this script, you can adjust the path and flags to the khrysusd program by
-setting the KhrysusD and FLAGS environment variables in the file
+setting the BITCOINGREEND and FLAGS environment variables in the file
 /etc/sysconfig/khrysusd. You can also use the DAEMONOPTS environment variable here.
 
-### macOS
-
-Copy org.khrysus.khrysusd.plist into ~/Library/LaunchAgents. Load the launch agent by
-running `launchctl load ~/Library/LaunchAgents/org.khrysus.khrysusd.plist`.
-
-This Launch Agent will cause khrysusd to start whenever the user logs in.
-
-NOTE: This approach is intended for those wanting to run khrysusd as the current user.
-You will need to modify org.khrysus.khrysusd.plist if you intend to use it as a
-Launch Daemon with a dedicated khrysus user.
-
-Auto-respawn
+5. Auto-respawn
 -----------------------------------
 
 Auto respawning is currently only configured for Upstart and systemd.

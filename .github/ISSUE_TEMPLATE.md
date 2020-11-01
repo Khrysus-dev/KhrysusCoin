@@ -1,7 +1,7 @@
 <!--- Remove this description and sections that do not apply -->
 
 This issue tracker is only for technical issues related to Khrysus Core.
-General Khrysus questions and/or support requests and are best directed to the [Khrysus Discord](https://discord.khrysus.org).
+General Khrysus questions and/or support requests and are best directed to the [Khrysus Discord](https://discordapp.com/invite/9nzt37V).
 
 ### Describe the issue
 
